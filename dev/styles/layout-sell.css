@@ -1,0 +1,78 @@
+@charset "utf-8";
+*{
+	margin:0 auto;
+	padding:0;
+	}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 1.8em;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+	background:#fff;	
+	
+}
+#wrapper{
+	width:964px;
+	background:#fff;
+	background:url(../images/bg-wrapper.jpg) repeat-x top left;
+}
+	
+	
+#container{
+	background:url(../images/body-bg-top.jpg) no-repeat;
+	display:block;
+	margin:10px 0 0 0;
+	width:964px;
+	min-height:300px;
+	padding-top:20px;
+	}
+
+
+
+#container #uploadmusic{
+	clear:both;
+	text-align:right;
+	padding:0 25px 0 0;
+	display:block;
+	width:90%;
+	height:56px;
+	}
+#container #pagehead{
+	padding:10px 0 0 30px;
+	}
+#container #pagehead h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	}
+#container #pagehead1{
+	padding:40px 0 0 30px;
+	}
+#container #pagehead1 h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	}
+#container #pageheadSearch /* ADVANCED SEARCH HEADING */{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadSearch h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 2px 20px;
+	clear:both;
+	float:left;
+	width:400px;
+	height:60px;
+	line-height:50px
+	}

@@ -1,0 +1,135 @@
+<SCRIPT  type="text/javascript" language="javascript">
+<!--
+
+<!-- Begin
+function fnSetAllCheckBoxes(FormName, FieldName, CheckValue)
+{
+	if(!document.forms[FormName])
+		return;
+	var objCheckBoxes = document.forms[FormName].elements[FieldName];
+	if(!objCheckBoxes)
+		return;
+	var countCheckBoxes = objCheckBoxes.length;
+	if(!countCheckBoxes)
+		objCheckBoxes.checked = CheckValue;
+	else
+		// set the check value for all check boxes
+		for(var i = 0; i < countCheckBoxes; i++)
+			objCheckBoxes[i].checked = CheckValue;
+}
+function fnPopUp(URL) {
+day = new Date();
+id = day.getTime();
+
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,location=0,statusbar=1,menubar=1,resizable=0,width=500,height=430,left = 262,top = 169');");
+}
+// End -->
+
+// function change(number)
+// {
+// alert(number);
+// 	document.getElementById(number).style.className = 'artists';
+	//this.style.className = 'artists';
+//	return true;
+ 
+ //}
+ function fn_credit(cardid)
+{
+var frm = document.frmFileList;
+frm.action="<?= HTTPS ?>bpCreditDelete.php?clsbpCreditCard_bi_card_id="+cardid+"&action=REMOVE&returnUrl=<?php echo "bpCreditCardDetails.php";  ?>";
+frm.submit();
+
+}
+</script>
+<div id="container">	
+      
+       
+        
+        <div id="uploadmusic">
+            <a href='javascript:void(0);' onClick='javascript:window.open("<?= HTTP ?>upload.php","","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,screenX=150,screenY=150,top=150,left=150,height=650,width=880");'><img src="images/icon-uploadmusic.png" alt="Upload Music" width="165" height="52" border="0" /></a>
+        </div>
+        
+        <div id="pagehead">
+        	<h1>Credit Card</h1>
+        </div>
+                
+		<div id="bopabox_topnav">
+<!--
+            <ul class="bopabox_menu">
+              <li><a href="#"  class="currentsel">AccountActivity</a></li>
+              <li><a href="#" class="myuploads">WithdrawFunds</a></li>
+              <li><a href="#" class="items_on_sale">ManageCreditCards</a></li>
+            
+            </ul>
+            -->
+        </div>
+        <div id="tracklistings-header"></div>
+        <div id="tracklistings-container">
+    
+       	  <form id="frmFileList" name="frmFileList" method="post" action="">
+          <input type="hidden"  name="clsbpCreditCard_pageSize" value="<?php echo $clsbpCreditCard->pageSize; ?>">
+          <input type="hidden"  name="clsbpCreditCard_pageIndex" value="<?php echo $clsbpCreditCard->pageIndex; ?>">
+          <input type="hidden"  name="clsbpCreditCard_sortColumn" value="<?php echo $clsbpCreditCard->sortColumn; ?>"> 
+          <input type="hidden"  name="clsbpCreditCard_sortDirection" value="<?php echo $clsbpCreditCard->sortDirection; ?>"> 
+          <input type="hidden"  name="clsbpCreditCard_action" value=""> 
+     
+          <input type="hidden" name="clsbpCreditCard_returnUrl" value=""> 
+          <input type="hidden"  name="clsbpCreditCard_submitted" value="1">
+          
+      
+              <table width="900" align="center" cellpadding="0" cellspacing="0" id="Playlist">
+                <thead>
+                <tr id="PlaylisHeading">
+               
+                  <th width="247"><a href="#">Card Type</a></th>
+                  <th width="208"><a href="#">Last Four Digits on Card</a></th>
+                  <th width="152"><a href="#">Expiration Date</a></th>
+                  <th width="99"><a href="#">Billing Address</a></th>
+                  <th width="108"><a href="#">Actions</a></th>
+                </tr></thead>
+                <tbody>
+                <?php 
+				
+				$recordNumber	= $clsbpCreditCard->clsbpPaginate->recordNumberOffset;
+				
+				foreach ($arrfileDetails as $row) { ?> 
+				
+                  <tr>
+
+                    <td  align="center" class="songListings"><span class="spacing">&nbsp;<?php echo $row['vc_card_type']; ?></span></td>
+                    <td   align="center"  class="songListings"><span class="spacing">&nbsp;<?php echo substr("$row[bi_card_num]", -4);    ?></span></td>
+                    <td  align="center" class="songListings">&nbsp;<?php echo $row['dt_expiry']; ?></td>
+                    <td  align="center" class="songListings"><?php echo $row['vc_addr']; ?></td>
+                    
+                    <td width="129" align="center" class="songListings">
+<a href="<?= HTTPS ?>bpCreditEdit.php?clsbpCreditCard_bi_card_id=<?php echo $row['bi_card_id']; ?> ">EDIT</a>/<a href='javascript:void(0);'  onclick="return fn_credit(<?php echo $row['bi_card_id']; ?>);">REMOVE </a></td>
+
+                  </tr>
+                <?php
+				$recordNumber++;
+				 } ?>
+                 <tr><td colspan="6" align="center" ><?php echo displayMessage(); ?><td></tr>
+                </tbody>
+            </table>
+              
+            <div id="pages" align="center"> </div>
+              <div id="tracklistings-footer"></div>
+      	  </form>
+        </div>
+      </div>
+      
+      
+      <div id="cls"></div>
+<div id="ad">   <!-- Begin: AdBrite -->
+          <script type="text/javascript">
+				var AdBrite_Title_Color = '0000FF';
+				var AdBrite_Text_Color = '000000';
+				var AdBrite_Background_Color = 'FFFFFF';
+				var AdBrite_Border_Color = 'CCCCCC';
+				var AdBrite_URL_Color = '008000';
+            </script>
+          <span style="white-space:nowrap;">
+          <script src="http://ads.adbrite.com/mb/text_group.php?sid=597989&amp;zs=3732385f3930" type="text/javascript"></script>
+          <!--  -->
+          <a target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=597989&amp;afsid=1"> <img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-leaderboard.gif" style="background-color:#CCCCCC;border:none;padding:0;margin:0;" alt="Your Ad Here" width="14" height="90" border="0" /> </a> </span>
+          <!-- End: AdBrite --></div>

@@ -1,0 +1,133 @@
+#container #pageheadSell{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadSell h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 2px 20px;
+	clear:both;
+	float:left;
+	width:400px;
+	height:60px;
+	line-height:50px
+	}
+#container #sellpage{
+	margin:0 auto;
+	padding:0;
+	margin-top:20px;
+	float:left;
+	display:block;
+	width:100%;
+	}
+	
+#container #sellpage h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#007AC3;
+	font-weight:normal;
+	padding-left:60px;
+	}
+#container #sellpage #sellpage_tbl-placeorder .cartlistings a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#00639D;
+	font-weight:bold;
+	}	
+
+#container #sellpage #sellpage_tbl-placeorder .cartlistings a:hover{
+	text-decoration:underline;
+	}	
+
+#container #sellpage #sellpage_tbl-placeorder{
+	width:650px;
+	}
+
+#container #sellpage td .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin-left:12px;
+	}
+	
+
+#container #sellpage_tbl-placeorder .hdr{
+	height:27px;
+	background:url(../images/sell-box-top-bg.png) no-repeat;
+	padding-left:10px;
+	}
+#container #sellpage_tbl-placeorder h3{
+	color:#8CC63D;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:22px;
+	padding-left:20px;
+	}	
+	
+#container #sellpage_tbl-placeorder h4{
+	color:#2772B8;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:20px;
+	}	
+	
+#container #sellpage_tbl-placeorder .buyer{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#2772B8;
+	}
+#container #sellpage #sellpage_tbl-placeorder .cartlistings{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+
+#container #sellpage #sellpage_tbl-placeorder .alternatebg001placeorder1
+{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	}
+
+#container #sellpage #sellpage_tbl-placeorder .alternatebg001placeorder1 hr{
+	border: none 0; 
+	border-top: 1px dashed #CCD9C8;/*the border*/
+	width:95%;
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+	background:none;
+	margin:0;
+	padding:0;
+	text-align:center;	
+	}
+	
+#container #sellpage_tbl-placeorder .cartlistings p{
+	color:#666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:20px;
+	line-height:15px;
+	}
+	
+
+#container #sellpage_tbl-placeorder .footer{
+	background:url(../images/bg-viewcart-placeorder-btm.png) no-repeat;
+	height:8px;
+	}
+
+#container  #sellpage .viewcartrightsidebox-sellpage{
+	width:210px;
+	margin:0 0 10px 12px;
+
+	}
+#container  #sellpage .leftside-box-search .mid-box-search hr{
+	border: 0;
+	color:#DFDFDF;
+	background-color:#DFDFDF;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	 }
+

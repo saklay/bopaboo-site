@@ -1,0 +1,249 @@
+@charset "utf-8";
+*{
+	margin:0 auto;
+	padding:0;
+	}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.8em;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color:#666666;
+	text-decoration: none;
+	background:#fff;	
+	
+}
+#wrapper{
+	width:964px;
+	background:#fff;
+	background:url(../images/bg-wrapper.jpg) repeat-x top left;
+}	
+	
+#container{
+	background:url(../images/body-bg-top.jpg) no-repeat;
+	display:block;
+	margin:10px 0 0 0;
+	width:964px;
+	min-height:300px;
+	padding-top:20px;
+	}
+
+#container #pageheadFaq{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadFaq h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 2px 20px;
+	clear:both;
+	float:left;
+	width:400px;
+	height:60px;
+	line-height:50px
+	}
+#container #faq-container{
+	width:862px;
+	clear:both;
+	display:block;
+	}
+
+#container #faq-container #leftside{
+	width:224px;
+	float:left;
+	}
+#container #faq-container #leftside .hdrBg{
+	background:url(../images/faqContainerLeftsideTopBg.png) no-repeat top left;
+	height:10px;
+	}
+
+#container #faq-container #leftside .bodyBg{
+	border-left:#A5B2BD 1px solid;
+	border-right:#A5B2BD 1px solid;
+	background-color:#FFFFFF;
+	display:block;
+	float:left;
+	clear:both;
+	width:222px;
+	}	
+#container #faq-container #leftside .ftrBg{
+	background:url(../images/faqContainerLeftsideBtmBg.png) no-repeat bottom left;
+	height:10px;
+	clear:both;
+	}	
+	
+#container #faq-container #rightside{
+	width:624px;
+	float:left;
+	margin-left:14px;
+	}
+	
+#container #faq-container #rightside .hdrBg{
+	background:url(../images/faqContainerTopBg.png) no-repeat top left;
+	height:10px;
+	}
+
+#container #faq-container #rightside .bodyBg{
+	border-left:#A5B2BD 1px solid;
+	border-right:#A5B2BD 1px solid;
+	background-color:#FFFFFF;
+	}	
+
+#container #faq-container #rightside .bodyBg ul{
+	margin:0 auto;
+	padding:21px 0 21px 40px;
+	}
+
+#container #faq-container #rightside .bodyBg ul li {
+	list-style:none;
+	}
+	
+#container #faq-container #rightside .bodyBg ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#007AC2;
+	line-height:30px;
+	text-decoration:none;
+	}
+
+#container #faq-container #rightside .bodyBg ul li a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666666;
+	line-height:30px;
+	}
+	
+	
+#container #faq-container #rightside .ftrBg{
+	background:url(../images/faqContainerBtmBg.png) no-repeat bottom left;
+	height:10px;
+	}	
+
+#container #faq-container #leftside .form {
+	background:transparent url(../images/textbox.jpg) no-repeat scroll left top;
+	height:45px;
+	width:224px;
+}
+
+
+#container #faq-container #leftside .gobtn {
+	background:transparent url(../images/go-btn-faq.jpg) no-repeat scroll left top;
+	cursor:pointer;
+	height:45px;
+	vertical-align:middle;
+	width:35px;
+	border:none;
+}
+
+#container #faq-container #leftside .srch{
+	color:#909090;
+	font-size:12px;
+	height:16px;
+	margin:0pt 0px 0pt 10pt;
+	vertical-align:middle;
+	width:157px;
+	border:0pt none;
+}
+
+#container #faq-container #leftside #sidenav{
+	width:224px;
+	display:block;
+	margin-top:10px;
+}
+
+#container #faq-container #leftside #sidenav .sidenavTop{
+	background:url(../images/faqSidenavTopBg.jpg) no-repeat;
+	height:15px;
+	}
+
+#container #faq-container #leftside #sidenav .sidenavBody ul{
+	display:block;
+	margin:0 auto;
+	padding:0;
+	}
+
+#container #faq-container #leftside #sidenav .sidenavBody ul li{
+	display:block;
+	border-bottom:1px solid #CCCCCC;
+	width:224px;
+	margin:0;
+	list-style:none;
+	}
+
+#container #faq-container #leftside #sidenav .sidenavBody ul li a{
+	height:40px;
+	background:#8DC740;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	line-height:40px;
+	font-weight:bold;
+	padding:0;
+	display:block;
+	margin:0;
+	padding-left:20px;
+	}
+
+#container #faq-container #leftside #sidenav .sidenavBody ul li a:hover{
+	background:#0066CC;
+	}
+
+
+#container #faq-container #leftside #sidenav .sidenavBtm{
+	background:url(../images/faqSidenavBtmBg.jpg) no-repeat;
+	height:15px;
+	margin-bottom:20px;
+	}
+	
+/*ADDED FOR SUB DIV*/
+
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#007AC2;
+	line-height:30px;
+	text-decoration:none;
+	padding:21px 0pt 0 40px;
+	}
+
+ p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666666;
+	line-height:20px;
+	text-decoration:none;
+	padding:0 20px 21px 65px;
+	}
+	
+ p .returnLink{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#007AC2;
+	line-height:20px;
+	text-decoration:none;
+	padding:0 0 21px 40px; 
+	}
+
+
+ p .returnLink:hover{
+	color:#666666;
+	}
+	
+p a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007AC2;
+	line-height:20px;
+	text-decoration:none;
+	}
+
+p a:hover{ 
+	color:#666666; 
+	}
+	
+p ul li {
+	padding:0 0 21px 40px; 
+}

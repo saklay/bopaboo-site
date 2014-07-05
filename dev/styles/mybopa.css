@@ -1,0 +1,2892 @@
+#container{
+	display:block;
+	margin:10px 0 0 0;
+	width:964px;
+	min-height:300px;
+	padding-top:20px;
+	}
+#container #submenu{
+	float:right;
+	margin-right:20px;
+	margin-top:-10px;
+	}
+#container #submenu a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#111217;
+	text-decoration:none;
+	padding:0 17px 0 17px;
+	}
+	
+#container #submenu a:hover, #container #submenu a.current{
+	color:#0079C2;
+	}
+	
+#container #pagehead-mybopa{
+	margin:17px 0 0 20px;
+	}
+#container #pagehead-mybopa h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 30px;
+	line-height:50px;
+	height:52px;
+	float:left;
+	}
+#container #pagehead-mybopa #upldmusic{
+	text-align:right;
+	padding:0 38px 20px 0;
+	display:block;
+	width:50%;
+	float:right;
+	height:56px;
+	}
+#container #mybopa{
+	display:block;
+	clear:both;
+	margin:24px 0 0 20px;
+	float:left;
+	}
+#container #mybopa #announcement .hdr{
+	display:block;
+	width:889px; /* width reduced from 913px cause padding is given */
+	padding-left:24px;
+	height:29px;
+	background:url(../images/hdr-mybopa-announcement.jpg) no-repeat top left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2772B8;
+	line-height:29px;
+	float:left;
+	}
+#container #mybopa #announcement .contents{
+	display:block;
+	width:862px;
+	background:#fff;
+	padding:10px 25px 15px 24px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	}
+#container #mybopa #announcement .contents .hdg{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2772B8;
+	line-height:17px;
+	float:left;
+	}
+#container #mybopa #announcement .contents .date{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#2772B8;
+	line-height:17px;
+	float:right;
+	}
+#container #mybopa #announcement .contents p{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#333;
+	line-height:normal;
+	float:left;
+	clear:both;
+	width:98%;
+	margin-top:12px;
+	}
+#container #mybopa #announcement .contents a.link{
+	color:#2772B8;
+	text-decoration:none;
+	}
+#container #mybopa #announcement .footer{
+	display:block;
+	width:913px;
+	height:29px;
+	background:url(../images/ftr-mybopa-announcement.jpg) no-repeat top left;
+	float:left;
+	}
+	
+	
+#container #mybopa #laside{
+	float:left;
+	width:602px;
+	display:block;
+
+	}
+#container #mybopa #laside #box001 .hdr{
+	display:block;
+	width:586px; /* width reduced from 913px cause padding is given */
+	padding-left:16px;
+	height:29px;
+	background:url(../images/hdr-mybopa-box001.jpg) no-repeat top left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2772B8;
+	line-height:29px;
+	float:left;
+	}
+#container #mybopa #laside #box001 .contents{
+	display:block;
+	width:560px;
+	background:#fff;
+	padding:14px 25px 27px 15px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	height:75px; /*Newly added*/
+	}
+#container #mybopa #laside #box001 .contents img.lspace{
+	margin-left:14px;
+	}
+#container #mybopa #laside #box001 .contents .holder{
+	padding-top:15px;
+	float:left;
+	clear:both;
+	width:100%;
+	}
+#container #mybopa #laside #box001 .contents .ltitle{
+	display:block;
+	width:140px;
+	padding:0 10px 0 0;
+	text-align:right;
+	font-weight:bold;
+	color:#585858;
+	clear:left;
+	float:left;
+	}
+#container #mybopa #box001 .contents .holder .rdetails {
+	float:left;
+	clear:right;
+	}
+#container #mybopa #laside #box001 .contents .rdetails a{
+	color:#007AC2;
+	text-decoration:underline;
+	}
+#container #mybopa #laside #box001 .contents .rdetails a.w3link{
+	color:#007AC2;
+	text-decoration:underline;
+	float:left;
+	width:100%;
+	}
+
+#container #mybopa #laside #box001 .footer{
+	display:block;
+	width:602px;
+	height:29px;
+	background:url(../images/ftr-mybopa-box001.jpg) no-repeat top left;
+	float:left;
+	}
+	
+	
+	
+#container #mybopa #laside #box002 .hdr{
+	display:block;
+	width:586px; /* width reduced from 913px cause padding is given */
+	padding-left:16px;
+	height:18px;
+	background:url(../images/hdr-mybopa-box002.jpg) no-repeat top left;
+	float:left;
+	}
+#container #mybopa #laside #box002 .contents{
+	display:block;
+	width:600px;
+	background:url(../images/contents-mybopa-sidebox002.jpg) repeat-x;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	}
+#container #mybopa #laside #box002 .contents .tabs{
+	float:left;
+	display:block;
+	width:100%;
+	clear:both;
+	}
+#container #mybopa #laside #box002 .contents .tabs li{
+	display:block;
+	width:270px;
+	height:77px;
+	border:1px solid #ccc;
+	margin:12px 0 0 20px;
+	float:left;
+	}
+#container #mybopa #laside #box002 .contents .tabs li a{
+	display:block;
+	height:77px;
+	text-align:center;
+	line-height:70px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+	}
+#container #mybopa #laside #box002 .contents #messages {
+	display:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+}
+#container #mybopa #laside #box002 .contents #messages #newMessages{
+  margin: 0;
+  padding: 0;
+  float:left;
+  width:562px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages thead th, #container #mybopa #laside #box002 .contents #messages #newMessages tbody td, #newMessages tfoot td{
+	text-align:left;
+	padding-left:1em;
+	font-weight:normal;
+	height:25px;
+	color:#333;
+	border-bottom:1px solid #D7DBDC;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages th.left{
+	width:20%;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages th.middle{
+	width:52%;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages th.middle1{
+	width:15%;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages th.right{
+	width:10%;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages td a{
+	display:block;
+	text-decoration:none;
+	color:#666;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages td a.unread{
+	color:#333;
+	font-weight:bold;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages tfoot a.viewMessages{
+	color:#007AC3;
+	font-weight:bold;
+	text-align:right;
+	padding-right:1em;
+	font-size:10px;
+	}
+#container #mybopa #laside #box002 .contents #messages #newMessages tbody tr:hover{
+	background:#f8f8f8;
+	}
+
+
+
+
+
+/*#container #mybopa #laside #box002 .contents #sellers {
+	display:none;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	width:563px;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li
+{
+	position: relative;
+}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span{
+	float:right;
+	width:60%;
+	display:block;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span img{
+	padding-top:8px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a.last{
+	margin-right:7px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a{
+	line-height:38px;
+	text-align:left;
+	display:block;
+	padding-right:5px;
+	width:auto;
+	float:right;
+	height:38px;
+	}
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li.column1 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:0px; 
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li.column2 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:281px;
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li.reset
+{
+  margin-top:-194px;
+}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li.last
+{
+	border-bottom:none;
+}
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	width:35%;
+	float:left;
+	}
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li.last a
+{
+	line-height:25px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+}
+*/
+
+
+
+#container #mybopa #laside #box002 .contents #sellers {
+	display:none;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	width:563px;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers{
+	list-style:none;
+	width:100%;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li{
+	float:left;
+	width:281px;
+	border-bottom:1px solid #D6DBDE;
+	height:38px;
+	}
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span{
+	float:right;
+	width:60%;
+	display:block;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span img{
+	padding-top:8px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a.last{
+	margin-right:7px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a{
+	line-height:38px;
+	text-align:left;
+	display:block;
+	padding-right:5px;
+	width:auto;
+	float:right;
+	height:38px;
+	}
+
+
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	width:35%;
+	float:left;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span{
+	float:right;
+	width:60%;
+	display:block;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span img{
+	padding-top:8px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a.last{
+	margin-right:7px;
+	}
+#container #mybopa #laside #box002 .contents #sellers #savedSellers li span a{
+	line-height:38px;
+	text-align:left;
+	display:block;
+	padding-right:5px;
+	width:auto;
+	float:right;
+	height:38px;
+	}
+ /*********************************************************************/
+	
+	
+	
+	
+
+	
+#container #mybopa #laside #box002 .contents #search {
+	display:none;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	width:563px;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+/*#container #mybopa #laside #box002 .contents #search #popSearch{
+	list-style:none;
+	width:100%;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li{
+	float:left;
+	width:281px;
+	border-bottom:1px solid #D6DBDE;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	}*/
+
+/*========================*/
+#container #mybopa #laside #box002 .contents #search #popSearch{
+	list-style:none;
+  margin: 0;
+  padding: 0;
+  float:left;
+  width:564px;
+  height:194px;
+	}
+* html #container #mybopa #laside #box002 .contents #search #popSearch li
+{
+	position: relative;
+}
+#container #mybopa #laside #box002 .contents #search #popSearch li.column1 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:0px; 
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li.column2 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:281px;
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li.reset
+{
+  margin-top:-194px;
+}
+#container #mybopa #laside #box002 .contents #search #popSearch li.last
+{
+	border-bottom:none;
+}
+
+#container #mybopa #laside #box002 .contents #search #popSearch li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	}
+
+#container #mybopa #laside #box002 .contents #search #popSearch li.last a
+{
+	line-height:25px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+}
+/*******************/
+
+
+
+
+
+/*#container #mybopa #laside #box002 .contents #search1{
+	display:none;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	width:563px;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+
+ #container #mybopa #laside #box002 .contents #search1 #savedSearch{
+	list-style:none;
+	width:100%;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li{
+	float:left;
+	width:281px;
+	border-bottom:1px solid #D6DBDE;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span{
+	float:right;
+	display:block;
+	width:68px;
+	padding:8px 5px 0 0;
+
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span a{
+	display:inline;
+	float:left;
+	width:20px;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	width:198px;
+	float:left;
+	}  */
+
+
+
+#container #mybopa #laside #box002 .contents #search1 {
+	display:none;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	float:left;
+	clear:both;
+	width:563px;
+	border:1px solid #ccc;
+	border-top:none;
+	background:#fff;
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li
+{
+	position: relative;
+}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span{
+	float:right;
+	width:60%;
+	display:block;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span img{
+	padding-top:8px;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span a.last{
+	margin-right:7px;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li span a{
+	line-height:38px;
+	text-align:left;
+	display:block;
+	padding-right:5px;
+	width:auto;
+	float:right;
+	height:38px;
+	}
+
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.column1 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:0px; 
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.column2 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:50%;
+	width:50%;
+	list-style:none;
+	height:38px;
+	float:left;
+	position:relative;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.reset
+{
+	margin-left:50%;
+	width:50%;
+	list-style:none;
+	height:38px;
+	float:left;
+	position:relative;
+	margin-top:-194px;
+}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.last
+{
+	border-bottom:none;
+	
+}
+
+
+#container #mybopa #laside #box002 .contents #search1 #savedSearch .wrapper
+{
+	border-bottom:none;
+	float:left;
+	
+}
+
+
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	width:35%;
+	float:left;
+	}
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.last a
+{
+	line-height:25px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+
+}
+
+
+
+/*---------------------------------------------------*/
+
+
+#container #mybopa #laside #box002 .contents .tabs #tab001, #container #mybopa #laside #box002 .contents .tabs #tab002{
+	margin:0px 0 0 20px;
+	}
+#container #mybopa #laside #box002 .contents .tabs #tab001 a{
+	background:url(../images/bg-email.png) no-repeat center left;
+	background-position:50px 22px;
+	}
+#container #mybopa #laside #box002 .contents .tabs #tab002 a{
+	background:url(../images/bg-savedsellers.png) no-repeat center left;
+	background-position:60px 22px;
+	}
+#container #mybopa #laside #box002 .contents .tabs #tab003 a{
+	background:url(../images/bg-popsearch.png) no-repeat center left;
+	background-position:35px 14px;
+	}
+#container #mybopa #laside #box002 .contents .tabs #tab004 a{
+	background:url(../images/bg-savedsearch.png) no-repeat center left;
+	background-position:40px 14px;
+	}
+#container #mybopa #laside #box002 .contents .tabs #tab001 a .smlhdr{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#ff0000;
+	}
+#container #mybopa #laside #box002 .footer{
+	display:block;
+	width:602px;
+	height:15px;
+	background:url(../images/ftr-mybopa-box002.png) no-repeat top left;
+	float:left;
+	}
+	
+	
+/* BOX003BOX003BOX003BOX003BOX003BOX003BOX003BOX003BOX003 */
+#container #mybopa #laside #box003{
+	margin-top:15px;
+	float:left;
+	}
+#container #mybopa #laside #box003 .hdr{
+	display:block;
+	width:586px; 
+	padding-left:16px;
+	height:29px;
+	background:url(../images/hdr-mybopa-box001.jpg) no-repeat top left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2772B8;
+	line-height:29px;
+	float:left;
+	}
+#container #mybopa #laside #box003 .contents{
+	display:block;
+	width:560px;
+	background:#fff url(../images/bg-mybopa-content.jpg) repeat-x;
+	padding:14px 25px 27px 15px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	}
+#container #mybopa #laside #box003 .contents #top50albumjpg{
+	float:left;
+	display:block;
+	width:123px;
+	}
+#container #mybopa #laside #box003 .contents #top50albumjpg li{
+	float:left;
+	display:block;
+	width:105px;
+	height:97px;
+	border:1px solid #ccc;
+	margin-bottom:13px;
+	list-style:none;
+	}
+#container #mybopa #laside #box003 .contents #top50listings {
+	text-align:left;
+	float:left;
+	padding-left:30px;
+	line-height:1.6;
+}
+#container #mybopa #laside #box003 .contents #gototop50{
+	float:left;
+	text-align:right;
+	clear:both;
+	width:100%;
+	display:block;
+	margin-top:20px;
+	}
+#container #mybopa #laside #box003 .contents #gototop50 a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:normal;
+	display:block;
+	text-decoration:none;
+	background:url(../images/icon-mybopa-arrow.png) no-repeat left center;
+	width:135px;
+	float:right;
+	}
+#container #mybopa #laside #box003 .contents #gototop50 a:hover{
+	text-decoration:underline;
+	 color: #0000ff;
+	}
+#container #mybopa #laside #box003 .contents #top50listings li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+	color:#003366;
+	}
+#container #mybopa #laside #box003 .contents #top50listings li a:hover{
+	text-decoration:none;
+	color:#007AC2;
+	}
+#container #mybopa #laside #box003 .footer{
+	display:block;
+	width:602px;
+	height:29px;
+	background:url(../images/ftr-mybopa-box001.jpg) no-repeat top left;
+	float:left;
+	}
+
+
+/* ENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003ENDENDBOX003END  */
+
+
+
+
+	
+#container #mybopa #raside{
+	float:right;
+	width:300px;
+	display:block;
+	margin-right:25px;
+	}
+#container #mybopa #raside #box001 .hdr, #container #mybopa #raside #box002 .hdr{
+	display:block;
+	width:274px; /* width reduced from 913px cause padding is given */
+	padding-left:26px;
+	height:29px;
+	background:url(../images/hdr-mybopa-box001r.jpg) no-repeat top left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#2772B8;
+	line-height:29px;
+	float:left;
+	}
+#container #mybopa #raside #box001 .contents{
+	display:block;
+	width:272px;
+	background:#fff;
+	/* padding:14px 0 15px 26px;  OLD SETTINGS */
+	padding:14px 0 0 26px;
+	
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	/*min-height:125px;*/
+	height:102px;
+	}
+#container #mybopa #raside #box002 .contents{
+	display:block;
+	width:272px;
+	background:#fff;
+	padding:14px 0 27px 26px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	min-height:117px;
+	}
+#container #mybopa #raside #box002 .contents a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#0079C2;
+	text-decoration:none;
+	}
+#container #mybopa #raside #box002 .contents a img{
+	padding-right:12px;
+	margin-bottom:15px;
+	}
+#container #mybopa #raside #box002 .contents .title{
+	font-weight:bold;
+	color:#585858;
+	clear:both;
+	display:block;
+	width:100%;
+	}
+#container #mybopa #raside #box002 .contents .lighttext{
+	color:#999;
+	clear:both;
+	position:relative;
+	top:-4px;
+	line-height:normal;
+	}
+#container #mybopa #raside #box002 .contents .emailaddress textarea{
+	display:block;
+	width:250px;
+	height:90px;
+	margin-top:10px;
+	border:1px solid #CCCCCC;float:left;
+	}
+#container #mybopa #raside #box002 .contents .btnsend{
+	float:right;
+	margin:24px 22px 0 0;
+	}
+#container #mybopa #raside #box002 .contents .link{
+	margin-top:5px;	
+	color:#999;
+	clear:both;
+	}
+#container #mybopa #raside #box002 .contents .link a{ 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#0079C2;
+	text-decoration:none;
+	}
+#container #mybopa #raside #box002 .contents .link a:hover{ 
+	text-decoration:underline;
+	}
+#container #mybopa #raside #box001 .contents .ltitle{
+	display:block;
+	width:160px;
+	padding:0 10px 0 0;
+	text-align:right;
+	font-weight:bold;
+	color:#585858;
+	clear:left;
+	float:left;
+	}
+#container #mybopa #raside #box001 .contents .rdetails {
+	float:right;
+	width:37%;
+	clear:right;
+	}
+#container #mybopa #raside #box001 .footer, #container #mybopa #raside #box002 .footer{
+	display:block;
+	width:300px;
+	height:29px;
+	background:url(../images/ftr-mybopa-box001r.jpg) no-repeat top left;
+	float:left;
+	}
+	
+	
+	
+	
+	
+/* Import Email Address Loading Page */
+#importEmailAddress{
+	display:block;
+	width:419px;
+	height:272px;
+	background:url(../images/bg-importEmailAddresspopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailAddress .top{
+	clear:both;
+	float:left;
+	}
+#importEmailAddress .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddress .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddress .contents{
+	margin-top:20px;
+	float:left;
+	width:100%;
+	min-height:90px;
+	text-align:center;
+	padding-top:35px;
+	font-weight:bold;
+	}
+#importEmailAddress .contents img{
+	margin-left:-50px;}
+#importEmailAddress .bottom{
+	margin-top:10px;
+	float:left;
+	width:100%;
+	text-align:center;
+	clear:both;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddress .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddress .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+	
+/* Import Email Address Popup Page */
+#importEmailPopup{
+	display:block;
+	width:509px;
+	height:272px;
+	background:url(../images/bg-importEmailPopuppopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailPopup .top{
+	clear:both;
+	float:left;
+	}
+#importEmailPopup .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailPopup .top img{
+	float:right;
+	padding-left:5px;
+	}
+#importEmailPopup .top p{
+	display:block;
+	width:100%;
+	float:left;
+	margin-top:5px;
+	}
+
+#importEmailPopup .contents{
+	margin-top:20px;
+	float:left;
+	width:100%;
+
+	text-align:center;
+	padding-top:15px;
+	font-weight:bold;
+	}
+
+#importEmailPopup .contents ul{	
+	float:left;
+	display:block;
+	width:486px;
+	}
+#importEmailPopup .contents ul li{
+	display:block;
+	height:60px;
+	float:left;
+	margin-top:10px;
+	list-style:none;
+	}
+#importEmailPopup .contents ul li.type001{
+	width:135px;
+	display:block;
+	}
+#importEmailPopup .contents ul li.type002{
+	width:179px;
+	display:block;
+	margin-left:13px;
+	}
+#importEmailPopup .contents ul li.type003{
+	width:138px;
+	display:block;
+	margin-left:13px;
+	}
+#importEmailPopup .contents ul li.type003 .commontext{
+	line-height:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#101010;
+	font-weight:bold;
+	}
+	
+	
+/* Import Email Address GMAIL */
+#importEmailAddressGmail{
+	display:block;
+	width:419px;
+	height:412px;
+	background:url(../images/bg-importEmailAddressGmailpopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailAddressGmail .top{
+	clear:both;
+	float:left;
+	width:100%;
+	}
+#importEmailAddressGmail .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddressGmail .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddressGmail .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:35px;
+	}
+#importEmailAddressGmail .contents .hdimg{
+	float:left;
+	margin:0 0 10px 15px;
+	}
+#importEmailAddressGmail .contents label{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	clear:both;
+	width:100%;
+	margin:2px 0 3px 0;
+	}
+#importEmailAddressGmail .contents label .hdr{
+	display:block;
+	width:80px;
+	float:left;
+	font-weight:bold;
+	margin-left:40px;
+	}
+
+#importEmailAddressGmail .contents a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressGmail .contents label input{
+	border:1px solid #DFDFDF;
+	padding:5px 0 5px 2px;
+	float:left;
+	width:240px;
+	}
+#importEmailAddressGmail .contents label input.signin{
+	border:none;
+	margin-top:17px;
+	padding:0;
+	float:left;
+	width:auto;
+	}
+#importEmailAddressGmail .contents .commontext{
+	float:left;
+	display:block;
+	width:400px;
+	text-align:left;
+	margin-top:10px;
+	}
+#importEmailAddressGmail .contents .forgotpass{
+	float:left;
+	margin-left:120px;
+	}
+#importEmailAddressGmail .contents .forgotpass a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#003366;
+	text-decoration:none;
+	}
+#importEmailAddressGmail .contents .forgotpass a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressGmail .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressGmail .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressGmail .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+
+
+
+/* Import Email Address GMAIL IMPORTED */
+#importEmailAddressGmailImported{
+	display:block;
+	width:419px;
+	height:412px;
+	background:url(../images/bg-importEmailAddressGmailpopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailAddressGmailImported .top{
+	clear:both;
+	float:left;
+	}
+#importEmailAddressGmailImported .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddressGmailImported .top img{
+	float:right;
+	padding-left:5px;
+	}
+#importEmailAddressGmailImported .top p{
+	clear:both;
+	float:left;
+	width:350px;
+	margin-top:20px;
+	}
+#importEmailAddressGmailImported .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:35px;
+	}
+#importEmailAddressGmailImported .contents .hdrselectContact{
+	display:block;
+	width:395px;
+	height:31px;
+	border:1px solid #ccc;
+	background:#EDEDED;
+	text-align:left;
+	}
+#importEmailAddressGmailImported .contents .hdrselectContact .selectAll{
+	margin-left:15px;
+	margin-right:10px;
+	line-height:30px;
+	}
+#importEmailAddressGmailImported .contents .listSelectContactHolder{
+	width:395px;
+	height:130px;
+	background:#fff;
+	overflow:scroll;
+	overflow-x:hidden;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	}
+#importEmailAddressGmailImported .contents .listSelectContactHolder table{
+	width:395px;
+	text-align:left;
+	}
+#importEmailAddressGmailImported .contents .listSelectContactHolder table td{
+	display:block;
+	height:26px;
+	border-bottom:1px solid #ccc;
+	}
+#importEmailAddressGmailImported .contents .listSelectContactHolder table td .contactName a{
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	}
+#importEmailAddressGmailImported .contents .listSelectContactHolder table td .selectAll{
+	margin-left:15px;
+	margin-right:10px;
+	line-height:26px;
+	}
+	
+#importEmailAddressGmailImported .contents .ftrselectContact{
+	display:block;
+	width:395px;
+	height:31px;
+	margin-top:20px;
+	text-align:right;
+	}
+#importEmailAddressGmailImported .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressGmailImported .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressGmailImported .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+	
+/* Import Email Address YAHOO */
+
+
+.popup486w{	
+	display:block;
+	width:486px;
+	margin:0 auto;
+	color:#666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+
+}
+.popup486w .box01{
+	background:url(../images/testbox001a.png) no-repeat top left;
+	height:19px;
+	display:block;
+	clear:both;
+	width:486px;
+	}
+.popup486w .box02{
+	background:url(../images/testbox002a.png) repeat-y top left;
+	clear:both;
+	width:419px;
+	float:left;
+	padding:18px 28px 0 39px;
+	}
+.popup486w .box03{
+	background:url(../images/testbox003a.png) no-repeat top left;
+	height:27px;
+	float:left;
+	clear:both;
+	width:486px;
+	}
+	
+	
+#importEmailAddressYahoo{
+	text-align:center;
+	float:left;
+	}
+#importEmailAddressYahoo .top{
+	clear:both;
+	float:left;
+	width:100%;
+	}
+#importEmailAddressYahoo .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	
+	}
+#importEmailAddressYahoo .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddressYahoo .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:55px;
+	}
+#importEmailAddressYahoo .contents label{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	clear:both;
+	width:100%;
+	margin:7px 0 7px 0;
+	}
+#importEmailAddressYahoo .contents label .hdr{
+	display:block;
+	width:80px;
+	float:left;
+	font-weight:bold;
+	margin-left:20px;
+	}
+#importEmailAddressYahoo .contents label .selectType{
+	border:1px solid #dfdfdf;
+	float:left;
+	width:285px;
+	padding:2px 0 2px 2px;
+	}
+#importEmailAddressYahoo .contents label .selectFile{
+	border:1px solid #DFDFDF;
+	padding:5px 0 5px 2px;
+	float:left;
+	width:185px;
+	}
+#importEmailAddressYahoo .contents label .browse{
+	width:82px;
+	height:30px;
+	line-height:25px;
+	float:left;
+	margin-left:14px;
+	}
+
+#importEmailAddressYahoo .contents label .upload{
+	float:left;
+	}
+#importEmailAddressYahoo .contents .contentftr{
+	margin-top:30px;
+	float:left;
+	clear:both;
+	width:419px;
+	}
+#importEmailAddressYahoo .contents .additionallink{
+
+	display:block;
+	text-align:center;
+	}
+#importEmailAddressYahoo .contents .additionallink a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressYahoo .contents .additionallink a:hover{
+	text-decoration:underline;
+	}
+
+#importEmailAddressYahoo .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressYahoo .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressYahoo .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+	
+
+/* Import Email Address YAHOO Expanded Instructions */
+
+
+#importEmailAddressYahoo .contents .expandedInstructions{
+	float:left;
+	width:100%;
+	text-align:left;
+	margin:20px 0 15px 0;
+	}
+#importEmailAddressYahoo .contents .expandedInstructions .hdr{
+	font-weight:bold;
+	}
+#importEmailAddressYahoo .contents .expandedInstructions ol{
+	float:left;
+	margin:20px 0 0 25px;
+	}
+
+/* Import Email Address YAHOO International Instructions Shown */
+
+
+#importEmailAddressYahooInternationalInstructions{
+	text-align:center;
+	float:left;
+	}
+#importEmailAddressYahooInternationalInstructions .top{
+	clear:both;
+	float:left;
+	}
+#importEmailAddressYahooInternationalInstructions .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddressYahooInternationalInstructions .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddressYahooInternationalInstructions .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:55px;
+	}
+#importEmailAddressYahooInternationalInstructions .contents label{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	clear:both;
+	width:100%;
+	margin:7px 0 7px 0;
+	}
+#importEmailAddressYahooInternationalInstructions .contents label .hdr{
+	display:block;
+	width:80px;
+	float:left;
+	font-weight:bold;
+	margin-left:20px;
+	}
+#importEmailAddressYahooInternationalInstructions .contents label .selectType{
+	border:1px solid #dfdfdf;
+	float:left;
+	width:285px;
+	padding:2px 0 2px 2px;
+	}
+#importEmailAddressYahooInternationalInstructions .contents label .selectFile{
+	border:1px solid #DFDFDF;
+	padding:5px 0 5px 2px;
+	float:left;
+	width:185px;
+	}
+#importEmailAddressYahooInternationalInstructions .contents label .browse{
+	width:82px;
+	height:30px;
+	line-height:25px;
+	float:left;
+	margin-left:14px;
+	}
+
+#importEmailAddressYahooInternationalInstructions .contents label .upload{
+	float:left;
+	}
+#importEmailAddressYahooInternationalInstructions .contents .contentftr{
+	margin:30px 0 30px 0;
+	float:left;
+	clear:both;
+	width:419px;
+	}
+#importEmailAddressYahooInternationalInstructions .contents .additionallink{
+	margin:15px 0 10px 0;
+	display:block;
+	text-align:center;
+	}
+#importEmailAddressYahooInternationalInstructions .contents .additionallink a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressYahooInternationalInstructions .contents .additionallink a:hover{
+	text-decoration:underline;
+	}
+
+#importEmailAddressYahooInternationalInstructions .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressYahooInternationalInstructions .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressYahooInternationalInstructions .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+
+
+
+/* Import Email Address AOL */
+#importEmailAddressAol{
+	display:block;
+	width:419px;
+	height:412px;
+	background:url(../images/bg-importEmailAddressGmailpopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailAddressAol .top{
+	clear:both;
+	float:left;
+	width:100%;
+	}
+#importEmailAddressAol .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddressAol .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddressAol .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:35px;
+	}
+#importEmailAddressAol .contents .hdimg{
+	float:left;
+	margin:0 0 10px 15px;
+	}
+#importEmailAddressAol .contents label{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	clear:both;
+	width:100%;
+	margin:2px 0 3px 0;
+	}
+#importEmailAddressAol .contents label .hdr{
+	display:block;
+	width:120px;
+	float:left;
+	font-weight:bold;
+	margin-left:20px;
+	}
+
+#importEmailAddressAol .contents a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressAol .contents label input{
+	border:1px solid #DFDFDF;
+	padding:5px 0 5px 2px;
+	float:left;
+	width:240px;
+	}
+#importEmailAddressAol .contents label input.signin{
+	border:none;
+	margin-top:17px;
+	padding:0;
+	width:auto;
+	float:left;
+	}
+#importEmailAddressAol .contents .commontext{
+	float:left;
+	display:block;
+	width:400px;
+	text-align:left;
+	margin-top:10px;
+	}
+#importEmailAddressAol .contents .forgotpass{
+	float:left;
+	margin-left:140px;
+	}
+#importEmailAddressAol .contents .forgotpass a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#003366;
+	text-decoration:none;
+	}
+#importEmailAddressAol .contents .forgotpass a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressAol .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressAol .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressAol .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+	
+
+/* Import Email Address HOTMAIL */
+#importEmailAddressHotmail{
+	display:block;
+	width:419px;
+	height:412px;
+	background:url(../images/bg-importEmailAddressGmailpopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#importEmailAddressHotmail .top{
+	clear:both;
+	float:left;
+	width:100%;
+	}
+#importEmailAddressHotmail .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	font-weight:normal;
+	float:left;
+	}
+#importEmailAddressHotmail .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#importEmailAddressHotmail .contents{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:35px;
+	}
+#importEmailAddressHotmail .contents .hdimg{
+	float:left;
+	margin:0 0 10px 15px;
+	}
+#importEmailAddressHotmail .contents label{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	clear:both;
+	width:100%;
+	margin:2px 0 3px 0;
+	}
+#importEmailAddressHotmail .contents label .hdr{
+	display:block;
+	width:120px;
+	float:left;
+	font-weight:bold;
+	margin-left:20px;
+	}
+
+#importEmailAddressHotmail .contents a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressHotmail .contents label input{
+	border:1px solid #DFDFDF;
+	padding:5px 0 5px 2px;
+	float:left;
+	width:240px;
+	}
+#importEmailAddressHotmail .contents label input.signin{
+	border:none;
+	margin-top:17px;
+	padding:0;
+	width:auto;
+	float:left;
+	}
+#importEmailAddressHotmail .contents .commontext{
+	float:left;
+	display:block;
+	width:400px;
+	text-align:left;
+	margin-top:10px;
+	}
+#importEmailAddressHotmail .contents .forgotpass{
+	float:left;
+	margin-left:140px;
+	}
+#importEmailAddressHotmail .contents .forgotpass a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#003366;
+	text-decoration:none;
+	}
+#importEmailAddressHotmail .contents .forgotpass a:hover{
+	text-decoration:underline;
+	}
+#importEmailAddressHotmail .bottom{
+	float:left;
+	width:350px;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#6666;
+	}
+#importEmailAddressHotmail .bottom a{
+	border:none;
+	background:#fff;
+	padding-left:5px;
+	color:#007AC3;
+	text-decoration:none;
+	}
+#importEmailAddressHotmail .bottom a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+
+
+
+
+/* FIRST LOGIN POPUP  */
+
+#firstLoginPopup{
+	display:block;
+	width:540px;
+	height:330px;
+	background:url(../images/bg-firstLoginPopup.png) no-repeat top left;
+	text-align:left;
+	color:#666;
+	padding:18px 30px 0 37px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#firstLoginPopup .top{
+	clear:both;
+	float:left;
+	}
+#firstLoginPopup .top h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#0377C0;
+	font-weight:bold;
+	float:left;
+	}
+#firstLoginPopup .top img{
+	float:right;
+	padding-left:5px;
+	}
+
+#firstLoginPopup .contents{
+	float:left;
+	width:100%;
+	text-align:left;
+	padding-top:25px;
+	}
+#firstLoginPopup .contents .hdg{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+	margin-left:38px;
+	}
+#firstLoginPopup .contents .listLinksText{
+	list-style: disc url(bullet.gif) inside;
+	margin:15px 0 0 38px;
+	padding:0;
+	line-height:normal;
+	}
+#firstLoginPopup .contents .listLinksText li{
+	margin:0 auto;
+	padding:0;
+	line-height:1.5;
+	}
+#firstLoginPopup .contents .listLinksText li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	text-decoration:none;
+	}
+#firstLoginPopup .contents .listLinksImage{
+	list-style:none;
+	text-align:center;
+	margin-top:10px;
+	}
+#firstLoginPopup .contents .listLinksImage li{
+	float:left;
+	text-align:center;
+	margin-top:10px;
+	margin-right:10px;
+	}
+#firstLoginPopup .contents .listLinksImage li.last{
+	width:100%;
+	}
+
+
+#firstLoginPopup .bottom{
+	float:left;
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#6666;
+	}
+#firstLoginPopup .bottom .laside{
+	padding-left:5px;
+	float:left;
+	width:54%;
+	}
+#firstLoginPopup .bottom .laside a{
+	color:#007AC3;
+	font-weight:bold;
+	text-decoration:none;
+	}
+#firstLoginPopup .bottom .laside a:hover{
+	text-decoration:underline;
+	color:#333333;
+	}
+#firstLoginPopup .bottom .raside{
+	float:right;
+	width:45%;
+	text-align:right;
+	}
+	
+/* MY BOPA MESSAGE COMPOSE PAGE */
+
+#myBopaContentWrapper{
+	float:left;
+	width:100%;
+	margin-top:40px;
+	}
+#myBopaContentWrapper #leftWrapper{
+	display:block;
+	float:left;
+	width:680px;
+	margin-left:60px;	
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage{
+	float:left;
+	display:block;
+	margin-bottom:20px;
+	}	
+#myBopaContentWrapper #leftWrapper .composeMessage .hdr{
+	display:block;
+	height:26px;
+	background:url(../images/bg-hdrcomposeMessage.png) no-repeat top left;
+	padding-left:30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#007AC3;
+	width:650px;
+	line-height:26px;
+	font-weight:bold;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents{
+	border-right: 1px solid #A5B2BD;
+	border-left: 1px solid #A5B2BD;
+	background:#fff;
+	width:678px;
+	display:block;
+	float:left;
+	clear:both;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu{
+	list-style:none;
+	display:block;
+	width:100%;
+	text-align:right;
+	float:left;
+	margin-top:20px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu li{
+	float:right;
+	text-align:right;
+	display:block;
+	margin-right:18px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage {
+	float:left;
+	width:100%;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody{
+	list-style:none;
+	display:block;
+	width:100%;
+	float:left;
+	margin-top:20px;
+	padding-bottom:20px;
+	clear:both;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li{
+	display:block;
+	float:left;
+	width:100%;
+	margin-top:10px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li label{
+	width:95px;
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#585858;
+	display:block;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li span{
+	margin-left:18px;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .toAddress select{
+	width:520px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .subject .inputstyle{
+	border:1px solid #A5B2BD;
+	width:520px;
+	padding:4px 0 4px 0;
+}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .comments textarea{
+	border:1px solid #A5B2BD;
+	width:520px;
+	height:444px;
+}
+#myBopaContentWrapper #leftWrapper .composeMessage .ftr{
+	display:block;
+	height:19px;
+	width:680px;
+	float:left;
+	clear:both;
+	background:url(../images/bg-ftrcomposeMessage.png) no-repeat top left;
+	}
+#myBopaContentWrapper #rightWrapper{
+	display:block;
+	float:left;
+	width:180px;
+	}
+#myBopaContentWrapper #rightWrapper .adspace{
+	width:160px;
+	display:block;
+	margin-left:20px;
+	}
+	
+/* MY BOPA INBOX (compose styles updated. please refer compose also.)*/
+#myBopaContentWrapper #leftWrapper .inbox{
+	float:left;
+	}	
+#myBopaContentWrapper #leftWrapper .inbox .hdr{
+	display:block;
+	height:26px;
+	background:url(../images/bg-hdrcomposeMessage.png) no-repeat top left;
+	padding-left:30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#007AC3;
+	width:650px;
+	line-height:26px;
+	font-weight:bold;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents{
+	border-right: 1px solid #A5B2BD;
+	border-left: 1px solid #A5B2BD;
+	background:#fff;
+	width:678px;
+	float:left;
+	}
+/*#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu{
+	list-style:none;
+	margin-top:20px;
+	clear:both;
+	display:block;
+	height:25px;
+	margin-bottom:10px;
+	}*/
+	
+	#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu {
+display:block;
+height:25px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:10px;
+}
+
+#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu li{
+	float:right;	
+	padding-right:18px;
+
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .ftr{
+	display:block;
+	height:19px;
+	width:680px;
+	float:left;
+	background:url(../images/bg-ftrcomposeMessage.png) no-repeat top left;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr{
+	height:26px;
+	background:url(../images/bg-inboxhdr.png) repeat-x;
+	border-right:1px solid #fff;
+
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last{
+	height:26px;
+	background:url(../images/bg-inboxhdr.png) repeat-x;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td{
+	padding-left:16px;
+	padding-right:15px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr a, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last a{
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	} 
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr a:hover, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last a:hover{
+	color:#000;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .from, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .subject, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .date{
+	font-family:Verdana, Arial, Helvetica, sans-serifl;
+	font-size:11px;
+	color:#333;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .from{
+	padding-top:6px;
+	}
+.iemiddle{	
+	float:left;
+	padding-left:1px;
+	padding-top:10px;
+	
+	
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox a{
+	font-family:Verdana, Arial, Helvetica, sans-serifl;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	display:block;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td{
+	border-bottom:1px solid #D5D5D5;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox tr:hover{
+	background:#f8f8f8;
+	}
+
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread{
+	font-weight:bold;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread .subjecthead a{
+	font-weight:bold;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread .briefcontent{
+	font-weight:normal;
+	}
+	
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read{
+	font-weight:normal;
+	background:#f8f8f8;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read .subjecthead a{
+	font-weight:normal;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read .briefcontent{
+	font-weight:normal;
+	}
+	
+/* MY BOPA INBOX MESSAGE SENT (compose/inbox styles updated. please refer compose/inbox also.)*/
+
+#myBopaContentWrapper #leftWrapper .inbox  .messagesent{
+	display:block;
+	height:40px;
+	margin-top:30px;
+	background:#FFFFCF;
+	border-top:1px solid #A6B3BE;
+	border-bottom:1px solid #A6B3BE;
+	text-align:center;
+	line-height:40px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox  .nomessages{
+	display:block;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	}
+	
+	
+	
+/* MY BOPA VIEW MESSAGE (compose/inbox styles updated. please refer compose/inbox also.)*/
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage{
+	list-style:none;
+	display:block;
+	width:100%;
+	text-align:right;
+	float:left;
+	margin-top:20px;
+	border-bottom:1px solid #ccc;
+	height:46px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage li{
+	float:right;
+	text-align:right;
+	display:block;
+	margin-right:18px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents h3{
+	margin:0 auto;
+	padding:0;
+	float:left;
+	margin-top:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin-left:38px;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage{
+	list-style:none;
+	display:block;
+	width:100%;
+	float:left;
+	margin-top:5px;
+	clear:both;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li{
+	display:block;
+	float:left;
+	width:100%;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li label{
+	width:95px;
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#585858;
+	display:block;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li span{
+	margin-left:18px;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .toAddress select{
+	width:520px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .subject .inputstyle{
+	border:1px solid #A5B2BD;
+	width:520px;
+	padding:4px 0 4px 0;
+}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .comments textarea{
+	border:1px solid #A5B2BD;
+	width:520px;
+	height:444px;
+}
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody{
+	list-style:none;
+	display:block;
+	width:626px;
+
+	border:1px solid #A5B2BD;
+	float:left;
+	margin-top:15px;
+	color:#666;
+	margin-left:25px;
+	clear:both;
+	}
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody p{
+	margin-bottom:10px;
+	margin-top:10px;
+	width:91%;
+	line-height:1.5;
+	}
+	
+
+
+
+
+
+
+<!--Bejoys code here-->
+
+
+
+
+
+
+
+
+#container #mybopa #laside #box002 .contents #search #popSearch{
+	list-style:none;
+  margin: 0;
+  padding: 0;
+  float:left;
+  width:564px;
+  height:194px;
+	}
+* html #container #mybopa #laside #box002 .contents #search #popSearch li
+{
+	position: relative;
+}
+#container #mybopa #laside #box002 .contents #search #popSearch li.column1 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:0px; 
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li.column2 { 
+	border-bottom:1px solid #D6DBDE;
+	margin-left:281px;
+	width:50%;
+	height:38px;
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li.reset
+{
+  margin-top:-194px;
+}
+#container #mybopa #laside #box002 .contents #search #popSearch li.last
+{
+	border-bottom:none;
+}
+
+#container #mybopa #laside #box002 .contents #search #popSearch li a{
+	line-height:38px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+	}
+
+#container #mybopa #laside #box002 .contents #search #popSearch li.last a
+{
+	line-height:25px;
+	text-decoration:none;
+	color:#0078C2;
+	text-align:left;
+	display:block;
+	padding-left:10px;
+	font-weight:bold;
+}
+
+/*APPENDED FOR NEW MESSAGE APPEARANCE*/
+
+/* MY BOPA MESSAGE COMPOSE PAGE */
+
+#myBopaContentWrapper{
+	float:left;
+	width:100%;
+	margin-top:40px;
+	}
+#myBopaContentWrapper #leftWrapper{
+	display:block;
+	float:left;
+	width:100%;
+	margin-left:25px;	
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage{
+	float:left;
+	}	
+#myBopaContentWrapper #leftWrapper .composeMessage .hdr{
+	display:block;
+	height:17px;
+	background:url(../images/bg-hdrcomposeMessage.png) no-repeat top left;
+	width:914px;
+	float:left;
+	}
+
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents{
+	border-right: 1px solid #A5B2BD;
+	border-left: 1px solid #A5B2BD;
+	background:#fff;
+	width:912px;
+	float:left;
+	}
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .hdg{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:30px;
+	float:left;
+	color:#000;
+	font-weight:bold;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .hdg a{
+	color:#136AB5;
+	text-decoration:none;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .hdg .arrow{
+	padding:0 5px 0 5px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu{
+	list-style:none;
+	
+	display:block;
+	height:25px;
+	margin-bottom:10px;
+	margin-top:-19px;
+	}
+	
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu li{
+	float:right;	
+	padding-right:18px;
+
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+
+
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody{
+	list-style:none;
+	display:block;
+	width:95%;
+	float:left;
+	margin-top:15px;
+	color:#666;
+	margin-left:25px;
+	clear:both;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li{
+	display:block;
+	float:left;
+	width:100%;
+	margin-top:10px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li label{
+	width:95px;
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#585858;
+	display:block;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li span{
+	margin-left:18px;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .toAddress select{
+	width:696px;
+	height:26px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .subject .inputsubject{
+	border:1px solid #A5B2BD;
+	width:696px;
+	padding:6px 0 6px 0;
+}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody li .comments .inputComments{
+	border:1px solid #A5B2BD;
+	width:696px;
+	height:200px;
+}
+
+#myBopaContentWrapper #leftWrapper .composeMessage .spacing{
+	display:block;
+	height:25px;
+	float:left;
+	clear:both;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .ftr{
+	display:block;
+	height:19px;
+	width:914px;
+	float:left;
+	clear:both;
+	background:url(../images/bg-ftrcomposeMessage.png) no-repeat top left;
+	}
+
+/* MY BOPA INBOX (compose styles updated. please refer compose also.)*/
+#myBopaContentWrapper #leftWrapper .inbox{
+	float:left;
+	}	
+#myBopaContentWrapper #leftWrapper .inbox .hdr{
+	display:block;
+	height:17px;
+	background:url(../images/bg-hdrcomposeMessage.png) no-repeat top left;
+	width:914px;
+	}
+	
+#myBopaContentWrapper #leftWrapper .inbox .contents{
+	border-right: 1px solid #A5B2BD;
+	border-left: 1px solid #A5B2BD;
+	background:#fff;
+	width:912px;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .hdg{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:30px;
+	float:left;
+	color:#000;
+	font-weight:bold;
+	}
+	
+#myBopaContentWrapper #leftWrapper .inbox .contents .echoSentMessage{
+	width:646px;
+	height:21px;
+	display:block;
+	float:left;
+	background:#FFFF99;
+	margin-left:50px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .echoSentMessage .textmsg{
+	float:left;
+	padding-left:10px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .echoSentMessage .close{
+	float:right;
+	margin-top:4px;
+	margin-right:7px;
+	}
+
+#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu{
+	list-style:none;
+	display:block;
+	height:25px;
+	margin-bottom:10px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu li{
+	float:right;	
+	padding-right:18px;
+
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .inboxTopMenu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+	
+#myBopaContentWrapper #leftWrapper .inbox .ftr{
+	display:block;
+	height:19px;
+	width:914px;
+	float:left;
+	background:url(../images/bg-ftrcomposeMessage.png) no-repeat top left;
+	}
+	
+	
+#myBopaContentWrapper #leftWrapper #bopabank-menu{
+	float:right;
+	margin:0 auto;
+	margin-right:75px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li{
+	list-style:none;
+	float:left;
+	display:block;
+	margin-left:4px;
+	height:32px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.inbox{
+	width:143px;
+	height:32px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#111217;
+	font-weight:bold;
+	text-decoration:none;
+	height:32px;
+	line-height:32px;
+	padding-top:3px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.inbox a{
+	display:block;
+	width:143px;
+
+	text-align:center;
+	background:url(../images/btnbg-acctactivity-normal.png) no-repeat top left;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.inbox a:hover, #myBopaContentWrapper #leftWrapper #bopabank-menu li.inbox a.currentsel{
+	background:url(../images/btnbg-acctactivity-hover.png) no-repeat top left;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.sent{
+	width:136px;
+	height:32px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.sent a{
+	display:block;
+	width:136px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-wdfunds-normal.png) no-repeat top left;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.sent a:hover, #myBopaContentWrapper #leftWrapper #bopabank-menu li.sent a.currentsel{
+	background:url(../images/btnbg-wdfunds-hover.png) no-repeat top left;
+	}
+
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.compose{
+	width:157px;
+	height:32px;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.compose a{
+	display:block;
+	width:157px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-mgcc-normal.png) no-repeat top left;
+	}
+#myBopaContentWrapper #leftWrapper #bopabank-menu li.compose a:hover, #myBopaContentWrapper #leftWrapper #bopabank-menu li.compose a.currentsel
+	{
+	background:url(../images/btnbg-mgcc-hover.png) no-repeat top left;
+	}
+	
+	
+	
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr{
+	height:16px;
+	background:url(../images/bg-inboxhdr.png) repeat-x;
+	border-right:1px solid #fff;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last{
+	height:26px;
+	background:url(../images/bg-inboxhdr.png) repeat-x;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td{
+	padding-left:16px;
+	padding-right:15px;
+	height:39px;
+	line-height:40px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr a, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last a{
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	} 
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .inboxhdr a:hover, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .last a:hover{
+	color:#000;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .from, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .subject, #myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox .date{
+	font-family:Verdana, Arial, Helvetica, sans-serifl;
+	font-size:11px;
+	color:#333;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox a{
+	font-family:Verdana, Arial, Helvetica, sans-serifl;
+	font-size:11px;
+	color:#333;
+	text-decoration:none;
+	display:block;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td{
+	border-bottom:1px solid #D5D5D5;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox tr:hover{
+	background:#E5E5E5;
+	}
+
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread{
+	font-weight:bold;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread .subjecthead a{
+	font-weight:bold;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.unread .briefcontent{
+	font-weight:normal;
+	}
+	
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read{
+	font-weight:normal;
+	background:#e5e5e5;
+	padding-top: 8px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read .subjecthead a{
+	font-weight:normal;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read .briefcontent{
+	font-weight:normal;
+	}
+
+.pages{
+	clear:both;
+	float:left;
+	width:100%;
+	text-align:center;
+	}
+.pages a{
+	text-decoration:none;
+	color:#333;
+	}
+.pages a:hover{
+	text-decoration:underline;
+	}
+.pages a.current{
+	text-decoration:underline;
+	font-weight:bold;
+	}
+
+/* MY BOPA INBOX MESSAGE SENT (compose/inbox styles updated. please refer compose/inbox also.)*/
+
+#myBopaContentWrapper #leftWrapper .inbox  .messagesent{
+	display:block;
+	height:40px;
+	margin-top:30px;
+	background:#FFFFCF;
+	border-top:1px solid #A6B3BE;
+	border-bottom:1px solid #A6B3BE;
+	text-align:center;
+	line-height:40px;
+	}
+#myBopaContentWrapper #leftWrapper .inbox  .nomessages{
+	display:block;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	}
+	
+	
+	
+/* MY BOPA VIEW MESSAGE (compose/inbox styles updated. please refer compose/inbox also.)*/
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage{
+	list-style:none;
+	display:block;
+	width:100%;
+	text-align:right;
+	float:left;
+	margin-top:20px;
+	border-bottom:1px solid #ccc;
+	height:46px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage li{
+	float:right;
+	text-align:right;
+	display:block;
+	margin-right:18px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .composeTopMenuViewMessage li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000;
+	text-decoration:none;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents h3{
+	margin:0 auto;
+	padding:0;
+	float:left;
+	margin-top:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin-left:38px;
+	color:#007AC3;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage{
+	list-style:none;
+	display:block;
+	width:100%;
+	float:left;
+	margin-top:5px;
+	clear:both;
+	background:url(../images/bg-subject.jpg) repeat-x;
+	height:90px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li{
+	display:block;
+	float:left;
+	width:100%;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li label{
+	width:95px;
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#585858;
+	display:block;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li span{
+	margin-left:18px;
+	float:left;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .toAddress select{
+	width:520px;
+	}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .subject .inputstyle{
+	border:1px solid #A5B2BD;
+	width:520px;
+	padding:4px 0 4px 0;
+}
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .viewMessage li .comments textarea{
+	border:1px solid #A5B2BD;
+	width:520px;
+	height:444px;
+}
+
+
+
+#myBopaContentWrapper #leftWrapper .composeMessage .contents .messageBody p{
+	margin-bottom:10px;
+	margin-top:10px;
+	width:91%;
+	line-height:1.5;
+	}

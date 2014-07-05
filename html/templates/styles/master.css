@@ -1,0 +1,898 @@
+@import "reset.css";
+@import "grid.css";
+@import "type.css";
+@import "form.css";
+@import "widgets.css";
+@import "thickbox.css";
+@import "binu.css";
+@import "vimal.css";
+
+/* Color guide -----------------------
+
+Green		: 	#8cc63f
+Orange		: 	#f26632
+Blue		: 	#0079c2
+Mid grey	: 	#d7d7d7
+Light Grey	: 	#ebebeb
+Dark Grey	: 	#a8a9ab
+Grey Text	: 	#767879
+
+-------------------------------------*/
+
+body {	
+	behavior:url("../scripts/csshover.htc");
+}
+
+.left{
+	float:left;}
+
+.right{
+	float:right;}
+
+.center{
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+	}
+
+
+/* header styles -----------------------------*/
+#header #logo{
+	display:block;
+	width:282px;
+	text-indent:-9999px;
+	height:85px;
+	margin:10px 0 0 10px;
+	float:left;
+	}
+#header #menu{
+	width:1000px;
+	}
+
+#header ul#accountMenu{
+	margin			:	5px 0 0 0;
+	padding			:	0;
+	float			:	right;
+	}
+
+#header ul#accountMenu li{
+	display			:	inline;
+	padding			:	3px 10px;
+	border-right	:	1px solid #a8a9ab;
+	}
+	
+#header ul#accountMenu li.rightEnd{
+	border-right	:	none;
+	}
+
+#header ul#accountMenu li a.cart{
+	background:url(../images/icons.png) no-repeat 0 -160px;
+	padding-left:25px;
+	line-height:25px;
+	}
+
+#header ul#accountMenu li a.mail{
+	background:url(../images/iconMail.jpg) left -3px no-repeat;
+	padding-left:25px;
+	line-height:25px;
+	}
+
+#header ul#accountMenu li a.favourite{
+	background:url(../images/iconFav.jpg) left -3px no-repeat;
+	padding-left:25px;
+	line-height:25px;
+	}
+
+#header ul#topNav{
+	float			:	left;
+	margin			:	14px 0 0 0;
+	padding			:	0;
+}
+
+#header ul#topNav li{
+	display			:	block;
+	float			:	left;}
+#header ul#topNav li a{
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	}
+#header ul#topNav li a{
+	display			:	block;
+	float			:	left;
+	height			:	40px;
+	width			:	132px;
+	}
+#header ul#topNav li a:hover{
+	text-decoration:none;
+	color:#8CC63F;
+	}
+#header ul#topNav li.navHome a{
+	width:50px;
+	background:url(../images/navHome.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navHome a.currentsel{
+	background:url(../images/navHome.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navHome a:hover{
+	background:url(../images/navHome.jpg) 0 -80px no-repeat;
+	}
+	
+#header ul#topNav li.navBuy a{
+	width:132px;
+	background:url(../images/navBuy.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navBuy a.currentsel{
+	background:url(../images/navBuy.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navBuy a:hover{
+	background:url(../images/navBuy.jpg) 0 -80px no-repeat;
+	}
+
+
+#header ul#topNav li.navSell a{
+	width:132px;
+	background:url(../images/navSell.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navSell a.currentsel{
+	background:url(../images/navSell.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navSell a:hover{
+	background:url(../images/navSell.jpg) 0 -80px no-repeat;
+	}
+	
+	
+#header ul#topNav li.navBopabox a{
+	width:132px;
+	background:url(../images/navBopabox.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navBopabox a.currentsel{
+	background:url(../images/navBopabox.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navBopabox a:hover{
+	background:url(../images/navBopabox.jpg) 0 -80px no-repeat;
+	}
+
+
+#header ul#topNav li.navBopabank a{
+	width:132px;
+	background:url(../images/navBopabank.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navBopabank a.currentsel{
+	background:url(../images/navBopabank.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navBopabank a:hover{
+	background:url(../images/navBopabank.jpg) 0 -80px no-repeat;
+	}
+	
+	
+#header ul#topNav li.navUpload a{
+	width:132px;
+	background:url(../images/navUpload.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	}
+
+#header ul#topNav li.navUpload a.currentsel{
+	background:url(../images/navUpload.jpg) 0 -40px no-repeat;
+	}
+#header ul#topNav li.navUpload a:hover{
+	background:url(../images/navUpload.jpg) 0 -80px no-repeat;
+	}
+	
+
+
+#header ul#topNav li.nav a{
+	height			:	40px;
+	width			:	132px;
+	background:url(../images/bgNav.jpg) 0 0 no-repeat;}
+
+#header ul#topNav li.nav a.currentsel {
+	background:url(../images/bgNav.jpg) 0 -40px no-repeat;
+	}
+
+#header ul#topNav li.nav a span{
+	display			:	block;
+	height			:	40px;
+	width			:	112px;
+	margin-left:10px;
+	padding-left:10px;	
+	background:url(../images/icons.png) 18px -208px no-repeat;
+	}
+#header ul#topNav li.nav a:hover span{
+	display			:	block;
+	height			:	40px;
+	width			:	112px;
+	margin-left:10px;
+	padding-left:10px;	
+	background:url(../images/icons.png) 18px -257px no-repeat;
+	}
+#header #topSearch{
+	float:left;
+	margin:24px 0 0 59px;
+}
+
+#header #topSearch form{
+	padding:0;
+	margin:0;
+	float:left;
+	}
+#header #topSearch form input{
+	border:0;
+	background:none;
+	width:120px;	
+	}
+	
+/* Rounded Corners with tabs >> .roundedTab ---------------------------*/
+
+.roundedTab{
+	position:relative;
+	/*width:300px; specify using using id*/ 
+	}
+
+.roundedTab .t{
+	background:url(../images/t.jpg) bottom left no-repeat;
+	/*width:99.9%;*/
+	height:28px;
+	padding-left:10px;	
+	}
+
+/*.roundedTab h3{
+	float:left;
+	margin:0;
+	padding:0;
+	display:block;
+	height:23px;
+	background:url(../images/h3TabL.jpg) no-repeat;
+	margin-top:1px;
+	position:relative;
+	left:17px;
+	}
+
+.roundedTab h3 span{
+	padding:5px 5px;
+	background:url(../images/h3TabR.jpg) right 3px no-repeat;
+	}
+*/
+
+.roundedTab .tab{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	height:23px;	
+	background:url(../images/h3TabR.jpg) right no-repeat #fff ;
+	margin-top:1px;
+	position:relative;	
+	margin-left:7px;
+	}
+
+.roundedTab .tab h3{
+	line-height:23px; /* please don't change*/
+	padding-left:5px;	
+	background:url(../images/h3TabL.jpg) no-repeat;
+	}
+	
+.roundedTab .tabOff{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	height:22px;	
+	background:url(../images/h3TabROff.jpg) right top no-repeat ;
+	margin-top:1px;
+	position:relative;	
+	margin-left:7px;
+	}
+
+.roundedTab .tabOff h3{
+	line-height:22px; /* please don't change*/
+	padding-left:5px;	
+	background:url(../images/h3TabLOff.jpg) no-repeat;
+	}
+
+.roundedTab .tabOff a{
+	display:block;
+	height:22px;
+	line-height:22px; /* please don't change*/
+	color:#767879;
+	}
+
+.roundedTab .t .tr{
+	float:right;
+	width:10px;
+	height:28px;
+	background:url(../images/tr.jpg) bottom no-repeat;}
+
+.roundedTab .c{
+	float:left;
+	width:100%;
+	background:url(../images/r.jpg) right repeat-y #fff;
+	}
+
+.roundedTab .c div.cl{
+	float:left;
+	padding:5px;
+	background:url(../images/l.jpg) left repeat-y;
+	*width:90%;
+		}
+
+.roundedTab .b{
+	clear:both;
+	background:url(../images/b.jpg) no-repeat;
+	width:100%;
+	height:12px;
+	}
+
+.roundedTab .b span.br{
+	float:right;
+	width:10px;
+	height:12px;
+	background:url(../images/br.jpg) no-repeat;
+	}
+
+
+/* rounded without tabs >>.rounded ------------------------- */
+
+.rounded{
+	position:relative;
+	/* width:300px; specify using id*/
+	}
+
+.rounded .t{
+	background:url(../images/t.jpg) bottom left no-repeat;
+	width:100%;
+	height:6px;
+	
+	}
+
+.rounded .t .tr{
+	float:right;
+	width:10px;
+	height:6px;
+	background:url(../images/tr.jpg) bottom no-repeat;}
+
+.rounded .c{
+	float:left;
+	width:100%;
+	background:url(../images/r.jpg) right repeat-y #fff;
+	}
+
+.rounded .c div.cl{
+	float:left;
+	padding:5px;
+	background:url(../images/l.jpg) left repeat-y;	
+		}
+
+.rounded .b{
+	clear:both;
+	background:url(../images/b.jpg) no-repeat;
+	width:100%;
+	height:12px;
+	}
+
+.rounded .b span.br{
+	float:right;
+	width:10px;
+	height:12px;
+	background:url(../images/br.jpg) no-repeat;
+	}
+
+
+#popularMusic{
+	width:1000px;}
+
+#myDashboard{
+	width:300px;
+	float:left;
+	}
+
+#myDashboard .ltitle{
+	display:block;
+	width:150px;
+	float:left;
+	height:20px;
+	
+	}
+
+#myDashboard .rdetails{
+	display:block;
+	width:110px;
+	float:left;
+	height:20px;
+	padding-left:10px;
+	}	
+
+#myDashboard .star{
+	line-height:22px;
+	float:left;
+	padding-left:10px;
+}
+
+#myDashboard .star img{
+	float:left;
+	padding-right:5px;}
+
+#quickLinks{
+	width:550px;
+	float:left;
+	}
+
+
+/*#quickLinks ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	width:536px;
+	margin-left:4px;
+	}
+
+#quickLinks ul li{
+	display:block;
+	width:258px;
+	height:60px;
+	float:left;
+	background:url(../images/quickLinkBG.jpg) bottom #fff repeat-x;
+	border:1px solid #DFE4E7;
+	margin-right:10px;
+	margin-top:10px;
+	}
+
+#quickLinks ul li a{
+	display:block;
+	width:258px;
+	height:60px;
+	}
+
+#quickLinks ul li.qlMessages{
+	background:url(../images/qlMessages.jpg) no-repeat;
+	}
+
+#quickLinks ul li.qlSellers{
+	background:url(../images/qlSellers.jpg) no-repeat;
+	margin-right:0;
+	}
+
+#quickLinks ul li.qlSaved{
+	background:url(../images/qlSaved.jpg) no-repeat;
+	margin-right:0;
+	}
+
+#quickLinks ul li.qlPopular{
+	background:url(../images/qlPopular.jpg) no-repeat;
+	
+	}
+
+#quickLinks ul li.qlMessages a:hover{
+	background:url(../images/qlMessagesH.jpg) no-repeat;} 
+	
+#quickLinks ul li.qlSellers a:hover{
+	background:url(../images/qlSellersH.jpg) no-repeat;} 
+	
+#quickLinks ul li.qlSaved a:hover{
+	background:url(../images/qlSavedH.jpg) no-repeat;} 
+	
+#quickLinks ul li.qlPopular a:hover{
+	background:url(../images/qlPopularH.jpg) no-repeat;}
+*/
+#recentSongs{
+	float:left;
+	width:300px;
+	}
+
+#recentSongs h3 span{
+	padding:5px 5px;}
+
+#recentSongs ul{
+	width:270px;
+	margin-left:10px;}
+
+#recentSongs ul li{
+	display:block;
+	height:40px;
+	border-bottom:1px solid #ccc;
+	overflow:hidden;
+	}
+#recentSongs ul li.fin{
+	border:none;}
+
+#recentSongs ul li .recentSong{
+	display:block;
+	height:20px;
+	margin:0;
+	line-height:20px;
+	}
+
+#recentSongs ul li .recentSeller{
+	display:block;
+	height:20px;
+	margin:0;
+	line-height:20px;
+	}
+
+#recentSongs ul li .recentSeller h5{
+	color:#666666;
+	float:left;}
+
+#personalizedSuggestions{
+	width:550px;
+	}
+	
+
+/***************************************************************************/
+/*                             BopaBox                                     */
+/***************************************************************************/
+
+	
+/***************************************************************************/
+/*                             Index Page                                  */
+/***************************************************************************/
+#hplaside{
+	width:590px;
+	float:left;
+	position:relative;
+}
+
+#hplaside a.takeTourBtn{
+	display:block;
+	width:152px;
+	height:0;
+	padding:67px 0 0 0;
+	overflow:hidden;
+	float:left;
+	position:absolute;
+	left:423px;
+	top:221px;
+	background:url(../images/transparent.png);
+}
+
+#hpraside{
+	width:400px;
+	float:right;
+	}
+.cls{
+	clear:both;
+	padding-bottom:20px;
+	}
+#welcomeBox{
+	width:400px;
+	height:196px;
+	overflow:hidden;
+	}
+#registerBox{
+	width:400px;
+	margin-top:20px;
+	height:116px;
+	overflow:hidden;
+	}
+.pad{
+	padding:0 6px 10px 13px;
+	}
+	
+#container #hpraside #welcomeBox .list1, #container #hpraside #welcomeBox .list2, #container #hpraside #welcomeBox .list3{
+	height:35px;
+	padding:0;
+	padding-left:30px;
+	float:left;
+	width:340px;
+	}
+#container #hpraside #welcomeBox div.top{
+	margin-top:10px;
+	}
+#container #hpraside #welcomeBox .list2 p{
+	float:left;
+	margin-top:5px;
+	}
+#container #hpraside #welcomeBox .list1 p, #container #hpraside #welcomeBox .list2 p, #container #hpraside #welcomeBox .list3 p{
+	font-weight:bold;
+	width:325px;
+	float:left;
+	text-align:left;
+	}
+#container #hpraside #welcomeBox .list1, #container #hpraside #welcomeBox .list2, #container #hpraside #welcomeBox .list3{
+	background:url(../images/bgWelcomeTextList.jpg) no-repeat 0 0px;
+	}
+
+#container #hpraside #welcomeBox .list3 a{
+	text-decoration:none;
+	}
+#container #hpraside #welcomeBox .list3 span{
+	line-height:19.6px; /* to align the rest of the lines with h3 link */
+	}
+#container #hpraside #welcomeBox .list3 a:hover{
+	text-decoration:underline;
+	}
+
+#container #hpraside .registerBtn{
+float:left;
+margin:10px 24px 0 30px;
+padding-top:10px;
+}
+#container #hpraside .signinBtn{
+float:left;
+margin-top:10px;
+padding-top:10px;
+}
+#container #hpraside .registerBtn a{
+	text-align:left;
+	display:block;
+	width:140px;
+	float:left;
+	clear:left;
+	}
+#container #hpraside .signinBtn a{
+	/* text-align:center; */
+	display:block;
+	width:140px;
+	clear:left;
+	}
+
+
+/* updated button styles -----------------------------*/
+
+#siteWideButton {
+	width:130px;
+	text-indent:-9999px;	
+}
+.btRegister a{
+	width:130px;
+	background:url(../images/btRegister.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btRegister a:hover{
+	width:130px;
+	background:url(../images/btRegister.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSignIn a{
+	width:130px;
+	background:url(../images/btSignIn.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSignIn a:hover{
+	width:130px;
+	background:url(../images/btSignIn.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btAddCard a{
+	float:right;
+	width:130px;
+	background:url(../images/btAddCard.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btAddCard a:hover{
+	background:url(../images/btAddCard.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btWithdraw a{
+	background:url(../images/btWithdraw.png) 0 0 no-repeat;
+	height:25px;
+	width:130px;
+	}
+.btWithdraw a:hover{
+	background:url(../images/btWithdraw.png) 0 -25px no-repeat;
+	height:25px;
+	width:130px;
+	}
+.btAddNewCard a{
+	float:right;
+	width:130px;
+	background:url(../images/btAddCard.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btAddNewCard a:hover{
+	background:url(../images/btAddCard.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSearch a{
+	float:left;
+	width:130px;
+	background:url(../images/btSearch.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSearch a:hover{
+	background:url(../images/btSearch.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSaveChanges a{
+	width:130px;
+	background:url(../images/btSaveChanges.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSaveChanges a:hover{
+	background:url(../images/btSaveChanges.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSave a{
+	width:130px;
+	background:url(../images/btSave.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSave a:hover{
+	background:url(../images/btSave.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btCancel a{
+	width:130px;
+	background:url(../images/btCancel.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btCancel a:hover{
+	background:url(../images/btCancel.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSend a{
+	width:130px;
+	background:url(../images/btSend.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSend a:hover{
+	background:url(../images/btSend.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSend2 a{
+	width:70px;
+	background:url(../images/btSend2.png) 0 0 no-repeat;
+	height:14px;
+	}
+.btSend2 a:hover{
+	background:url(../images/btSend2.png) 0 -14px no-repeat;
+	height:14px;
+	}
+.btBuy a{
+	width:130px;
+	background:url(../images/btBuy.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btBuy a:hover{
+	background:url(../images/btBuy.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btContinueShopping a{
+	width:130px;
+	background:url(../images/btContinueShopping.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btContinueShopping a:hover{
+	background:url(../images/btContinueShopping.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btNextStep a{
+	width:130px;
+	background:url(../images/btNextStep.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btNextStep a:hover{
+	background:url(../images/btNextStep.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btReviseCart a{
+	width:130px;
+	background:url(../images/btReviseCart.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btReviseCart a:hover{
+	background:url(../images/btReviseCart.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btBopabox a{
+	width:130px;
+	background:url(../images/btBopabox.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btBopabox a:hover{
+	background:url(../images/btBopabox.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btPlaceOrder a{
+	width:130px;
+	background:url(../images/btPlaceOrder.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btPlaceOrder a:hover{
+	background:url(../images/btPlaceOrder.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btResetPassword {
+	width:130px;
+	background:url(../images/btResetPassword.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btResetPassword a{
+	width:130px;
+	background:url(../images/btResetPassword.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btResetPassword a:hover{
+	background:url(../images/btResetPassword.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btBuyNow a{
+	width:130px;
+	background:url(../images/btBuyNow.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btBuyNow a:hover{
+	background:url(../images/btBuyNow.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btSendInvitation a{
+	width:130px;
+	background:url(../images/btSendInvitation.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btSendInvitation a:hover{
+	background:url(../images/btSendInvitation.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btCheckOut a{
+	width:130px;
+	background:url(../images/btCheckOut.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btCheckOut a:hover{
+	background:url(../images/btCheckOut.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btChangePassword a{
+	width:130px;
+	background:url(../images/btChangePassword.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btChangePassword a:hover{
+	background:url(../images/btChangePassword.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.btUpdateSettings a{
+	width:130px;
+	background:url(../images/btUpdateSettings.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btUpdateSettings a:hover{
+	background:url(../images/btUpdateSettings.png) 0 -25px no-repeat;
+	height:25px;
+	}
+	
+.btAddToCart a{
+	width:130px;
+	background:url(../images/btAddToCart.png) 0 0 no-repeat;
+	height:25px;
+	}
+.btAddToCart a:hover{
+	background:url(../images/btAddToCart.png) 0 -25px no-repeat;
+	height:25px;
+	}
+.buttonPosition {
+	display:block;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+/* footer styles -----------------------------*/
+
+#footer ul{
+	float:left;
+	width:190px;
+	}
+#footerBottom{
+	clear:both;
+	position:absolute;
+	bottom:8px;
+	left:30px;
+	text-transform:none;
+	}
+
+/* footer styles -----------------------------*/
+
+#olOutlook {
+	line-height:10px;
+}

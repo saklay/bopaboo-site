@@ -1,0 +1,431 @@
+#container{
+	background:url(../images/body-bg-top.jpg) no-repeat;
+	display:block;
+	margin:10px 0 0 0;
+	width:964px;
+	min-height:300px;
+	padding-top:20px;
+	}
+#container #submenu{
+	float:right;
+	margin-right:20px;
+	margin-top:-10px;
+	}
+#container #submenu a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#111217;
+	text-decoration:none;
+	padding:0 17px 0 17px;
+	}
+	
+#container #submenu a:hover, #container #submenu a.current{
+	color:#0079C2;
+	}
+
+
+#container #pagehead-bopabank{
+	margin:17px 0 0px 30px;
+	}
+#container #pagehead-bopabank h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 2px 20px;
+	clear:both;
+	float:left;
+	width:400px;
+	height:60px;
+	line-height:50px
+	}	
+#container #pagehead-bopabank #bopabank-balance{
+	float:right;
+	width:251px;
+	margin:0 40px 0 0;
+	height:136px;
+	
+	}
+#container #pagehead-bopabank #bopabank-balance h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#1A6CB6;
+	display:block;
+	height:25px;
+	width:163px;
+	float:right;
+	background:url(../images/hdr-bopabank-balance.png) no-repeat top right;
+	text-indent:10px;
+	line-height:23px;
+	}
+#container #pagehead-bopabank #bopabank-balance #bopabank-details{
+	border:1px solid #B3C8D4;
+	background:#fff;
+	display:block;
+	height:75px;
+	margin-top:25px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	font-weight:bold;
+	text-align:right;
+	padding:15px 15px 0 0;
+	margin-bottom:10px;	
+
+	}
+#container #bopabank{
+	display:block;
+	clear:both;
+	}
+#container #bopabank .datalist{
+	float:left;
+	margin:0 0 10px 25px;
+	clear:both;
+	}
+#container #bopabank .datalist #bopabank-menu{
+	float:right;
+	margin:0 auto;
+	margin-right:15px;
+	}
+#container #bopabank .datalist #bopabank-menu li{
+	list-style:none;
+	float:left;
+	display:block;
+	margin-left:4px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity{
+	width:143px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#111217;
+	font-weight:bold;
+	text-decoration:none;
+	height:32px;
+	line-height:32px;
+	padding-top:3px;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity a{
+	display:block;
+	width:143px;
+
+	text-align:center;
+	background:url(../images/btnbg-acctactivity-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity a:hover, #container #bopabank .datalist #bopabank-menu li.accountactivity a.currentsel{
+	background:url(../images/btnbg-acctactivity-hover.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds{
+	width:136px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds a{
+	display:block;
+	width:136px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-wdfunds-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds a:hover, #container #bopabank .datalist #bopabank-menu li.withdrawfunds a.currentsel{
+	background:url(../images/btnbg-wdfunds-hover.png) no-repeat top left;
+	}
+
+#container #bopabank .datalist #bopabank-menu li.managecredit{
+	width:157px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.managecredit a{
+	display:block;
+	width:157px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-mgcc-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.managecredit a:hover, #container #bopabank .datalist #bopabank-menu li.managecredit a.currentsel
+	{
+	background:url(../images/btnbg-mgcc-hover.png) no-repeat top left;
+	}
+
+#container #bopabank .datalist .hdr{
+	height:35px;
+	display:block;
+	width:914px;
+	background:url(../images/bg-datalisthdr.jpg) no-repeat top left;
+	}
+#container #bopabank .datalist .bdy{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	}
+#container #bopabank .datalist .ftr{
+	height:18px;
+	display:block;
+	width:914px;
+	background:url(../images/ftr-bopabank-datalist.png) no-repeat top left;
+	}
+#container #bopabank .datalist .hdr #searchpage-hdr{
+	line-height:35px;
+	margin:0 15px 0 0;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	}
+#container #bopabank .datalist .hdr #searchpage-hdr .showjmenu, #container #bopabank .datalist .hdr #searchpage-hdr .withinjmenu{
+	height:19px;
+	width:157px;
+	font-size:11px;
+	}
+
+
+#container #bopabank .datalist #datacell{
+	font-size:10px;
+	}
+#container #bopabank .datalist #datacell th {
+	background:url(../images/bg-hdg-srchresult1.png) top left;
+	height:26px;
+	color:#fff;
+	}
+#container #bopabank .datalist #datacell th a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	border-left:1px solid #fff;
+	background:url(../images/bg-hdg-srchresult.jpg) repeat-x left top;
+	}
+#container #bopabank .datalist #datacell th a:hover{
+	color:#000;
+	}
+#container #bopabank .datalist #datacell th a.currentsel{
+	background:url(../images/bg-hdg-srchresulthover.jpg) no-repeat top left;
+	}
+#container #bopabank .datalist #datacell th a.currentsel:hover{
+	color:#fff;
+	background:url(../images/bg-hdg-srchresulthover.jpg) no-repeat top left;
+	}
+#container #bopabank .datalist #datacell th a.ascending{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	border-right:1px solid #fff;
+	background:url(../images/aaa001.png) center;
+	}
+#container #bopabank .datalist #datacell th a.descending{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	border-right:1px solid #fff;
+	background:url(../images/aaa002.png) center;
+	}
+#container #bopabank .datalist #datacell td{
+	border-left:1px solid #fff;
+	border-collapse:collapse;
+	}
+#container #bopabank .datalist #datacell .alternatebg001{
+	border-bottom:1px solid #fff;
+	background:#F7F7F7;
+	line-height:15px;
+	}
+
+#container #bopabank .datalist #datacell .alternatebg001 .spacing, #container #bopabank .datalist #datacell .alternatebg002 .spacing{
+	padding-left:12px;
+	}
+#container #bopabank .datalist #datacell .alternatebg002{
+	border-bottom:1px solid #fff;
+	background:#E5E5E5;
+	line-height:15px;
+	}	
+
+
+
+
+/* WITHDRAW FUND */
+#amt-withdraw td{
+	height:40px;
+	padding-right:7px;
+	}
+#amt-withdraw .inputtext {
+	border:1px solid #DFDFDF;	
+	width: 270px; 
+	height:22px;
+	}
+#amt-withdraw .lighttext {
+	font-size:11px;
+	color:#b1b1b1;
+	}
+#bopabank .price{
+	margin-left:47px;
+	font-size:11px;
+	font-weight:bold;
+	color:#166BB5;
+	}
+#bopabank .avlbaltext{
+	color:#999;
+	font-weight:bold;
+	}
+#bopabank .tdheight{
+	height:30px;
+	}
+#bopabank .avlbaltext1{
+	color:#666;
+	font-weight:bold;
+	}
+#bopabank .edit-remove{
+	font-size:11px;
+	font-weight:bold;
+	color:#166BB5;
+	}
+#bopabank #datacell td.hspace{
+	padding-left:40px;
+	}
+#bopabank #datacell td.hspace{
+	line-height:normal;
+	padding-left:40px;
+	}
+#bopabank #datacell td.hspace1{
+	line-height:normal;
+	padding-left:10px;
+	}
+
+#container #bopabank .datalist #datacell .amtspace{
+	padding-right:40px;
+	}
+	
+	
+	
+/* EDIT MANAGE CREDIT CARD INFORMATION */
+
+#bopabank .darktext{
+	color:#000;
+	font-weight:bold;
+	}
+#bopabank h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#2270B7;
+	font-weight:bold;
+	margin:0 0 8px 27px;
+	}
+
+#bopabank .editcardback td{
+	height:30px;
+	padding-bottom:4px;
+	}
+#bopabank .editcardback select{
+	width:60px;
+	}
+#bopabank .editcardback td.darktext{
+	padding-right:14px;
+	}
+#bopabank .editcardback .cardback{
+	line-height:normal;
+	}
+#bopabank .editcardback{
+	border-bottom:1px solid #D3D5D6;
+	}
+#bopabank .editcardback .cardback td{
+	padding-right:9px;
+	height:normal;	
+	}
+#bopabank .editccard td{
+	line-height:normal;
+	height:30px;
+	}
+#bopabank .editccard select.currentaddress{
+	width:450px;
+	}
+#bopabank .editccard .commontext{
+	padding-left:27px;
+	}
+#bopabank .editccard .lalign{
+	padding-left:27px;
+	}
+#bopabank .editcardback1 .inputtext2{
+	border:1px solid #C9CBCC;
+	width:185px;
+	padding:5px 0 5px 0;
+	}
+#bopabank .editcardback1 td{
+	padding-right:9px;
+	padding-bottom:6px;
+	}
+#bopabank .editcardback1 .valign{
+	height:14px;
+	}
+#bopabank .editcardback1 select{
+	width:187px;
+	}
+	
+	
+/* ADD NEW CREDIT CARD */
+
+#bopabank .addccard td{
+	line-height:normal;
+	height:30px;
+	}
+#bopabank .addccard select.currentaddress{
+	width:450px;
+	margin-left:20px;
+	}
+#bopabank .addccard .commontext{
+	padding-left:27px;
+	}
+#bopabank .addccard .lalign{
+	padding-left:27px;
+	}
+#bopabank .addccard .textpadd{
+	padding-left:47px;
+	}
+#bopabank .addccard .valign{
+	height:14px;
+	}
+#bopabank .addnewcard td{
+	height:30px;
+	padding-bottom:4px;
+	}
+#bopabank .addnewcard select{
+	width:60px;
+	}
+#bopabank .addnewcard td.darktext{
+	padding-right:14px;
+	}
+#bopabank .addnewcard .cardback{
+	line-height:normal;
+	}
+#bopabank .addnewcard{
+	border-bottom:1px solid #D3D5D6;
+	}
+#bopabank .addnewcard .cardback td{
+	padding-right:9px;
+	height:normal;	
+	}
+#bopabank .addnewcard .inputtext2, #bopabank .addnewcard1 .inputtext2{
+	border:1px solid #C9CBCC;
+	width:185px;
+	padding:5px 0 5px 0;
+	}
+#bopabank .addnewcard1 td{
+	padding-right:9px;
+	padding-bottom:6px;
+	}
+
+#bopabank .addnewcard1 select{
+	width:187px;
+	}
+.asterix{
+	color:#FF0000;
+	font-weight:bold;
+	}

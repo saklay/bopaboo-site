@@ -1,0 +1,937 @@
+@charset "utf-8";
+
+/* REGISTRATION CONFIRMATION PAGE */
+
+#confirm-registration-01{
+	width:867px;
+	background:url(../images/cr-bg01.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:40px auto;
+	margin-bottom:0;
+}
+
+#confirm-registration-01 h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#F16029;
+	padding:20px 20px 20px 40px;
+}
+
+#confirm-registration-01 p{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	padding:0 20px 20px 40px;
+}
+
+#confirm-registration-01 p a{
+	text-decoration:none;
+}
+
+#confirm-registration-01 p a:hover{
+	text-decoration:underline;
+}
+
+#confirm-registration-01 h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#000000;
+	padding:30px 20px 20px 40px;
+}
+
+#confirm-registration-01 a{
+	font-size:11px;
+	font-weight:bold;
+	color:#006BBC;
+}
+
+
+/* REGISTRATION CONFIRMATION ENDS HERE */
+
+
+/* MY ACCOUNT SETTING PAGE STARTS HERE */
+
+#my-account-setting-01{
+	width:867px;
+}
+
+
+#my-account-setting-01 #my-account-sub-nav {
+	width:500px;
+	float:left;
+	margin-top:35px;
+}
+#my-account-sub-nav li {
+	float:left;
+	list-style:none;
+}
+#my-account-sub-nav a {
+	display:block;
+	padding:8px 15px 7px 16px;
+}
+#my-account-sub-nav a {
+	background:#F0F0F0 none repeat scroll 0%;
+	border-bottom:1px solid #88BEE1;
+	border-right:1px solid #88BEE1;
+}
+
+#my-account-sub-nav a {
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	font-size:13px;
+	background-image:url(../images/my-account-page-subnav-bg.jpg);
+	background-repeat:repeat-x;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+#my-account-sub-nav a:link, .my-account-sub-nav a:visited {
+	color:#007AC1;
+}
+
+#my-account-sub-nav a.last{
+	border-right:none;
+}
+
+#my-account-sub-nav a.activelink{
+	background-image:url(../images/my-account-page-subnav-bg-hover.jpg);
+	background-repeat:repeat-x;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#my-account-sub-nav a:hover, .my-account-sub-nav a:active {
+	background-image:url(../images/my-account-page-subnav-bg-hover.jpg);
+	background-repeat:repeat-x;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+#formrbox-my-account{
+	width:100%;
+	clear:both;
+	padding-top:30px;
+}
+
+#formrbox-my-account label{
+  line-height:26px;
+  height:26px;
+  display:block;
+  width:120px;
+  float:left;
+  text-align:right;
+  padding-right:30px;
+  font-weight:bold;
+  color:#666666;
+ }
+	
+#formrbox-my-account input{
+	height:22px;
+	border:1px solid #DFDFDF;
+	color:#666;
+	float:left;
+	clear:none;
+	padding:4px 0px 0px 4px;
+	}
+#formrbox-my-account #sendbtn{
+	float:left;
+	height:26px;
+	width:160px;
+	border:none;
+	margin-top:20px;
+	margin-left:-4px;
+	}
+#formrbox-my-account #btnchangepasswrd{
+	float:left;
+	height:26px;
+	width:180px;
+	border:none;
+	margin-top:20px;
+	margin-left:-4px;
+	}
+#formrbox-my-account #btnupdatesetng{
+	float:left;
+	height:26px;
+	width:180px;
+	border:none;
+	margin-top:20px;
+	margin-left:24px;
+	}
+
+#formrbox-my-account .chckbox{
+	border:none;
+	}
+#formrbox-my-account-pref .chckbox{
+	border:none;
+	margin-right:5px;
+	}
+	
+#formrbox-my-account .inputstyle01{
+	width:297px;
+	height:22px;
+	border:1px solid #DFDFDF;
+	}
+	
+#formrbox-my-account .inputstyle01{
+	width:297px;
+	height:22px;
+	border:1px solid #DFDFDF;
+	}
+	
+#formrbox-my-account .inputstyle02{
+	width:303px;
+	height:26px;
+	border:1px solid #DFDFDF;
+	}
+
+#formrbox-my-account .inputstyle03{
+	width:95px;
+	height:26px;
+	border:1px solid #DFDFDF;
+	margin-right:5px;
+	padding:4px 4px 4px 4px;
+	}
+
+#formrbox-my-account-pref .inputstyle04{
+	width:269px;
+	height:22px;
+	border:1px solid #DFDFDF;
+	}
+
+	
+	
+#formrbox-my-account .chckboxlabel{
+	text-align:left;
+	padding-left:5px;
+	width:30px;
+	}
+
+#formrbox-my-account #chckbox{
+	border:none;
+	margin:0 5px 0 30px;
+	height:15px;
+	}
+
+#my-account-sub-nav a:link #last{
+	border-right:none;
+}
+
+#formrbox-my-account h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	padding:0px 20px 20px 5px;
+}
+
+#my-account-setting-01-password-linktext a{
+	padding-left:150px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#00639D;
+	}	
+
+#my-account-setting-01-password-linktext a:hover{
+	text-decoration:underline;
+	}	
+
+
+
+
+#formrbox-my-account-pref{
+	width:100%;
+	clear:both;
+	padding-top:30px;
+}
+
+#formrbox-my-account-pref h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	padding:0px 20px 20px 5px;
+}
+
+#formrbox-my-account-pref label{
+  line-height:26px;
+  height:26px;
+  display:block;
+  width:180px;
+  float:left;
+  text-align:right;
+  padding-right:30px;
+  font-weight:bold;
+  color:#666666;
+ }
+
+#formrbox-my-account-pref .inputstyle05{
+	width:269px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 0px 4px;
+	}
+	
+#formrbox-my-account-pref .inputstyle06{
+	width:95px;
+	height:26px;
+	}
+#formrbox-my-account-pref .inputstyle07{
+	width:50px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 0px 4px;
+	}
+
+
+/* ADVANCED SEARCH PAGE STARTS HERE */
+
+#container #search{
+	margin:0 auto;
+	padding:0;
+	margin-top:40px;
+	float:left;
+	display:block;
+	width:100%;
+	padding-left:52px;
+	}
+
+
+#advanced-search-contnt01 .leftside-box-search{
+	width:630px;
+	float:left;
+	margin-right:37px;
+	margin-bottom:20px;
+	 }
+	
+#advanced-search-contnt01 .leftside-box-search .top-box-search{
+	background:url(../images/advd-search-box-top-bg.png) top left no-repeat;
+	height:5px;	
+	 }
+
+#advanced-search-contnt01 .leftside-box-search .mid-box-search{
+	border:#A6B3BE 1px solid;
+	background:#FFFFFF;
+	border-bottom-style:none;
+	border-top-style:none;
+	padding:28px 20px 30px 26px;
+	 }
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .mid-box-search-input01{
+	width:269px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 0px 4px;
+	margin-top:20px;
+	 }
+	 
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .mid-box-search-input02{
+	width:45px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 0px 4px;
+	margin-top:20px;
+	 }
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .mid-box-search-input03{
+	width:272px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 0px 4px;
+	margin-top:20px;
+	margin-left:30px;
+
+
+	 }
+	
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .mid-box-search-listdrop01{
+	width:136px;
+	height:26px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 4px 4px;
+	margin-top:20px;
+	margin-bottom:20px;
+	 }
+
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .mid-box-search-listdrop02{
+	width:136px;
+	height:26px;
+	border:1px solid #DFDFDF;
+	padding:4px 4px 4px 4px;
+	margin-top:20px;
+	 }
+	 
+#advanced-search-contnt01 .leftside-box-search .mid-box-search .lightgrey-text{
+	color:#999999;
+	 }
+	 
+	 
+#advanced-search-contnt01 .leftside-box-search .bottom-box-search{
+	background:url(../images/advd-search-box-bottom-bg.png) bottom left no-repeat;
+	height:5px;
+	border:none;
+	 }
+	
+	
+
+#advanced-search-contnt01 .leftside-box-search .mid-box-search hr{
+	border: 0;
+	color:#DFDFDF;
+	background-color:#DFDFDF;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	 }
+#advanced-search-contnt01 .rightside{
+	width:150px;
+	float:left;}
+	
+#advanced-search-contnt01 a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#00639D;
+	}	
+
+#advanced-search-contnt01 a:hover{
+	text-decoration:underline;
+	}	
+#advanced-search-contnt01 #btnsearch{
+	float:left;
+	height:26px;
+	width:145px;
+	border:none;
+	margin-top:20px;
+	}
+
+#advanced-search-contnt01 .clearSearch{
+	margin-top:25px;
+	float:left;
+	margin-left:10px;
+	}
+.padright{padding-right:30px;}
+
+
+/*ThANKYOU PAGE*/
+
+#container #thankyou-content{
+	text-align:left;
+	margin:40px auto;
+
+	}	
+
+#container #thankyou-content #viewcart_tbl-placeorder{
+width:650px;
+
+		}	
+
+#container #thankyou-content #viewcart_tbl-placeorder .cartlistings h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	text-align:center;
+	color:#666666;
+	margin-top:20px;
+		}	
+
+#container #thankyou-content #viewcart_tbl-placeorder .cartlistings p{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:center;
+	line-height:20px;
+	padding:20px 0 30px 0;
+		}	
+	
+#container #ViewCartpageheadPlaceorder{
+	margin-top:12px;
+	}
+	
+#container #ViewCartpageheadPlaceorder h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:20px 0 10px 50px;
+	clear:both;
+	float:left;
+	}
+#container #ViewCartpageheadPlaceorder h2{
+	font-size:18px;
+	color:#999999;
+	float:left;
+	font-weight:normal;
+	float:left;
+	line-height:65px;
+	margin-left:30px;
+	}
+#container #ViewCartpageheadPlaceorder h2 a{
+	color:#999999;
+	text-decoration:none;
+	}
+#container #ViewCartpageheadPlaceorder img{
+	float:left;
+	vertical-align:middle;
+	display:block;
+	}
+#container #ViewCartpageheadPlaceorder .viewcart{
+	float:left;
+	vertical-align:middle;
+	display:block;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+
+
+	
+#container #ViewCartpageheadPlaceorder .arrow{
+	float:left;
+	vertical-align:middle;
+	display:block;
+	margin-top:28px;
+	margin-left:20px;
+	margin-right:10px;
+	}
+	
+	
+	
+	
+
+#container #sellpage{
+	margin:0 auto;
+	padding:0;
+	margin-top:20px;
+	float:left;
+	display:block;
+	width:100%;
+	}
+	
+#container #sellpage h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#007AC3;
+	font-weight:normal;
+	padding-left:60px;	}
+	
+#container #ViewCartpagehead h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	margin-left:30px;
+	margin-top:20px;
+	line-height:25px;
+	}
+#container #sellpage #sellpage_tbl-placeorder .cartlistings a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#00639D;
+	font-weight:bold;
+	}	
+
+#container #sellpage #sellpage_tbl-placeorder .cartlistings a:hover{
+	text-decoration:underline;
+	}	
+	
+#container #sellpage #viewcart_tbl, #container #viewcart #viewcart_tbl1{
+	width:584px;
+	margin-left:45px;
+	}
+#container #viewcart_tbl .hdr{
+	height:27px;
+	background:url(../images/bg-viewcart.png) no-repeat;
+	padding-left:10px;
+	}
+#container #viewcart_tbl .buyer{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#2772B8;
+	}
+#container #viewcart_tbl .cartlistings{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	}
+#container #viewcart_tbl .footer{
+	background:url(../images/bg-footer-cartlistings.png) no-repeat;
+	height:78px;
+	}
+
+
+
+#container #sellpage #sellpage_tbl-placeorder{
+	width:650px;
+	margin-left:45px;!important
+	}
+
+#container #sellpage td .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin-left:12px;
+
+	}
+	
+#sellpage_tbl1placeorder{margin-top:22px;}
+#container #sellpage_tbl-placeorder .hdr{
+	height:27px;
+	background:url(../images/sell-box-top-bg.png) no-repeat;
+	padding-left:10px;
+	}
+#container #sellpage_tbl-placeorder h3{
+	color:#8CC63D;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:22px;
+	padding-left:20px;
+	}	
+	
+#container #sellpage_tbl-placeorder h4{
+	color:#2772B8;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:20px;
+	}	
+	
+#container #sellpage_tbl-placeorder .buyer{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#2772B8;
+	}
+#container #sellpage #sellpage_tbl-placeorder .cartlistings{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+
+#container #sellpage #sellpage_tbl-placeorder .alternatebg001placeorder1
+{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	}
+
+#container #sellpage #sellpage_tbl-placeorder .alternatebg001placeorder1 hr{
+	border: none 0; 
+	border-top: 1px dashed #CCD9C8;/*the border*/
+	width:95%;
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+	background:none;
+	margin:0;
+	padding:0;
+	text-align:center;	
+	}
+	
+#container #sellpage_tbl-placeorder .cartlistings p{
+	color:#666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:20px;
+	line-height:15px;
+	}
+	
+
+#container #sellpage_tbl-placeorder .footer{
+	background:url(../images/bg-viewcart-placeorder-btm.png) no-repeat;
+	height:8px;
+	}
+
+#container  #sellpage .viewcartrightsidebox-sellpage{
+	width:210px;
+	margin:0 0 10px 12px;
+
+	}
+#container  #sellpage .leftside-box-search .mid-box-search hr{
+	border: 0;
+	color:#DFDFDF;
+	background-color:#DFDFDF;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	 }
+
+
+
+<!--MEMBER STORE STARTS HERE -->
+
+#srchresults-memberstore{
+	background:#F0F0F0;
+	margin:0 auto;
+	}
+	
+#srchresults-memberstore .tbl001{
+	width:6px;
+	height:36px;
+	background:url(../images/tbl001.jpg) no-repeat top left;
+	}
+#srchresults-memberstore .tbl002{
+	width:903px;
+	height:36px;
+	background:url(../images/tbl002.jpg) repeat-x;
+	}
+#srchresults-memberstore .tbl003{
+	display:block;
+	height:36px;
+	width:12px;
+	background:url(../images/tbl003.jpg) no-repeat top right;
+	}
+#srchresults-memberstore .tbl004{
+	border-left:1px solid #A5B1BD;	border-right:1px solid #A5B1BD;
+}
+
+#srchresults-memberstore .tbl005{
+	display:block;
+	height:8px;
+	width:6px;
+	background:url(../images/tbl005.jpg) no-repeat top right;
+	}
+#srchresults-memberstore .tbl006{
+	width:903px;
+	height:8px;
+	background:url(../images/tbl006.jpg) repeat-x;
+	}
+#srchresults-memberstore .tbl007{
+	display:block;
+	height:8px;
+	width:12px;
+	background:url(../images/tbl007.jpg) no-repeat top right;
+	}
+
+#srchresults-memberstore #searchlistings .alternatebg001{
+	border-bottom:1px solid #fff;
+	background:#F7F7F7;
+	line-height:15px;
+	}
+#srchresults-memberstore #searchlistings .alternatebg001 .spacing, #srchresults-memberstore #searchlistings .alternatebg002 .spacing{
+	padding-left:6px;
+	}
+#srchresults-memberstore #searchlistings .alternatebg002{
+	border-bottom:1px solid #fff;
+	background:#E5E5E5;
+	line-height:15px;
+	}	
+
+
+#srchresults-memberstore #searchlistings .alternatebg001 .spacing, srchresults-memberstore #searchlistings .alternatebg002 .spacing{
+	padding-left:6px;
+	}
+#srchresults-memberstore #searchpage-hdr{
+	line-height:36px;
+	text-align:center;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	}
+#srchresults-memberstore #searchpage-hdr #jumpMenu{
+	height:17px;
+	width:157px;
+	font-size:11px;
+	}
+#srchresults-memberstore #searchlistings{
+	font-size:10px;
+	}
+#srchresults-memberstore #searchlistings th {
+	background:url(../images/bg-hdg-srchresult1.png) top left;
+	height:26px;
+	}
+#srchresults-memberstore #searchlistings th a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	border-left:1px solid #fff;
+	background:url(../images/bg-hdg-srchresult.jpg) repeat-x left top;
+	}
+#srchresults-memberstore #searchlistings th a:hover{
+	color:#000;
+	}
+#srchresults-memberstore #searchlistings td{
+	border-left:1px solid #fff;
+	border-collapse:collapse;
+	}
+#srchresults-memberstore #searchlistings td.spacing{
+	padding-left:6px;
+	}
+#srchresults-memberstore #searchlistings th a.ascending{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	background:url(../images/aaa001.png) center;
+	}
+#srchresults-memberstore #searchlistings th a.descending{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	height:26px;
+	line-height:20px;
+	text-align:center;
+	background:url(../images/aaa002.png) center;
+	}
+	
+	
+#container #memberstrore_tbl{
+	width:603px;
+	margin-bottom:12px;
+	}
+
+
+#memberstrore_tbl{margin-top:22px;}
+#container #memberstrore_tbl .hdr{
+	height:29px;
+	background:url(../images/memberstoer-tbl-head-bg.jpg) no-repeat;
+	padding-left:10px;
+	}
+#container #memberstrore_tbl .hdr h1{
+	color:#2772B8;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left:10px;
+	}	
+
+#container #memberstrore_tbl .bodymemberstorebox{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+
+	}
+
+
+#container #memberstrore_tbl .footer{
+	background:url(../images/memberstoer-tbl-footer-bg.jpg) no-repeat top;
+	height:8px;
+	}
+
+.memberstore-ad{
+
+
+}
+
+#srchresults-memberstore #searchlistings  .buynow{
+	display:block;
+	width:69px;
+	height:18px;
+	background:url(../images/btn-buynow_inactive.png) no-repeat;
+	}
+	#srchresults-memberstore #searchlistings  .buydisablenow{
+	display:block;
+	width:69px;
+	height:18px;
+	background:url(../images/dis-btn-buynow_active.png) no-repeat;
+	}
+#srchresults-memberstore #searchlistings  .buynow:hover{
+	display:block;
+	width:69px;
+	height:18px;
+	background:url(../images/btn-buynowactive.png) no-repeat;
+	}
+	
+#container #memberstrore_tbl .bodymemberstorebox .labelss{
+	padding-right:10px;
+	color:#666666}
+
+#container #memberstrore_tbl .bodymemberstorebox .labels2{
+	padding-left:40px;
+	font-weight:bold;
+	color:#666666}
+	
+#container #memberstrore_tbl .bodymemberstorebox .labels2 a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#0079C2;
+	font-weight:bold;
+	}
+	
+#container #memberstrore_tbl .bodymemberstorebox .labels2 a:hover{
+	text-decoration:underline;
+	}
+	
+#container #memberstrore_tbl .bodymemberstorebox .getaquestion{
+	float:left; padding-left:10px;
+	width:250px;
+	display:block;
+	height:26px;}
+
+#container #memberstrore_tbl .bodymemberstorebox .getaquestion a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#0079C2;
+	font-weight:bold;
+	font-size:11px;
+	}
+	
+#container #memberstrore_tbl .bodymemberstorebox .getaquestion a:hover{
+	text-decoration:underline;
+	}
+	
+#container #memberstrore_tbl .bodymemberstorebox .getaquestionimg{
+	float:left; padding-right:5px;
+	width:30px;}	
+#container #memberstrore_tbl .bodymemberstorebox .inputstyle01{
+	width:397px;
+	height:22px;
+	border:1px solid #DFDFDF;
+	padding-top:4px;
+	padding-left:5px;
+
+	}
+
+#pages2{
+	display:block;
+	width:921px;
+	text-align:center;
+	padding:10px 0 0 0;
+	line-height:20px;
+	}
+#pages2 a{
+	color:#666;
+	padding:0 4px 0 4px;
+	}
+.pagenumber2{
+	width:25px;
+	height:15px;
+	}
+#sendbtn1{
+	vertical-align:top;
+	}
+
+#memberstore-ad{background-color:#FFFFFF; width:300px; float:left; text-align:left; margin-top:22px; height:250px; border:1px #A5B2BD solid;}
+
+
+/*  Added for Member Store*/
+
+
+
+#pagenumber{
+	width:25px;
+	height:15px;
+	}
+	
+	
+
+	
+	
+
+/*End for Member Store*/
+
+
+
+/* Appended by Vasanth for Search Result pages */
+#srchresults #searchlistings .alternatebg001 .spacing, #srchresults #searchlistings .alternatebg002 .spacing{
+ padding-left:6px;
+ color:#333;
+ text-decoration:none;
+ }

@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bopaboo</title>
+<style type="text/css">
+@import "../styles/master.css";
+</style>
+<!--[if IE]>
+
+	<style type="text/css">
+		@import "../styles/ie.css";
+    </style>
+    
+<![endif]-->
+
+
+
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="../scripts/pngfix.js"></script>
+<![endif]-->
+
+	<script type="text/javascript" src="../scripts/mootools.js"></script>
+	<script type="text/javascript" src="../scripts/demos.js"></script>
+
+
+	<script type="text/javascript">
+
+
+		window.addEvent('domready', function(){
+			//-vertical
+			
+			var qlMessagesSlide = new Fx.Slide('qlMessagesDiv').hide();
+			var qlSellersSlide = new Fx.Slide('qlSellersDiv').hide();
+			var qlSavedSlide = new Fx.Slide('qlSavedDiv').hide();
+			var qlPopularSlide = new Fx.Slide('qlPopularDiv').hide();
+			
+			
+			$('qlMessagesToggle').addEvent('mouseover', function(e){
+				e = new Event(e);
+				qlMessagesSlide.slideIn.delay(500, qlMessagesSlide);		
+				e.stop();
+			});
+			
+			$('qlMessagesToggle').addEvent('mouseout', function(e){
+				e = new Event(e);
+				
+				qlMessagesSlide.slideOut();					
+				e.stop();
+			});
+			
+			$('qlSellersToggle').addEvent('mouseover', function(e){
+				e = new Event(e);
+				qlSellersSlide.slideIn.delay(500, qlSellersSlide);
+				e.stop();
+			});
+			
+			$('qlSellersToggle').addEvent('mouseout', function(e){
+				e = new Event(e);
+				qlSellersSlide.slideOut();
+				e.stop();
+			});
+			
+			$('qlSavedToggle').addEvent('mouseover', function(e){
+				e = new Event(e);
+				qlSavedSlide.slideIn.delay(500, qlSavedSlide);
+				e.stop();
+			});
+			
+			$('qlSavedToggle').addEvent('mouseout', function(e){
+				e = new Event(e);
+				qlSavedSlide.slideOut();
+				e.stop();
+			});
+			
+			$('qlPopularToggle').addEvent('mouseover', function(e){
+				e = new Event(e);
+				qlPopularSlide.slideIn.delay(500, qlPopularSlide);
+				e.stop();
+			});
+			
+			$('qlPopularToggle').addEvent('mouseout', function(e){
+				e = new Event(e);
+				qlPopularSlide.slideOut();
+				e.stop();
+			});
+			
+		
+		}); 
+	</script>
+    
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+    	<a href="index.html" id="logo">bopaboo – Your Place to Buy and Sell Digital Music</a>
+    	<ul id="accountMenu">
+        	<li>welcome Alex!</li> 
+            <li><a href="shoppingCart.html" class="cart">my cart</a></li>
+            <li><a href="messageInbox.html" class="mail">(0)</a></li>
+            <li><a href="feedbackProvided.html" class="favourite">(4)</a></li>
+            <li><a href="myAccount.html">account</a></li>
+            <li><a href="helpFAQ.html">help</a></li>
+            <li class="rightEnd"><a href="index.html">logout</a></li></ul>
+      <div id="menu">
+          <ul id="topNav">
+            <li class="navHome"><a href="homeLoggedIn.html" class="currentsel">home</a></li>
+            <li class="navBuy"><a href="shoppingCart.html">buy</a></li>
+            <li class="navSell"><a href="sellLoggedIn.html">sell</a></li>
+            <li class="navBopabox"><a href="bopaBox.html">bopabox</a></li>
+            <li class="navBopabank"><a href="accountActivity.html">bopaBank</a></li>
+            <li class="navUpload"><a href="#"><span>upload</span></a></li>
+          </ul>
+         <div id="topSearch">
+            <form>
+                <input type="text" value="search all music" />
+            </form>
+        </div>
+       </div>
+  </div>
+  <!-- header ends-->
+  <div id="container">
+    <div class="roundedTab" id="popularMusic">
+      <div class="t">
+        <div class="tab"><h3>today's most popular music</h3></div>
+        <div class="tr"></div>
+      </div>
+      <div class="c"> <div class="cl">
+        <!--add content-->
+        <img src="../images/scroller.jpg" width="865px"/> </div>
+        <!--finish content-->
+      </div>
+      <div class="b"><span class="br"></span></div>
+    </div>
+    <!-- popularMusic ends -->
+    <div class="cls"></div>
+    <div id="laside" style="border:1px solid #ff0000;">
+      <div class="roundedTab" id="myDashboard">
+        <div class="t">
+          <div class="tab"><h3>my dashboard</h3></div>
+          <div class="tr"></div>
+        </div>
+        <div class="c"> <div class="cl">
+          <!--add content-->
+          <div class="holder">
+                <span class="ltitle">feedback :</span><span class="star"><img src="../images/feedbackStar.gif" />(5)</span>
+                <span class="ltitle">songs on sale :</span> <span class="rdetails"> 20</span> 
+                <span class="ltitle">songs in your bopaBox :</span> <span class="rdetails"> 21</span> 
+                <span class="ltitle">bopaBank balance :</span> <span class="rdetails"> $318.64</span> 
+                <span class="ltitle">songs sold this year :</span> <span class="rdetails"> 5</span> 
+                <span class="ltitle">sales this year :</span> <span class="rdetails"> $202.72</span> 
+            </div>
+          <!--finish content-->
+          </div> </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- myDashboard ends -->
+      
+      <div class="cls"></div>
+      
+      <div class="roundedTab" id="recentSongs">
+        <div class="t">
+          <div class="tab"><h3 style="padding-left:4px;padding-right:2px;">most recent songs from saved sellers</h3></div>
+          <div class="tr"></div>
+        </div>
+        <div class="c"> <div class="cl">
+          <!--add content-->
+          <ul>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> &nbsp;LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5>  
+            LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+            <li class="fin"><span class="recentSong"><a href="#">So Small</a> by Carrie Underwood</span> <span class="recentSeller">
+                <h5>seller : </h5> LKNRockstar</span></li>
+          </ul>
+          <!--finish content-->
+          </div> </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- recent ends -->   
+      
+    </div>
+    <!-- laside ends -->
+    <div id="raside" style="border:1px solid #ff0000;">
+      <div class="rounded" id="quickLinks">
+        <div class="t">
+          <div class="tr"></div>
+        </div>
+        <div class="c"> <div class="cl">
+          <!--add content-->
+          <div class="holder">
+              <div class="qlMessages"><a id="qlMessagesToggle" href="#"><span class="newMessage">5</span> messages</a></div>
+              <div class="qlSellers"><a id="qlSellersToggle" href="#">saved sellers</a></div> 
+              <div id="qlMessagesDiv">
+                <table width="490" class="tableGeneral" id="bopaBoxTable">
+                  <thead>
+                    <tr valign="middle" class="tableHead">
+                      <th width="99" class="from" id="first"><a href="#">from</a></th>
+                            <th width="314" class="subject highlightCol"><a href="#">subject</a></th>
+                            <th width="61" class="date fin"><a href="#">date</a></th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr valign="middle" class="unread">
+                            <td valign="bottom" class="indent">BJJohnson</td>
+                            <td valign="bottom" class="indent">Bit Rate Question</td>
+                            <td align="center" valign="bottom" >10/10/08</td>                    
+                        </tr>
+                        
+                        <tr valign="middle">
+                            <td valign="bottom" class="indent">BJJohnson</td>
+                            <td valign="bottom" class="indent">Bit Rate Question</td>
+                            <td align="center" valign="bottom" >10/10/08</td>                    
+                        </tr>
+                        
+                        <tr valign="middle" class="fin">
+                            <td valign="bottom" class="indent">BJJohnson</td>
+                            <td valign="bottom" class="indent">Bit Rate Question</td>
+                            <td align="center" valign="bottom" >10/10/08</td>                    
+                        </tr>
+                  </tbody>
+                </table>
+          <span class="viewMessages"><a href="#">>> view messages</a></span>          </div>
+          <div id="qlSellersDiv">
+                <dl class="left">
+                    <dt>1. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>2. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>3. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>4. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                </dl>
+                <dl class="right">
+                    <dt>5. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>6. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>7. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                    <dt>8. BJJohnson</dt>
+                      <dd class="fivestar">star</dd>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                </dl>
+          </div> 
+          	<div class="cls"></div>
+          
+              <div class="qlPopular"><a id="qlPopularToggle" href="#">popular searches</a></div>
+              <div class="qlSaved"><a id="qlSavedToggle" href="#">saved searches</a></div>
+              
+          <div id="qlPopularDiv">
+          	<div class="holder">          
+              <ul class="left">
+                <li>1 Sonic Youth</li>
+                <li>2 Sonic Youth</li>
+                <li>3 Sonic Youth</li>
+                <li>4 Sonic Youth</li>
+              </ul>
+              
+              <ul class="right">
+                <li>1 Sonic Youth</li>
+                <li>2 Sonic Youth</li>
+                <li>3 Sonic Youth</li>
+                <li>4 Sonic Youth</li>
+              </ul>
+          </div>
+          
+          </div>
+          <div id="qlSavedDiv">
+                <dl class="left">
+                    <dt>1. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>2. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>3. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>4. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                </dl>
+                <dl class="right">
+                    <dt>5. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>6. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>7. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                    <dt>8. BJJohnson</dt>
+                      <dd class="iconDelete"><a href="#">delete</a></dd>
+                      <dd class="iconEdit"><a href="#">edit</a></dd>
+                </dl>
+          </div>              
+                      
+          </div>
+          <!--finish content-->
+          </div> </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- quickLinks ends -->
+      
+ 	<div class="cls"></div>
+    
+    <div class="roundedTab" id="personalizedSuggestions">
+        <div class="t">
+          <div class="tab">
+          <h3>personalized suggestions</h3>
+          </div>
+          <div class="tr"></div>
+        </div>
+        <div class="c"> <div class="cl">
+          <!--add content-->
+          	<div class="pad">
+              <a href="#" class="f001">Music</a> <a href="#" class="f006">60s</a>    <a href="#" class="f005">70s</a>   <a href="#" class="f005">80s</a> <a href="#" class="f006">90s</a>  <a href="#" class="f004">british invasion</a>  <a href="#" class="f006">acoustic</a>   <a href="#" class="f006">albums</a>  <a href="#" class="f007">alt-country</a>  <a href="#" class="f004">alternative</a>	<a href="#" class="f005">anime</a>   <a href="#" class="f002">avant-grade</a>   <a href="#" class="f007">awsome</a>   <a href="#" class="f007">beautiful</a>   <a href="#" class="f005">black metal blues    british</a>   <a href="#" class="f003">britpop</a>   <a href="#" class="f006">brutal death</a> <a href="#" class="f001">metal</a>  <a href="#" class="f005">canadian</a> <a href="#" class="f004">Classical</a> <a href="#" class="f005">rock</a>  <a href="#" class="f006">classical</a>   <a href="#" class="f005">comedy</a>   <a href="#" class="f005">cool</a>   <a href="#" class="f002">country</a>  <a href="#" class="f003">dance    dark</a> <a href="#" class="f004">british invasion</a> <a href="#" class="f001">avant-grade</a> <a href="#" class="f001">avant-grade</a> <a href="#" class="f001">avant-grade</a></div>
+          </div>
+          <!--finish content-->
+          
+        <div class="b"><span class="br"></span></div>
+      </div>
+      </div>
+      <!-- personalizedSuggestions ends -->
+    
+    </div>
+    <!-- raside ends -->
+    
+    
+    
+  </div>
+  <!-- container ends -->
+</div>
+<!-- wrapper ends -->
+<div id="footer">
+	
+    <ul id="box001">
+        <li><h3>Get your bopaboo on!</h3></li>
+        <li>let's start buying!</li>
+        <li> let's start selling!</li>
+        <li>let's invite your friends!</li>
+  </ul>
+        
+<ul id="box002">
+        <li><h4>Business &amp; Media </h4></li>
+        <li><a href="#" rel="facebox">Press Releases</a></li>
+        <li><a href="#">In the News</a></li>
+        <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+        <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+  </ul>
+        
+<ul id="box003">
+        <li><h4>Company </h4></li>
+        <li><a href="#" rel="facebox">About Us</a></li>
+        <li><a href="#">Management</a></li>
+        <li><a href="#" target="_blank">Blog</a></li>
+        <li><a href="#" target="_blank"><strong>We're Hiring!</strong></a></li>
+        <li><a href="#" target="_blank">Contact Us</a></li>
+    </ul>
+        
+    <ul id="box004">
+        <li><h4>Legal Info </h4></li>
+        <li><a href="privacyPolicy.html" rel="facebox">Privacy Policy</a></li>
+        <li><a href="termsOfServices.html">Terms of Use</a></li>
+        <li><a href="#" target="_blank">site map</a></li>
+  </ul>
+	
+<ul id="box005">
+        <li><h4>Account </h4></li>
+        <li><a href="#" rel="facebox">FAQ</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#" target="_blank">bopaBank</a></li>
+        <li><a href="#" target="_blank">Messages</a></li>
+        <li><a href="#" target="_blank">Feedback</a></li>
+    </ul>
+    
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>bopaboo - Your Place to Buy and Sell Digital Music</title>
+<meta name="title" content="bopaboo - Your Place to Buy and Sell Digital Music">
+<meta name="description" content="">
+<meta name="keywords" content=">">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" href="styles/thickbox.css" type="text/css"  />
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/thickbox.js"></script>
+<style type="text/css">
+	@import url("styles/master.css");
+
+</style>
+
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="scripts/AC_RunActiveContent.js" language="javascript"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+		
+<SCRIPT language="JavaScript">
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+
+//fix both IE and Opera (adjust when they implement this method properly)
+if(isOpera || isIE){
+	document.nativeGetElementById = document.getElementById;  //redefine it!  
+	document.getElementById = function(id){    
+		var elem = document.nativeGetElementById(id);    
+		if(elem){      //verify it is a valid match!      
+			if(elem.attributes['id'] && elem.attributes['id'].value == id){        //valid match!       
+			 	return elem;      } 
+			else {        //not a valid match!        
+				//the non-standard, document.all array has keys for all name'd, and id'd elements        
+				//start at one, because we know the first match, is wrong!        
+ 				for(var i=1;i<document.all[id].length;i++){          
+					if(document.all[id][i].attributes['id'] && document.all[id][i].attributes['id'].value == id){            
+						return document.all[id][i];
+					}
+				}
+			}
+		}    
+		return null;  
+	};
+}
+
+function fnshows (obje){
+	if (obje.value=='search all music') {obje.value = '';}
+	if (obje.value=='search all') {obje.value = '';}
+	if (obje.value=='search artists') {obje.value = '';}
+	if (obje.value=='search albums') {obje.value = '';}
+	if (obje.value=='search songs') {obje.value = '';}
+	if (obje.value=='search sellers') {obje.value = '';}
+	
+	document.getElementById('clsbpFileDetails_seachError').value = "";
+	}
+	
+function fnhides(obje){
+	if(document.getElementById('clsbpFileDetails_seach').value != ""){
+		if (obje.value=='') {obje.value = 'search '+document.getElementById('clsbpFileDetails_seach').value;}
+	}
+	else {
+		if (obje.value=='') {obje.value = 'search all music';}
+	}	
+}
+
+function fnDisps(obj){
+
+	document.getElementById('clsbpFileDetails_txtSea').value = 'search ' + obj.innerHTML;
+	document.getElementById('clsbpFileDetails_seach').value = obj.innerHTML;
+
+}
+
+function fnsearchInformation(obje){
+	var error="";
+	var searcharray = new Array();
+	
+	searcharray[0] ="search all music"; 
+	searcharray[1] ="search all"; 
+	searcharray[2] ="search artists"; 
+	searcharray[3] ="search albums"; 
+	searcharray[4] ="search sellers"; 
+	
+	for(i=0;i<searcharray.length;i++){
+	
+		if(document.getElementById('clsbpFileDetails_txtSea').value ==  searcharray[i] && document.getElementById('clsbpFileDetails_seachError').value==""){
+			error = "search term should have two or more characters";
+			var url ="bpBuy.php";
+			window.location=url+"?msg="+error;	
+			return false;
+		}
+	}
+	
+	if(document.getElementById('clsbpFileDetails_txtSea').value.length <2 && document.getElementById('clsbpFileDetails_txtSea').value != ""){
+	
+		error = "search term should have two or more characters";
+		
+		var url ="bpBuy.php";
+		window.location=url+"?msg="+error;	
+		
+		return false;
+	}
+	
+	return true;
+}
+</SCRIPT>
+
+	
+	<!-- start header -->
+	<div id="header">
+		
+		<a href="http://www.bopaboo.com/dev/index.php" id="logo">bopaboo – Your Place to Buy and Sell Digital Music</a>
+		
+		<ul id="accountMenu">
+			<li><a href="https://www.bopaboo.com/dev/bpUserSignup.php"><strong>register</strong></a></li>
+			<li><a href="http://www.bopaboo.com/dev/bpViewCart.php" class="cart">my cart</a></li>
+			<li><a href="http://www.bopaboo.com/dev/bpTakeTour.php">take a tour</a></li>
+			<li><a href="https://www.bopaboo.com/dev/bpSignIn.php?returnUrl=index.php">login</a></li>
+			<li class="rightEnd"><a href="http://www.bopaboo.com/dev/bpHelp.php">help</a></li>
+		</ul>
+
+		<!-- start main nav menu -->
+		<div id="menu">
+			<ul id="topNav">
+				<li class="navHome"><a href="http://www.bopaboo.com/dev/index.php">home</a></li>
+
+				<li class="navBuy"><a href="bpBuy.php"  >buy</a></li>
+				<li class="navSell"><a href="http://www.bopaboo.com/dev/bpSell.php" >sell</a></li>
+				<li class="navBopabox"><a href="https://www.bopaboo.com/dev/bpBopaLogin.php?returnUrl=bpBopaBox.php"  >bopabox</a></li>
+				<li class="navBopabank"><a href="https://www.bopaboo.com/dev/bpBopaLogin.php?returnUrl=bpMyBopa.php"  >bopaBank</a></li>
+				<li class="navUpload"><a href="http://www.bopaboo.com/dev/bpBopaLogin.php"><span>upload</span></a></li>
+			</ul>
+
+		</div>
+		<!-- end main nav menu -->
+		
+		<!-- start search -->
+		<div id="topSearch">
+			<form name="formheaderSearch" action="http://www.bopaboo.com/dev/bpSearch.php" method="post" title="Search" id="searchbox" onsubmit="return fnsearchInformation();">
+    <div id="listings">
+      <ul>
+        <li  class="top"><a href="#" id="1" onclick="fnDisps(this)">all</a></li>
+
+        <li><a href="#" id="2" onclick="fnDisps(this)">artists</a></li>
+        <li><a href="#" id="3" onclick="fnDisps(this)">albums</a></li>
+        <li><a href="#" id="4" onclick="fnDisps(this)">songs</a></li>
+        <li class="bottom"><a id="5" onclick="fnDisps(this)" href="#">sellers</a></li>
+      </ul>
+    </div>
+      	<input name="clsbpFileDetails_txtSearch" type="text" id="clsbpFileDetails_txtSea" value="search all music" onfocus="fnshows(this);" onblur="fnhides(this);"/>
+
+      	<input type="hidden"  name="clsbpFileDetails_seachCat" id="clsbpFileDetails_seach"/>
+    		<input type="hidden" name="clsbpFileDetails_seachError" id="clsbpFileDetails_seachError" value="1" />
+			</form>
+		</div>
+		<!-- end search -->
+		
+	</div>
+	<!-- end header -->
+	   <div id="container">
+   	<div class="newIndex">
+
+   	<table cellpadding=0 cellspacing=0 border=0 width=998 height=332>
+	<tr><td align=center valign=top><div class="head1">bopaboo is your place to buy and <font color="#f26632"><u><b>sell</b></u></font> digital music</div>
+	<div class="head2">stop illegally sharing and start legally selling! buy drm-free mp3’s starting @ $0.25<br />&nbsp;</div></td></tr>
+	<tr height=200><td align=center valign=middle><img src="images/index-upload.png"><img src="images/clear.gif" height=150 width=65><img src="images/index-buy.png"><img src="images/clear.gif" height=150 width=65><img src="images/index-share.png"></td></tr>
+	<tr><td align=center valign=bottom><div class="head2">it’s free and easy! ready to get your bopaboo on? <a href="https://www.bopaboo.com/dev/bpUserSignUp.php">register now</a> or <a href="bpTakeTour.php">take the tour</a></div></td></tr>
+
+	<tr><td>&nbsp;</td></tr>
+	</table>
+	</div>
+	<br />&nbsp;
+       	<div class="roundedTab" id="popularMusic">
+	      <div class="t">  
+		  <div class="tab"><h3>&nbsp;today's most popular music&nbsp;</h3></div>
+		  <div class="tr"></div>
+	      </div>
+
+              <div class="c">
+                <div class="cl"> 
+                <!--add content-->
+		<table cellpadding=0 cellspacing=0 border=0 width=998 height=100>
+		<tr><td align=center valign=top>
+		<script language="javascript">
+			if (AC_FL_RunContent == 0) {
+				alert("This page requires Javascript.");
+			} else {
+				AC_FL_RunContent(
+					'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+					'width', '860',
+					'height', '100',
+					'src', 'albumScroll',
+					'quality', 'high',
+					'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+					'align', 'middle',
+					'play', 'true',
+					'loop', 'true',
+					'scale', 'showall',
+					'wmode', 'window',
+					'devicefont', 'false',
+					'id', 'albumScroll',
+					'bgcolor', '#ffffff',
+					'name', 'albumScroll',
+					'menu', 'true',
+					'allowFullScreen', 'false',
+					'allowScriptAccess','sameDomain',
+					'movie', 'albumScroll',
+					'salign', ''
+					); //end AC code
+			}
+		</script>
+		<noscript>
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="860" height="100" id="albumScroll" align="middle">
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="allowFullScreen" value="false" />
+			<param name="movie" value="albumScroll.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="albumScroll.swf" quality="high" bgcolor="#ffffff" width="860" height="100" name="albumScroll" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+			</object>
+		</noscript></td></tr>
+		</table>
+
+                <!--finish content-->
+                </div>
+	      </div>
+	      <div class="b"><span class="br"></span></div>
+      </div>
+      
+  </div>
+
+<!-- begin footer -->
+<div id="footer">
+	
+  <ul id="box001">
+
+    <li><h3>Get your bopaboo on!</h3></li>
+    <li>got unwanted tunes?</li>
+    <li>get started now and </li>
+    <li>start making some cash!</li>
+    <li><br /><a href="bpUserSignup.php" class="footerRegisterNow">Register Now!</a></li>
+  </ul>
+
+  
+  <ul id="box002">
+    <li><h4>Business &amp; Media </h4></li>
+    <li><a href="#" rel="facebox">Press Releases</a></li>
+    <li><a href="#">In the News</a></li>
+    <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+    <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+
+  </ul>
+  
+  <ul id="box003">
+    <li><h4>Company </h4></li>
+    <li><a href="http://blog.bopaboo.com/?page_id=2" rel="facebox">About Us</a></li>
+    <li><a href="http://blog.bopaboo.com/?page_id=10">Management</a></li>
+    <li><a href="http://blog.bopaboo.com/?cat=6" target="_blank">Blog</a></li>
+    <li><a href="http://blog.bopaboo.com/?cat=5" target="_blank"><strong>We're Hiring!</strong></a></li>
+
+    <li><a href="http://blog.bopaboo.com/?page_id=13" target="_blank">Contact Us</a></li>
+  </ul>
+  
+  <ul id="box004">
+    <li><h4>Legal Info </h4></li>
+    <li><a href="bpPrivacyPolicy.php" rel="facebox">Privacy Policy</a></li>
+    <li><a href="termsOfServices.html">Terms of Use</a></li>
+  </ul>
+
+  
+  <ul id="box005">
+    <li><h4>Account </h4></li>
+    <li><a href="bpHelp.php" rel="facebox">FAQ</a></li>
+  </ul>
+  
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+  
+
+</div>
+<!-- end footer -->
+  </div>
+</body>
+</html>
+

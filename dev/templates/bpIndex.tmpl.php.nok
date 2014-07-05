@@ -1,0 +1,191 @@
+<script language="javascript">
+function fnEcheck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+ 		 return true					
+	}
+
+function fnValidate()
+{
+
+/*    var emailID=document.frmLogin.clsbpUserLogin_txtEmail;
+	if ((emailID.value==null)||(emailID.value=="")){
+		alert("You have not entered a valid email address. Please try again.")
+		emailID.focus()
+		return false
+	}
+	if (fnEcheck(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+	}
+	
+	if(document.frmLogin.clsbpUserLogin_txtPassword.value == "")
+	{
+	alert("Enter Password");
+	document.frmLogin.clsbpUserLogin_txtPassword.focus();
+	return false;
+	}*/
+	
+document.frmLogin.clsbpUserLogin_action.value="LOGIN";
+
+
+return true
+}
+</script>
+<div id="container">
+    
+    <div class="fleft splash">
+     <img src="images/swf.jpg" width="576" height="333" border="0" usemap="#Map" alt="bopaboo" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="428,171,573,233" href="bpTakeTour.php" alt="take a tour" />
+<area shape="rect" coords="430,243,574,303" href="https://staging.bopaboo.com/dev/bpUserSignup.php" alt="Register" />
+</map>
+
+    </div>
+    <div class="fleft featured">
+      <form id="frmLogin" name="frmLogin" method="post" action="" onsubmit="return fnValidate()">
+      <input type="hidden" name="clsbpUserLogin_action" value=""/>
+      <input type="hidden"  id="clsbpUserLogin_returnUrl" name="clsbpUserLogin_returnUrl" value="bpMyBopa.php">  	 
+        
+        
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="36%">&nbsp;</td>
+            <td width="5%">&nbsp;</td>
+            <td width="59%" style="text-align:left;" ></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><h5>Email Address</h5></td>
+            <td>&nbsp;</td>
+            <td><label>
+              <input type="text" name="clsbpUserLogin_txtEmail" id="email_fm"  class="input22"/>
+            </label></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><h5>Password</h5></td>
+            <td>&nbsp;</td>
+            <td><label>
+              <input type="password" name="clsbpUserLogin_txtPassword" id="password-fm" class="input22" />
+            </label></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td colspan="2"><?php echo displayWelcome();?></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="image" src="images/sign-in.png"  border="0" style="width:116px;height:29px;border:0px;"/></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><a href="bpForgotPassword.php">Forgot your Password?</a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr> 
+        </table>
+        
+       
+      </form>
+      </div>
+    <div class="fleft facebook"></div>
+      <div id="cls"></div>
+<div id="flashslide">
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!-- saved from url=(0013)about:internet -->
+<script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', '750',
+			'height', '125',
+			'src', 'scrollPlay',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'window',
+			'devicefont', 'false',
+			'id', 'scrollPlay',
+			'bgcolor', '#ffffff',
+			'name', 'scrollPlay',
+			'menu', 'true',
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'movie', 'scrollPlay',
+			'salign', ''
+			); //end AC code
+	}
+</script>
+    <noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="750" height="125" id="scrollPlay" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="scrollPlay.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="scrollPlay.swf" quality="high" bgcolor="#ffffff" width="750" height="125" name="scrollPlay" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+</noscript>       </div>
+          
+          <div id="cls"></div>
+
+          </div>

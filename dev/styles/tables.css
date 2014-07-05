@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+table, div
+{	
+	font-family: verdana;
+}
+
+table.skill-set
+{
+	background-color: #AFC1CF;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-x-position: 0%;
+	background-y-position: 0%;
+	margin:0 auto;
+}
+
+ul.trianglebul{
+	list-style: url(images/ul-bullet.gif);
+}
+ul.trianglebul li{
+	margin: -2px 0 5px -23px; margin:"0 0 0 -29px";
+}
+
+table.skill-set th{
+	text-align: left;
+	font: bold 11px/18px arial;
+	background: #CEDFF0;
+	padding-left: 5px;
+
+}
+
+table.skill-set td{
+	background: #FFF;
+	padding-left: 5px;
+	vertical-align: top;
+	padding-top:5px;
+}
+.input{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #AFC1CF;
+	border-right-color: #AFC1CF;
+	border-bottom-color: #AFC1CF;
+	border-left-color: #AFC1CF;
+	font-family: verdana,Helvetica,sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	margin-bottom:5px;
+	padding:1px;
+}

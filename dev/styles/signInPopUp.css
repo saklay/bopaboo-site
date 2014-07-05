@@ -1,0 +1,125 @@
+@import "type.css";
+
+/* rounded without tabs >>.rounded ------------------------- */
+
+#closePopup {
+	float:right;
+	padding-right:20px;
+	/* background:url(../images/closePopUp.png) no-repeat; */
+	width:100px;
+}
+
+.rounded{
+	position:relative;
+	/* width:300px; specify using id*/
+	}
+
+.rounded .t{
+	background:url(../images/t.jpg) bottom left no-repeat;
+	width:100%;
+	height:6px;
+	
+	}
+
+.rounded .t .tr{
+	float:right;
+	width:10px;
+	height:6px;
+	background:url(../images/tr.jpg) bottom no-repeat;}
+
+.rounded .c{
+	float:left;
+	width:100%;
+	background:url(../images/r.jpg) right repeat-y #fff;
+	}
+
+.rounded .c div.cl{
+	float:left;
+	padding:5px;
+	background:url(../images/l.jpg) left repeat-y;	
+		}
+
+.rounded .b{
+	clear:both;
+	background:url(../images/b.jpg) no-repeat;
+	width:100%;
+	height:12px;
+	}
+
+.rounded .b span.br{
+	float:right;
+	width:10px;
+	height:12px;
+	background:url(../images/br.jpg) no-repeat;
+	}
+	
+	
+/*********************************************************************************************************/
+/*                             Bopabox Not Logged In Page                                                */
+/*********************************************************************************************************/
+
+#signInPopUp{
+	width:658px;
+	float:left;
+	position:relative;
+	}
+#signInPopUp .signInBox{
+	float:left;
+	width:370px;
+	border-right:1px solid #ebebeb;
+	}
+#signInPopUp .bopaboxRegisterBox{
+	float:right;
+	width:250px;
+	}
+
+#signInPopUp .signInBox  h1, #signInPopUp .bopaboxRegisterBox h1{
+	float:left;
+	margin:20px 0 10px 30px;
+	clear:both;
+	}
+#signInPopUp .bopaboxRegisterBox h1{
+	margin-left:0px;
+	}
+#signInPopUp .bopaboxRegisterBox p{
+	clear:both;	
+	float:left;
+	width:151px;
+	line-height:normal;
+	}
+#signInPopUp .bopaboxRegisterBox .registerBtn2{
+	float:left;
+	margin:31px 0 0 0;
+	clear:both;
+	}
+#signInPopUp .signInBox li{
+	margin-top:5px;
+	float:left;
+	}
+
+#signInPopUp .signInBox li label{
+	float:left;
+	width:100px;
+	text-align:right;
+	font-weight:bold;
+	}
+#signInPopUp .signInBox li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:260px;
+	}
+#signInPopUp .signInBox li span.errorMsg1{
+	display:block;
+	color:#f26632;
+	line-height:27px;
+	padding-left:10px;
+	text-align:left;
+	}
+#signInPopUp .signInBox li input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:192px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}

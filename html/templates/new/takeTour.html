@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bopaboo</title>
+
+<script type="text/javascript">
+
+	function display(id)
+	{	
+		tourNo = "tabTour" + id;
+		identity = document.getElementById(tourNo);		
+		identity.className = "tab";
+		
+		for(i = 1;i <=5 ; i++)
+		{
+			
+			//hide everything except the selected id
+			if(id != i)
+			{
+				tourNo = "tabTour" + i;
+				identity=document.getElementById(tourNo);
+				identity.className="tabOff";
+				document.getElementById('contentTour'+i).style.display="none";
+				document.getElementById('rightContentTour'+i).style.display="none";
+				document.getElementById('step'+i).src="../images/step0"+i+".gif";
+			}
+		}
+		
+		document.getElementById('contentTour'+id).style.display="block";
+		document.getElementById('rightContentTour'+id).style.display="block";
+		document.getElementById('step'+id).src="../images/step0"+id+"Off.gif";
+		
+		btNext = id + 1;
+		alert(btNext);
+		if (btNext > 5) {
+			document.getElementById('takeTourButtonsNext').style.display="none";
+		} else {
+			document.getElementById('takeTourButtonsNext').style.display="block";
+			document.getElementById('buttonNext').href="javascript:display("+btNext+")";
+		}		
+		
+		btPrev = id - 1;
+		if (btPrev < 1) {
+			document.getElementById('takeTourButtonsPrevious').style.display="none";
+		} else {
+			document.getElementById('takeTourButtonsPrevious').style.display="block";
+			document.getElementById('buttonPrev').href="javascript:display("+btPrev+")";
+		}
+		
+		
+	}
+</script>
+
+<style type="text/css">
+@import "../styles/master.css";
+</style>
+<!--[if lt ie 8]>
+	<style type="text/css">
+		@import url("../styles/ie.css");
+    </style> 
+<![endif]-->
+<!--[if lt ie 7]>   
+	<script src="../scripts/IE8.js" type="text/javascript"></script>
+    <script defer type="text/javascript" src="../scripts/pngfix.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <div id="header"> <a href="index.html" id="logo">bopaboo – Your Place to Buy and Sell Digital Music</a>
+    <ul id="accountMenu">
+      <li><a href="register.html"><strong>register</strong></a></li>
+      <li><a href="takeTour.html">take a tour</a></li>
+      <li><a href="shoppingCart.html" class="cart">my cart</a></li>
+      <li><a href="homeLoggedIn.html">login</a></li>
+      <li class="rightEnd"><a href="#">help</a></li>
+    </ul>
+    <div id="menu">      <ul id="topNav">
+        <li class="navHome"><a href="index.html">home</a></li>
+        <li class="navBuy"><a href="shoppingCart.html">buy</a></li>
+        <li class="navSell"><a href="#">sell</a></li>
+        <li class="navBopabox"><a href="bopaBox.html">bopaBox</a></li>
+        <li class="navBopabank"><a href="accountActivity.html">bopaBank</a></li>
+        <li class="navUpload"><a href="#"><span>upload</span></a></li>
+      </ul>
+      <div id="topSearch">
+        <form action="#" name="searchmusic" id="searchmusic">
+          <input type="text" value="search all music" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- header ends-->
+  <div id="container">
+    <div id="takeTourlaside">
+      <div class="roundedTab" id="takeTour">
+        <div class="t">
+          <div id="tabTour1" class="tab"><h3 class="wide"><a href="javascript:display(1);">1</a></h3></div>
+          <div id="tabTour2" class="tabOff"><h3 class="wide"><a href="javascript:display(2);">2</a></h3></div>
+          <div id="tabTour3" class="tabOff"><h3 class="wide"><a href="javascript:display(3);">3</a></h3></div>
+          <div id="tabTour4" class="tabOff"><h3 class="wide"><a href="javascript:display(4);">4</a></h3></div>
+          <div id="tabTour5" class="tabOff"><h3 class="wide"><a href="javascript:display(5);">5</a></h3></div>
+          <div class="tr"></div>
+        </div>
+        <div class="c">
+          <div class="cl">
+            <!--add content-->
+            <div id="takeTourMargin">
+            	<div id="contentTour1" style="display: block;"><img src="../images/takeTour.jpg" alt="Take A Tour" border=0 /></div>
+            	<div id="contentTour2" style="display: none;"><img src="../images/takeTour02.jpg" alt="Take A Tour" border=0 /></div>
+            	<div id="contentTour3" style="display: none;"><img src="../images/takeTour03.jpg" alt="Take A Tour" border=0 /></div>
+            	<div id="contentTour4" style="display: none;"><img src="../images/takeTour04.jpg" alt="Take A Tour" border=0 /></div>
+            	<div id="contentTour5" style="display: none;"><img src="../images/takeTour05.jpg" alt="Take A Tour" border=0 /></div>
+            	<div style="height:10px;"></div>
+            	<div>
+            		<div id="takeTourButtonsPrevious" style="display:none;"><a href="javascript:display(1);" id="buttonPrev"><img src="../images/btnPrevious.jpg" alt="Previous" border=0 /></a></div>
+            		<div id="takeTourText"><p><b>We provide a complete history of your sales and feedback rating.</b></div>
+            		<div id="takeTourButtonsNext"><a href="javascript:display(2);" id="buttonNext"><img src="../images/btnNext.jpg" alt="Next" border=0 /></a></div>
+            		<div style="clear:both;"></div>
+            	</div>            	
+            </div>
+            
+            <!--finish content-->
+          </div>
+        </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- signUp ends -->
+    </div>
+    <!-- laside ends here -->
+    
+    <div id="takeTourraside">
+    	<div class="roundedTab" id="whatIsBopaboo">  
+             <div class="t">
+          			<div class="tab"><h3 class="wide" style="width:150px;">what is bopaboo</h3></div>
+          			<div class="tr"></div>
+        			</div>
+           <div class="c">
+             <div class="cl" style="height:447px;"> 
+             <!--add content-->
+             
+             <div id="rightContentTour1" style="display:block;">
+             	<ul>
+             		<li>The place to Buy and Sell digital music</li>
+             		<li>The place to Upload and Sell your unwanted digital music</li>
+             		<li>The place to Buy your favorite DRM-Free music for a fraction of the cost of iTunes</li>
+             		<li>The first consumer marketplace where you can make money selling your previously purchased digital music</li>
+            	</ul>
+            	<div style="clear:both;"></div>
+            	<div style="height:160px;"></div>
+            	</div>
+            	
+            	<div id="rightContentTour2" style="display:none;">
+             	<ul>
+             		<li>Just upload your music and select the sale price</li>
+             		<li>We handle the checkout and payment processing</li>
+             		<li>After the purchase, we immediately transfer the song(s) to the buyer</li>
+             		<li>And the sale price (minus our fee) is placed in your bopaBank</li>
+            	</ul>
+            	<ul>
+            		Your bopabank money is immediately available for withdraw or to use for purchases on bopaboo
+            	</ul>
+            	<div style="clear:both;"></div>
+            	<div style="height:140px;"></div>
+            	</div>
+            	
+            	<div id="rightContentTour3" style="display:none;">
+             	<ul>
+             		<li>Search by Song Title, Artist, Seller, Price and more</li>
+             		<li>The Advanced Search function allows you to browse and find the songs you want to buy</li>
+             		<li>With our Feedback and Seller Rating system you can choose who you want to buy from</li>
+             		<li>It's easy to use your money in your bopaBank and/or major credit card to buy the tunes you want</li>
+            	</ul>
+            	<div style="clear:both;"></div>
+            	<div style="height:160px;"></div>
+            	</div>
+            	
+            	<div id="rightContentTour4" style="display:none;">
+             	<ul>
+             		<li>Search by Song Title, Artist, Seller, Price and more</li>
+             		<li>The Advanced Search function allows you to browse and find the songs you want to buy</li>
+             		<li>With our Feedback and Seller Rating system you can choose who you want to buy from</li>
+             		<li>It's easy to use your money in your bopaBank and/or major credit card to buy the tunes you want</li>
+            	</ul>
+            	<div style="clear:both;"></div>
+            	<div style="height:160px;"></div>
+            	</div>
+            	
+            	<div id="rightContentTour5" style="display:none;">
+             	<ul>
+             		<li>Search by Song Title, Artist, Seller, Price and more</li>
+             		<li>The Advanced Search function allows you to browse and find the songs you want to buy</li>
+             		<li>With our Feedback and Seller Rating system you can choose who you want to buy from</li>
+             		<li>It's easy to use your money in your bopaBank and/or major credit card to buy the tunes you want</li>
+            	</ul>
+            	<div style="clear:both;"></div>
+            	<div style="height:160px;"></div>
+            	</div>
+            	
+            	<div class="content">
+            		<span class="nextStep"><h3>next step</h3></span>
+            		<span class="steps"><a href="javascript:display(5);"><img src="../images/step05.gif" alt="Step 5" border=0 id="step5" /></a></span>
+            		<span class="steps"><a href="javascript:display(4);"><img src="../images/step04.gif" alt="Step 4" border=0 id="step4" /></a></span>
+            		<span class="steps"><a href="javascript:display(3);"><img src="../images/step03.gif" alt="Step 3" border=0 id="step3" /></a></span>
+            		<span class="steps"><a href="javascript:display(2);"><img src="../images/step02.gif" alt="Step 2" border=0 id="step2" /></a></span>
+            		<span class="steps"><a href="javascript:display(1);"><img src="../images/step01Off.gif" alt="Step 1" border=0 id="step1" /></a></span>
+            		<div style="clear:both;"></div>
+            		<!--<div style="margin-top:10px;"><a href="register.html"><img src="../images/btnRegister.jpg" alt="Register" border=0 /></a></div>-->
+            		<div class="btRegister" style="margin-top:10px;"><a href="#" style="display:block;"></a></div>
+            	</div>
+              <!--finish content--> 
+           </div>
+           </div>
+             <div class="b"><span class="br"></span></div>
+      </div>
+              <!--finish content--> 
+           </div>
+           </div>
+             <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- whyJoinBox ends -->
+    </div>
+    <!-- raside ends here -->
+  </div>
+  <!-- container ends-->
+</div>
+<!-- wrapper ends -->
+
+<div id="footer">
+  <ul id="box001">
+    <li>
+      <h3>Get your bopaboo on!</h3>
+    </li>
+    <li>got unwanted tunes?</li>
+    <li>get started now and </li>
+    <li>start making some cash!</li>
+    <li><br /><a href="#" class="footerRegisterNow">Register Now!</a></li>
+  </ul>
+  <ul id="box002">
+    <li>
+      <h4>Business &amp; Media </h4>
+    </li>
+    <li><a href="#" rel="facebox">Press Releases</a></li>
+    <li><a href="#">In the News</a></li>
+    <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+    <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+  </ul>
+  <ul id="box003">
+    <li>
+      <h4>Company </h4>
+    </li>
+    <li><a href="#" rel="facebox">About Us</a></li>
+    <li><a href="#">Management</a></li>
+    <li><a href="#" target="_blank">Blog</a></li>
+    <li><a href="#" target="_blank"><strong>We're Hiring!</strong></a></li>
+    <li><a href="#" target="_blank">Contact Us</a></li>
+  </ul>
+  <ul id="box004">
+    <li>
+      <h4>Legal Info </h4>
+    </li>
+    <li><a href="privacyPolicy.html" rel="facebox">Privacy Policy</a></li>
+    <li><a href="termsOfServices.html">Terms of Use</a></li>
+    <li><a href="#" target="_blank">sitemap</a></li>
+  </ul>
+  <ul id="box005">
+    <li>
+      <h4>Account </h4>
+    </li>
+    <li><a href="#" rel="facebox">FAQ</a></li>
+    
+  </ul>
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+</div>
+<!-- footer ends -->
+</body>
+</html>

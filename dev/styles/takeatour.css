@@ -1,0 +1,109 @@
+*{
+	-moz-outline:none;
+	}
+#container #pageheadTour{
+	margin:32px 0 0px 30px;
+	}
+#container #pageheadTour h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	margin:0;
+	padding-left:20px;
+	clear:both;
+	float:left;
+
+	}
+#container #takeaTour{
+	width:100%;
+	float:left;
+	clear:both;
+	padding:36px 0 30px 34px;
+
+	}
+#container #takeaTour #contentWrapper{
+	float:left;
+	margin:0 auto;
+	width:894px;
+	background:#fff;
+
+	}
+#container #takeaTour #contentWrapper #leftAside{
+	float:left;
+	width:505px;
+	padding:26px 0 0 32px;
+	}
+#container #takeaTour #contentWrapper #leftAside h2{
+	color:#0078C1;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:32px;
+	}
+#container #takeaTour #contentWrapper #leftAside ul{
+
+	margin-left:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#333;
+	font-size:15px;
+	}
+#container #takeaTour #contentWrapper #leftAside ul li{
+	margin-bottom:15px;
+	list-style:circle;
+	}
+#container #takeaTour #contentWrapper #rightAside{
+	float:left;
+	width:355px;
+	background:url(../images/imgtakeatour01.jpg) no-repeat left top;
+	height:281px;
+	}
+#container #takeaTour #contentWrapper #bottomTour, #container #takeaTour #contentWrapper #bottomTour4{
+	float:left;
+	width:894px;
+	display:block;
+	height:37px;
+	}
+
+#container #takeaTour #contentWrapper #bottomTour img{
+	margin-top:4px;
+	}
+#container #takeaTour #contentWrapper #bottomTour .register{
+	float:right;
+	margin-right:30px;
+	}
+#container #takeaTour #contentWrapper #bottomTour .next{
+	float:right;
+	margin-right:30px;
+	}
+#container #takeaTour #contentWrapper #bottomTour4 img{
+	margin-top:4px;
+	}
+#container #takeaTour #contentWrapper #bottomTour4 .register{
+	float:right;
+	margin-right:30px;
+	}
+#container #takeaTour #contentWrapper #bottomTour4 .next{
+	float:right;
+	margin-right:30px;
+	visibility:hidden;
+	}
+#container #takeaTour #contentWrapper #bottomTour4 .next a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	line-height:35px;
+	color:#0079C2;
+	text-decoration:none;
+	}
+#container #takeaTour #contentWrapper #bottomTour .next a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	line-height:35px;
+	color:#0079C2;
+	text-decoration:none;
+	}
+#container #takeaTour #contentWrapper #bottomTour .next a:hover{
+	text-decoration:underline;
+	}

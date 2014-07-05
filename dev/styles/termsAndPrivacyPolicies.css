@@ -1,0 +1,103 @@
+*{
+	-moz-outline:none;
+	}
+#container #pageheadSell{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadSell h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 2px 20px;
+	clear:both;
+	float:left;
+
+	}
+#container #pagecontents{
+	display:block;
+	width:100%;
+	float:left;
+	}
+	
+	
+/* PRIVACY POLICY */
+
+
+#privacyPolicy{
+	float:left;
+	margin-left:5px;
+	display:block;
+	padding:0 50px 0 50px;
+	}
+#privacyPolicy div{
+	margin:10px 0 30px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#privacyPolicy p{
+	padding-bottom:15px;
+}
+#privacyPolicy h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#8DC63F;
+	margin-bottom:10px;
+	}
+#privacyPolicy ul{
+	margin-left:30px;
+	}
+#privacyPolicy a{
+	text-decoration:none;
+	color:#F26532;
+	}
+#privacyPolicy a:hover{
+	text-decoration:underline;
+	color:#F26532;
+	}
+	
+/* TERMS OF SERVICE */
+
+
+#tos{
+	float:left;
+	margin-left:5px;
+	display:block;
+	padding:0 50px 0 50px;
+	}
+#tos div{
+	margin:10px 0 30px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	}
+#tos p{
+	padding-bottom:15px;
+}
+#tos h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#8DC63F;
+	margin-bottom:10px;
+	margin-top:20px;
+	}
+#tos ol{
+	margin-left:30px;
+	}
+#tos ol ul{
+	margin-left:30px;
+	}
+#tos a{
+	text-decoration:none;
+	color:#F26532;
+	}
+#tos a:hover{
+	text-decoration:underline;
+	color:#F26532;
+	}
+#tos .lastmodified{
+	margin-top:30px;
+	float:left;
+	}

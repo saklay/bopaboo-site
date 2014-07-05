@@ -1,0 +1,1507 @@
+/* Color guide -----------------------
+
+Green		: 	#8cc63f
+Orange		: 	#f26632
+Blue		: 	#0079c2
+Mid grey	: 	#d7d7d7
+Light Grey	: 	#ebebeb
+Dark Grey	: 	#a8a9ab
+Grey Text	: 	#767879
+
+-------------------------------------*/
+h3.selecttab{
+	color:#0079c2;
+	}
+.roundedTab .loading{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	height:22px;	
+	margin-top:4px;
+	position:relative;	
+	margin-left:7px;
+	}
+
+.roundedTab .loading h3{
+	line-height:22px; /* please don't change*/
+	padding-left:5px;	
+	background:url(../images/h3TabLOff.jpg) no-repeat;
+	}
+.wide{
+	text-align:center;
+	width:103px;
+	}
+.wide1{
+	text-align:center;
+	width:163px;
+	}
+.roundedTab .tab{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	height:23px;	
+	background:url(../images/h3TabR.jpg) right no-repeat #fff ;
+	margin-top:1px;
+	position:relative;	
+	margin-left:7px;
+	}
+.roundedTab .tab .deselecttab{	
+	background:#ebebeb;
+	}
+/*.tabOffLink:hover div.tabOff{
+	float:left;
+	margin:0;
+	padding:0 5px 0 0;
+	height:23px;	
+	background:url(../images/h3TabR.jpg) right no-repeat #fff ;
+	margin-top:1px;
+	position:relative;	
+	margin-left:7px;
+	text-decoration:none;
+	cursor:pointer;
+	}
+.tabOffLink:hover div.tabOff h3 {
+	line-height:22px; // please don't change//
+	padding-left:5px;	
+	background:url(../images/h3TabL.jpg) no-repeat;
+	text-decoration:underline;
+	}*/
+
+.tableGeneral td, th{
+	vertical-align:middle;
+	}
+
+
+.inputBtnSearch, .inputBtnWithdraw, .btnAddNewCard, .btnAddCard, .btnCancel{
+	width:129px;
+	height:24px;
+	border:none;
+	}
+.inputBtnSearch{
+	background:url(../images/btnSearch.png) no-repeat top left;
+}
+.inputBtnWithdraw{
+	background:url(../images/btnWithdraw.png) no-repeat top left;
+}
+.btnAddNewCard{
+	display:block;
+	float:right;
+	background:url(../images/btnAddNewCard.png) no-repeat top left;
+	}
+.btnAddCard{
+	display:block;
+	float:right;
+	/* background:url(../images/btnAddCard.png) no-repeat top left; */
+	}
+.btnCancel{
+	display:block;
+	float:right;
+	margin-right:5px;
+	background:url(../images/buttonCancel.png) no-repeat top left;
+	}
+	
+
+.textAdvSearch{
+	/* default <a> link is applied */
+	}
+
+.visa{
+	display:block;
+	width:53px;
+	height:25px;
+	background:url(../images/iconVisa.png) no-repeat left center;
+	}
+.mastercard{
+	display:block;
+	width:53px;
+	height:25px;
+	background:url(../images/iconMasterCard.png) no-repeat left center;
+	}
+.imgCardVerificationNumber{
+	width:53px;
+	height:25px;
+	background:url(../images/imgCardVerificationNumber.png) no-repeat left center;
+	}
+#laside720{
+	display:block;
+	width:750px;
+	}
+	
+/***************************************************************************/
+/*                             SIGN UP                                    */
+/***************************************************************************/
+
+#signUplaside{
+	width:730px;
+	float:left;
+	}
+#signUp{
+	width:720px;
+	float:left;
+	}
+
+#signUpForm{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	}
+#signUpForm li{
+	clear:both;
+	display:block;
+	height:40px;
+	}
+#signUpForm li label{
+	float:left;
+	width:153px;
+	text-align:right;
+	font-weight:bold;
+	}
+#signUpForm li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:280px;
+	}
+#signUpForm li span.tick{
+	float:left;
+	display:block;
+	margin-left:5px;
+	width:24px;
+	height:16px;
+	background:url(../images/iconTick.png) no-repeat top left;
+	}
+#signUpForm li span.errorMsg{
+	float:left;
+	display:block;
+	margin-left:10px;
+	color:#f26632;
+	line-height:27px;
+	width:123px;
+	text-align:left;
+	}
+#signUpForm li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#signUpForm li input.inputStyleSmall{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:50px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#signUpForm li select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#signUpForm li select.selectCountry{
+	width:269px;
+	}
+#signUpForm li select.selectMonth, #signUpForm li select.selectDate {
+	width:76px;
+	}
+#signUpForm li select.selectYear{
+	width:106px;
+	}
+#signUpForm li input[type="radio"]{
+	line-height:30px;
+	}
+#signUpForm li span.captchaText{
+	float:left;
+	display:block;
+	line-height:27px;
+	text-align:left;
+	width:100%;
+	clear:both;
+	}
+#signUpForm li span.captchaImage{
+	float:left;
+	clear:both;
+	width:100%;
+	height:74px;
+	}
+#signUpForm select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+	
+
+/***************************************************************************/
+/*                             SHOPPING CART PAYMENT                       */
+/***************************************************************************/
+
+#shoppingCartPaymentlaside{
+	width:730px;
+	float:left;
+	}
+#shoppingCartPayment{
+	width:720px;
+	float:left;
+	}
+
+#shoppingCartPaymentForm{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	}
+#shoppingCartPaymentForm li{
+	clear:both;
+	display:block;
+	height:40px;
+	}
+#shoppingCartPaymentForm li label{
+	float:left;
+	width:153px;
+	text-align:right;
+	font-weight:bold;
+	}
+#shoppingCartPaymentForm li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:280px;
+	}
+#shoppingCartPaymentForm li span.tick{
+	float:left;
+	display:block;
+	margin-left:5px;
+	width:24px;
+	height:16px;
+	background:url(../images/iconTick.png) no-repeat top left;
+	}
+#shoppingCartPaymentForm li span.errorMsg{
+	float:left;
+	display:block;
+	margin-left:10px;
+	color:#f26632;
+	line-height:27px;
+	width:123px;
+	text-align:left;
+	}
+#shoppingCartPaymentForm li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#shoppingCartPaymentForm li input.inputStyleSmall{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:50px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#shoppingCartPaymentForm li select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#shoppingCartPaymentForm li select.selectCountry{
+	width:269px;
+	}
+#shoppingCartPaymentForm li select.selectMonth, #shoppingCartPaymentForm li select.selectDate {
+	width:76px;
+	}
+#shoppingCartPaymentForm li select.selectYear{
+	width:106px;
+	}
+#shoppingCartPaymentForm li input[type="radio"]{
+	line-height:30px;
+	}
+#shoppingCartPaymentForm li span.captchaText{
+	float:left;
+	display:block;
+	line-height:27px;
+	text-align:left;
+	width:100%;
+	clear:both;
+	}
+#shoppingCartPaymentForm li span.captchaImage{
+	float:left;
+	clear:both;
+	width:100%;
+	height:74px;
+	}
+#shoppingCartPaymentForm select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#shoppingCartPaymentForm .mastercard{
+	float:left;
+	display:block;
+	width:53px;
+	height:25px;
+	background:url(../images/iconMasterCard.png) no-repeat left center;
+	}
+#shoppingCartPaymentForm .visa{
+	float:left;
+	display:block;
+	width:53px;
+	height:25px;
+	background:url(../images/iconVisa.png) no-repeat left center;
+	}
+#shoppingCartPaymentForm .cardVerify {
+	float:left;
+	margin-left:70px;
+	margin-top:-28px;
+}
+#shoppingCartPaymentForm .cardVerifyText {
+	float:left;
+	margin-left:70px;
+	margin-top:-45px;
+	width:300px;
+}
+
+/***************************************************************************/
+/*                             EDIT CARD                                   */
+/***************************************************************************/
+
+#editCardlaside{
+	width:730px;
+	float:left;
+	}
+#editCard{
+	width:720px;
+	float:left;
+	}
+#editCardButtons{
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+	}
+#editCardForm{
+	width:620px;
+	float:left;
+	padding-top:30px;
+	padding-left:20px;
+	}
+#editCardForm p{
+	margin-top:10px;
+	}
+#editCardForm li{
+	clear:both;
+	display:block;
+	height:40px;
+	}
+#editCardForm li label{
+	float:left;
+	width:120px;
+	text-align:right;
+	font-weight:bold;
+	}
+#editCardForm li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:450px;
+	}
+#editCardForm li span.tick{
+	float:left;
+	display:block;
+	margin-left:5px;
+	width:24px;
+	height:16px;
+	background:url(../images/iconTick.png) no-repeat top left;
+	}
+#editCardForm li span.errorMsg{
+	float:left;
+	display:block;
+	margin-left:10px;
+	color:#f26632;
+	line-height:27px;
+	width:123px;
+	text-align:left;
+	}
+#editCardForm li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#editCardForm li input.inputStyleSmall{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:50px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#editCardForm li select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#editCardForm li select.selectCountry{
+	width:269px;
+	}
+#editCardForm li select.selectMonth, #editCardForm li select.selectDate {
+	width:76px;
+	}
+#editCardForm li select.selectYear{
+	width:106px;
+	}
+#editCardForm li input[type="radio"]{
+	line-height:30px;
+	}
+#editCardForm li span.captchaText{
+	float:left;
+	display:block;
+	line-height:27px;
+	text-align:left;
+	width:100%;
+	clear:both;
+	}
+#editCardForm li span.captchaImage{
+	float:left;
+	clear:both;
+	width:100%;
+	height:74px;
+	}
+#editCardForm select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#editCardForm li span.rside1{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:500px;
+	}
+#editCardForm li span.visa, #editCardForm li span.mastercard{
+	float:left;
+	padding-right:10px;
+	}
+#editCardForm li input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:30px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+	
+/***************************************************************************/
+/*                             TAKE A TOUR                                 */
+/***************************************************************************/
+
+#takeTour{
+	width:670px;
+	float:left;
+	}
+	
+#takeTourMargin {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#takeTourText {
+	float:left;
+	margin-top:10px;
+	margin-left:70px;
+}
+
+#takeTourButtonsNext {
+	float:right;
+}
+
+#takeTourButtonsPrevious {
+	float:left;
+}
+
+#takeTourraside{
+	width:300px;
+	float:right;
+	}
+	
+#takeTourUplaside{
+	width:670px;
+	float:left;
+	}
+	
+#whatIsBopaboo{
+	width:300px;
+	margin-top:0;
+	}
+
+#whatIsBopaboo ul{
+	list-style-image:url(../images/btnListNext.gif);
+	line-height:20px;
+	margin-left: 20px;
+	}
+	
+#whatIsBopaboo li{
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+	
+#whatIsBopaboo .content{
+	padding:10px;
+	}
+	
+#whatIsBopaboo .nextStep{
+	float:left;
+	}
+	
+#whatIsBopaboo .steps{
+	float:right;
+	padding-left:3px;
+	padding-right:3px;
+	}
+	
+/* -------------------------- Laside Ends Here ------------------------*/
+
+/* ---------------------------Begin Raside -----------------------------*/
+#signUpraside{
+	width:250px;
+	float:right;
+	}
+	
+	
+#whyJoinBox, #privacyStatement{
+	width:244px;
+	margin-top:22px;
+	}
+
+#whyJoinBox .list1, #whyJoinBox .list2, #whyJoinBox .list3, #whyJoinBox .list4, #whyJoinBox .list5{
+	height:35px;
+	padding:0;
+	padding-left:30px;
+	float:left;
+	width:200px;
+	}
+#whyJoinBox .list1, #whyJoinBox .list2, #whyJoinBox .list3, #whyJoinBox .list4, #whyJoinBox .list5{
+	height:30px;
+	margin-top:10px;
+	}
+#whyJoinBox div.top{
+	margin-top:10px;
+	}
+#whyJoinBox .list1 p, #whyJoinBox .list2 p, #whyJoinBox .list3 p, #whyJoinBox .list4 p, #whyJoinBox .list5 p{
+	font-weight:bold;
+	
+	
+	/*width:171px;
+	float:left;
+	text-align:left;*/
+	line-height:normal;
+	color:#0079c2;
+	margin-top:5px;
+	}
+#whyJoinBox .list1{
+	background:url(../images/icons.png) no-repeat 0 0px;
+	width:175px;
+	}
+#whyJoinBox .list2{
+	background:url(../images/icons.png) no-repeat 0 -30px;
+	width:175px;
+	}
+#whyJoinBox .list3{
+	background:url(../images/icons.png) no-repeat 0 -60px;
+	width:175px;
+	}
+#whyJoinBox .list4{
+	background:url(../images/icons.png) no-repeat 0 -90px;
+	width:175px;
+	}
+#whyJoinBox .list5{
+	background:url(../images/icons.png) no-repeat 0 -120px;
+	width:175px;
+	}
+
+#privacyStatement p{
+	padding-bottom:12px;
+	width:100%;
+	}
+	
+	
+/*********************************************************************************************************/
+/*                             Recover Password and Recover Password Confirmation Page                   */
+/*********************************************************************************************************/
+.recoverPasswordBox, .recoverPasswordConfirmationBox{
+	float:left;
+	margin-left:30px;
+	padding-top:20px;
+	}
+.recoverPasswordBox form, .recoverPasswordConfirmationBox form{
+	padding-top:10px;
+	padding-bottom:30px;
+	margin-bottom:10px;
+	border-bottom:1px solid #ebebeb;
+	}
+.recoverPasswordBox label{
+	float:left;
+	width:123px;
+	text-align:right;
+	font-weight:bold;
+	}
+.recoverPasswordBox span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:280px;
+	}
+.recoverPasswordBox input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+.greyText{
+	color:#767879;
+	}
+.recoverPasswordBox a{
+	text-decoration:none;
+	}
+.recoverPasswordBox a:hover{
+	text-decoration:none;
+	color:#f26632;
+	}
+
+/*********************************************************************************************************/
+/*                             Reset Password Page                                                       */
+/*********************************************************************************************************/
+
+
+
+#resetPassword{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	}
+#resetPassword li{
+	clear:both;
+	display:block;
+	height:40px;
+	}
+#resetPassword li label{
+	float:left;
+	width:153px;
+	text-align:right;
+	font-weight:bold;
+	}
+#resetPassword li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:280px;
+	}
+#resetPassword li span.tick{
+	float:left;
+	display:block;
+	margin-left:5px;
+	width:24px;
+	height:16px;
+	background:url(../images/iconTick.png) no-repeat top left;
+	}
+#resetPassword li span.errorMsg{
+	float:left;
+	display:block;
+	margin-left:10px;
+	color:#f26632;
+	line-height:27px;
+	width:123px;
+	text-align:left;
+	}
+#resetPassword li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#resetPassword li select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#resetPassword li select.selectCountry{
+	width:269px;
+	}
+#resetPassword li select.selectMonth, #resetPassword li select.selectDate {
+	width:76px;
+	}
+#resetPassword li select.selectYear{
+	width:106px;
+	}
+#resetPassword li input[type="radio"]{
+	line-height:30px;
+	}
+#resetPassword li span.captchaText{
+	float:left;
+	display:block;
+	line-height:27px;
+	text-align:left;
+	width:100%;
+	clear:both;
+	}
+#resetPassword li span.captchaImage{
+	float:left;
+	clear:both;
+	width:100%;
+	height:80px;
+	}
+
+
+/*********************************************************************************************************/
+/*                             Bopabox Not Logged In Page                                                */
+/*********************************************************************************************************/
+
+#bopaboxNotLoggedIn{
+	width:658px;
+	float:left;
+	}
+#bopaboxNotLoggedIn .signInBox{
+	float:left;
+	width:370px;
+	height:200px;/* to align the buttons */
+	border-right:1px solid #ebebeb;
+	}
+#bopaboxNotLoggedIn .bopaboxRegisterBox{
+	float:right;
+	height:200px;/* to align the buttons */
+	width:250px;
+	}
+
+#bopaboxNotLoggedIn .signInBox  h1, #bopaboxNotLoggedIn .bopaboxRegisterBox h1{
+	float:left;
+	margin:20px 0 10px 30px;
+	clear:both;
+	}
+#bopaboxNotLoggedIn .bopaboxRegisterBox h1{
+	margin-left:0px;
+	}
+#bopaboxNotLoggedIn .bopaboxRegisterBox p{
+	clear:both;	
+	float:left;
+	width:151px;
+	line-height:normal;
+	}
+#bopaboxNotLoggedIn .bopaboxRegisterBox .registerBtn2{
+	float:left;
+	margin:31px 0 0 0;
+	clear:both;
+	}
+#bopaboxNotLoggedIn .signInBox li{
+	margin-top:5px;
+	float:left;
+	clear:both;
+	}
+
+#bopaboxNotLoggedIn .signInBox li label{
+	float:left;
+	width:100px;
+	text-align:right;
+	font-weight:bold;
+	}
+#bopaboxNotLoggedIn .signInBox li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:260px;
+	}
+#bopaboxNotLoggedIn .signInBox li span.errorMsg1{
+	display:block;
+	color:#f26632;
+	line-height:27px;
+	padding-left:10px;
+	text-align:left;
+	}
+#bopaboxNotLoggedIn .signInBox li input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:192px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+
+
+/* ********************************************************************************************** /
+/*                                          SEARCH RESULT                                       */
+/* **********************************************************************************************/
+#searchResults{
+	width:100%;
+	}
+#searchResults .tableHolder{
+	width:100%;
+	}
+
+#searchResults .songNo{
+	width:100px;
+	float:left;
+	margin-left:7px;
+	}
+
+#searchResults .searchResultsSortBy{
+	width:260px;
+	margin:5px 5px 0 0;
+	padding:0;
+	height:21px;
+	float:right;
+	text-align:right;
+	}
+#searchResults .hdrSearchResults h1{
+	float:left;
+	padding:5px 0 0 15px;
+	}
+.selectText{
+	float:left;
+	padding-left:30px;
+	line-height:21px;
+	width:50px;
+	}
+#searchResults .hdrSearchResults .selectSortBox{
+	margin-left:10px;
+	width:145px;
+	display:block;
+	}
+/* FORM CSS */
+#searchResults .hdrSearchResults select.selectSort{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	width:150px;
+	}
+	
+
+* html #searchResults .bopaBoxSearch{
+	margin:0 2px 0 0;}
+
+#searchResults .bopaBoxSearch input{
+	background:none;
+	border:none;
+	margin-left:10px;	
+	padding-top:3px;
+	width:200px;}
+a.playSong{
+	display:block;
+	width:21px;
+	height:25px;
+	text-indent:-9999px;
+	background: url(../images/icons.png) no-repeat 0px -180px;
+	text-decoration:none;
+	}
+	
+	
+/* ********************************************************************************************** /
+/*                                          SEARCH BOX                                       */
+/* **********************************************************************************************/
+#searchBox{
+	width:720px;
+	}
+#searchBox .search{
+	float:left;
+	width:540px;
+	margin-left:85px;
+	text-align:center;
+	}
+#searchBox h3{
+	margin-bottom:10px;
+	}
+/*form css */
+#searchBox .search p.bgInput{
+	background:url(../images/bgSearchInput.png) no-repeat left top;
+	height:45px;
+	}
+#searchBox .search input.inputStyle{
+	border:none;
+	padding:2px 2px 2px 2px;
+	width:461px;
+	font:normal 24px/28px Verdana, Arial, Helvetica, sans-serif;
+	color:#f26632;
+	margin-top:4px;
+	background-color:transparent;
+	}
+#searchBox .search .btnSearch{
+	padding-top:20px;
+	clear:both;
+	float:left;
+	padding-left:140px;
+	}
+
+	
+/* ********************************************************************************************** /
+/*                                          TAGS                                       */
+/* **********************************************************************************************/
+#tags{
+	width:720px;
+	}
+	
+	
+
+#tags .f001, #tags .f002, #tags .f003, #tags .f004, #tags .f005, #tags .f006, #tags .f007{
+	color:#0079c2;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	padding:0 7px;
+	}
+
+#tags a.f001:hover, #tags a.f002:hover, #tags a.f003:hover, #tags a.f004:hover, #tags a.f005:hover, #tags a.f006:hover, #tags a.f007:hover{
+	color:#fff;
+	background-color:#0079c2;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	text-decoration:none;
+	}
+	
+#tags .f002{
+	font-size:1.5em;}
+
+#tags .f003{
+	font-size:2em;}
+
+#tags .f004{
+	font-size:2.5em;}
+
+#tags .f005{
+	font-size:3em;}
+
+#tags .f006{
+	font-size:3.5em;}
+
+
+#tags .f006{
+	font-size:3.5em;
+	font-weight:bold;}
+
+
+
+/* ********************************************************************************************** /
+/*                                          TOP TWENTYFIVE BOX                                       */
+/* **********************************************************************************************/
+
+/*
+Added fixed width for Top 25 tab
+-- /arnel/2008-07-10
+*/
+#topTwentyfive {
+	width:720px;
+}
+
+#topTwentyfive ol, ul{
+	float:left;
+	}
+
+#topTwentyfive ul{
+	margin:15px 0 0 40px;
+	}
+
+/* ********************************************************************************************** /
+/*                                          GENRE                                      */
+/* **********************************************************************************************/
+
+/*
+Added fixed width for Genre tab
+-- /arnel/2008-07-10
+*/
+#genre {
+	width:720px;
+}
+
+#genre ul{
+	margin-left:50px;
+	width:269px;
+	float:left;
+	}
+#genre ul a{
+	font-weight:bold;
+	}
+
+
+/* ********************************************************************************************** /
+/*                                          bopabank                                      */
+/* **********************************************************************************************/
+
+#bopabank{
+	width:750px;
+	}
+#bopabank .tableHolder{
+	/* padding:15px 10px 0 10px; */
+	padding-top:15px;
+	margin: 0 auto;
+	width:720px;
+	}
+
+/*#bopabank  tr:hover>td{
+	background-color:#fff;
+	color:#0079c2;
+	cursor:pointer;
+	}*/
+#bopabankTable{
+	margin-left:10px;
+	float:left;
+	}
+#bopabankTable tbody .indentPrice{
+	padding-right:20px;}
+#bopabankTable .transactionDetails{
+	border:1px solid #A6A7A7;
+	float:left;
+	}
+#bopabankTable .transactionDetails .btnClose{
+	background:url(../images/icons.png) no-repeat 0 -238px;
+	text-indent:-89999px;
+	width:23px;
+	}
+#bopabankTable .transactionDetails thead th{
+	background:url(../images/bgTransactionDetailsTh.jpg) repeat-x top left;
+	border-right:1px solid #fff;
+	height:20px;
+	line-height:20px;
+	height:20px;
+	color:#666;
+	}
+
+#bopabankTable .transactionDetails thead th.last{
+	background:url(../images/bgTransactionDetailsTh.jpg) repeat-x top left;
+	border-right:1px solid #767879;
+	height:20px;
+	line-height:20px;
+	height:20px;
+	color:#666;
+	}
+#bopabankTable .transactionDetails thead th span{
+	line-height:normal;
+	color:#333;
+	}
+#bopabankTable .transactionDetails tbody td span{
+	display:block;
+	}
+#bopabankTable .transactionDetails tbody td{
+	line-height:1.8em;
+	border:none;
+	}
+tfoot td.total{
+	font-weight:bold;
+	text-align:right;
+	}
+
+
+
+
+/***************************************************************************************************************/
+                                                 /*advanced search */
+/***************************************************************************************************************/
+#advancedSearch{
+	width:720px;
+	}
+.advSearch{
+	padding-left:15px;
+	width:680px;
+	}
+.advSearch p{
+	color:#767879;
+	float:left;
+	margin-top:8px;
+	clear:both;
+	width:90%;
+}
+
+#advancedSearch .advSearch input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+
+#advancedSearch .advSearch .selectStyle {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	width:140px;
+	}
+#advancedSearch .advSearch hr{
+	float:left;
+	border:0;
+	background:#ebebeb; /* firefox */
+	color:#ebebeb; /* ie */
+	width:90%;
+	margin-top:11px;
+	height:1px;
+	clear:both;
+	}
+
+
+#advancedSearch .advSearch input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	margin-right:15px;
+	width:58px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	float:left;
+	}
+#advancedSearch .advSearch span.left, #advancedSearch .advSearch span.right{
+	height:30px;
+	float:left;	
+	}
+.simpleSearch{	
+	float:right;
+	height:20px;
+	}
+#advancedSearch .advSearch span.note{
+	display:block;
+	color:#a8a9ab;
+	}
+#advancedSearch .advSearch .saveSearch{
+	padding-top:3px;
+	}
+#advancedSearch .advSearch p.last{
+	margin-top:30px;
+	padding-bottom:20px;
+	}
+
+
+/**********************************************************************************************************************/
+                                             /* WITHDRAW Funds */
+/**********************************************************************************************************************/
+
+#withdrawFund{
+	width:750px;
+	}
+.withdrawFund{
+	float:left;
+	width:100%;
+	}
+.withdrawFund ul{
+	float:left;
+	margin-top:25px;
+	}
+.withdrawFund ul li{
+	clear:both;
+	margin-bottom:10px;
+	float:left;
+	}
+.withdrawFund ul li label.left{
+	float:left;
+	width:218px;
+	text-align:right;
+	}
+.withdrawFund ul li span.right{
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	width:400px;
+	clear:right; /* for ie */
+	}
+
+.withdrawFund ul li span.balanceAvailable{
+	font-weight:bold;
+	color:#0079c2;
+	}
+.withdrawFund ul li span{
+	float:left;
+
+	}
+.withdrawFund ul li span.paypal{
+	display:block;
+	width:75px;
+	float:left;
+	height:25px;
+	background:url(../images/iconPaypal.png) no-repeat top center;
+	}
+.withdrawFund ul li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+
+.withdrawFund ul li input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	margin-right:15px;
+	width:58px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	float:left;
+	}
+
+/**********************************************************************************************************************/
+                                             /* payment */
+/**********************************************************************************************************************/
+#payment{
+	width:750px;
+	}
+.payment{
+	float:left;
+	width:100%;
+	margin-top:15px;
+	}
+#bopabankTable thead  tr th{
+	font-weight:normal;
+	}
+
+#bopabankTable tbody tr td{
+	height:30px;
+	}
+#bopabankTable tbody tr td span.address{
+	line-height:normal;
+	padding-top:5px;
+	float:left;
+	}
+#bopabankTable tbody tr td a.delete{
+	/* 
+	display:block;
+	width:22px;
+	height:23px;
+	text-indent:-9999px;
+	margin-left:30px;
+	float:left;
+	background:url(../images/icons.png) no-repeat 0 -302px;
+	 */
+	display:block;
+	width:18px;
+	height:18px;
+	text-indent:-9999px;
+	margin-left:30px;
+	margin-top:4px;
+	float:left;
+	background:url(../images/iconDelete.png) no-repeat;
+	}
+#bopabankTable tbody tr td a.edit{
+	display:block;
+	width:20px;
+	height:23px;
+	margin-left:4px;
+	text-indent:-9999px;
+	float:left;
+	background:url(../images/icons.png) no-repeat 0 -335px;
+	}
+
+
+/**********************************************************************************************************************/
+                                             /* addd new card */
+/**********************************************************************************************************************/
+#addNewCard{
+	width:750px;
+	}
+.addNewCard{
+	float:left;
+	width:720px;
+	margin-top:15px;
+	margin-left:10px;
+	}
+	
+p.toppad{
+	padding-top:10px;
+	}
+.rtext{
+	line-height:18px;
+	height:21px;
+	}
+#addNewCardForm{
+	width:100%;
+	float:left;
+	padding-top:10px;
+	}
+#addNewCardForm li{
+	clear:both;
+	display:block;
+	height:40px;
+	line-height:25px;
+	}
+#addNewCardForm li label{
+	float:left;
+	width:153px;
+	text-align:right;
+	font-weight:bold;
+	}
+#addNewCardForm li span.rside{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:280px;
+	}
+#addNewCardForm li span.rside1{
+	float:left;
+	display:block;
+	margin-left:10px;
+	width:500px;
+	}
+#addNewCardForm li span.visa, #addNewCardForm li span.mastercard{
+	float:left;
+	padding-right:10px;
+	}
+
+#addNewCardForm li span.errorMsg{
+	float:left;
+	display:block;
+	margin-left:10px;
+	color:#f26632;
+	line-height:27px;
+	width:123px;
+	text-align:left;
+	}
+#addNewCardForm li input.inputStyle{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#addNewCardForm li input.inputStyle1{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	width:30px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#addNewCardForm li select {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+#addNewCardForm li select.selectCountry{
+	width:269px;
+	}
+#addNewCardForm li select.selectMonth, #addNewCardForm li select.selectDate {
+	width:76px;
+	}
+#addNewCardForm li select.selectYear{
+	width:106px;
+	}
+
+.addNewCard select.selectStyle {
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	width:492px;
+	}
+	
+#addNewCardForm .cardVerify {
+	display:block;
+	margin-left:50px;
+	margin-top:-1px;
+	margin-top:-28px;
+}
+#addNewCardForm .cardVerifyText {
+	display:block;
+	margin-left:70px;
+	margin-top:-30px;
+	width:300px;
+	line-height:15px;
+}
+.hr{
+	float:left;
+	border:0;
+	background:#ebebeb; /* firefox */
+	color:#ebebeb; /* ie */
+	width:100%;
+	margin-top:11px;
+	height:1px;
+	clear:both;
+	}
+h2{
+	clear:both;
+	}
+
+
+/**********************************************************************************************************************/
+                                             /* buySection */
+/**********************************************************************************************************************/
+#buySection{
+	width:950px;
+	}
+.buySection{
+	float:left;
+	width:950px;
+	margin-top:15px;
+	margin-left:10px;
+	}
+
+#buySection .bopaBoxSearch{
+	width:215px;
+	margin-bottom:10px;
+	margin-left:10px;
+	padding:0;
+	height:21px;
+	float:left;
+	background:url(../images/bopaBooSearch.jpg) no-repeat;
+	background-color:#CCCCCC;
+	}
+
+* html #buySection .bopaBoxSearch{
+	margin:0 2px 0 0;
+	}
+
+#buySection .bopaBoxSearch .bopaBoxSearchInput{
+	background:none;
+	border:none;
+	margin-left:10px;	
+	padding-top:3px;
+	width:200px;
+	font:10px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+	
+#buySectionlaside{
+	float:left;
+	width:740px;
+	}
+	
+	
+/**********************************************************************************************************************/
+                                             /* emailConfirmation */
+/**********************************************************************************************************************/
+#emailConfirmation{
+	width:620px;
+	}
+.emailConfirmation{
+	width:600px;
+	margin-top:0;
+	margin-left:10px;
+	}
+	
+.emailConfirmation p{
+	margin-top:15px;
+	}
+	
+.emailConfirmation hr{
+	margin-top:5px;
+	border-top:1px solid #a8a9ab;
+	width:550px;
+	float:left;
+	}
+	
+.emailConfirmation h1{
+	color: #ED4522;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	}
+	
+#emailConfirmationlaside{
+	float:left;
+	width:720px;
+	}
+
+
+
+
+
+
+/* -----------*/
+.footerRegisterNow{
+	text-transform:none;
+	color:#0079c2 !important;
+	}

@@ -1,0 +1,99 @@
+
+    <script type="text/javascript">
+
+        function fnDownloadLocation() {
+
+            var sPath1 = document.bpChangePref.clsbpUserLogin_txtDownloadLocation.value;
+			var newPath = sPath1.substr(0,sPath1.lastIndexOf('\\'));
+		 	 document.bpChangePref.clsbpUserLogin_downloadPreference.value =  newPath;
+
+		
+        }
+    function fnUploadLocation() {
+			
+            var sPath2 = document.bpChangePref.clsbpUserLogin_txtUploadLocation.value;
+		  	var newPath = sPath2.substr(0,sPath2.lastIndexOf('\\'));
+		  	document.bpChangePref.clsbpUserLogin_uploadPreference.value =  newPath;
+		
+
+        }
+
+       
+
+      
+    </script>
+
+<div id="container">
+
+      <div id="pagehead-bopabank">
+          <h1>My Account Settings</h1>
+      </div>
+    <div id="bopabank">
+    	<form action="" method="post" name="bpChangePref" onsubmit="javascript: return valSubmit();">
+         <input type="hidden" name="clsbpUserLogin_returnUrl" value=""/>
+    	 <input type="hidden" name="clsbpUserLogin_action" value=""/>
+  
+          <table width="914" border="0" cellspacing="0" cellpadding="0" class="datalist">
+                <tr>
+                  <td><ul id="bopabank-menu">
+                    <li class="accountactivity"><a href="bpChangeAccount.php">Info</a></li>
+                    <li class="withdrawfunds"><a href="bpChangePassword.php">Password</a></li>
+                    <li class="managecredit"><a href="bpChangeNotifications.php">Notification</a></li>
+                    <li class="managecredit"><a href="#" class="currentsel">Preferences</a></li>
+                  </ul></td>
+                </tr>
+                <tr>
+                    <td class="hdr">&nbsp;</td>
+            </tr>
+                <tr>
+                  <td valign="top" class="bdy"><div id="my-account-setting-01">
+                    <div id="formrbox-my-account-pref">
+                    <?php
+                    	if(isset($_SESSION['BPMESSAGE'])){
+                    		
+                    ?>
+                      <p align="center">
+				<font color="#f36734"><strong><?php echo displayMessage();?></strong></font>
+		      </p>
+		      <?php
+		      	}
+		      ?>
+                      <h2>Personal Preferences</h2>
+<label for="textfield">Default Download Location</label>
+                      <input type="file" name="clsbpUserLogin_txtDownloadLocation" id="textfield" class="inputstyle05" onblur="fnDownloadLocation();"/>
+                      <input type="hidden" name="clsbpUserLogin_downloadPreference" value="" />
+                      <input type="hidden" name="clsbpUserLogin_uploadPreference" value="" />
+                         <input type="hidden" name="flagNew" value="1" />
+                      <!--<input type="image" align="top" name="sendbtn" src="images/btn-browse.jpg" value="Send Email" id="sendbtn2" onclick="javascript: return 0;"/>-->
+                      <br />
+                      <br />
+                      <label for="textfield">Default Upload Location</label>
+                      <input type="file" name="clsbpUserLogin_txtUploadLocation" id="textfield" class="inputstyle05"  onblur="fnUploadLocation();"/>
+                      <!--<input type="image" align="top" name="sendbtn" src="images/btn-browse.jpg" value="Send Email" id="sendbtn2" onclick="javascript: return 0;"/>-->
+                      <br />
+                      <br />
+                      <label for="textfield2">Default Selling Price</label>
+                      <input name="clsbpUserLogin_txtDefaultPrice" type="text"  class="inputstyle07" id="textfield2" value="<?php echo $clsbpUserLogin->defaultPrice?>" onKeyPress="javascript: return(currencyFormat(this,'','.',event))" maxlength="6" onselect="return fnSelect();"/>
+                      (Per Item)<br />
+  <br />
+  
+  <label></label>
+  <input type="image" align="top" name="form_submitted" src="images/save-changes-btn.jpg" value="Send Email" id="sendbtn"/>
+                    </div>
+                  </div>
+                  <br /></td>
+            </tr>
+                <tr>
+                  <td class="ftr">&nbsp;</td>
+                </tr>
+          </table>
+          </form>
+      <div style="clear:both;"></div>
+
+        
+        <div>
+        </div>
+        </div>
+    </div>
+    
+    </div>

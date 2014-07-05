@@ -1,0 +1,780 @@
+*{
+	margin:0 auto;
+	padding:0;
+	}
+body{
+	text-align:center;
+	}
+
+#header #searchbox input, #container #searchbox-02 input{
+	line-height:24px;	width:964px;
+	}
+#header #searchbox #listings{
+	display:block;
+	width:35px;
+	height:26px;
+	position:absolute;
+	margin-left:-310px;
+/*	background:url(../images/img-search.jpg) no-repeat top left;*/	
+	}
+#container #searchbox-02 #listings{
+	display:block;
+	width:35px;
+	height:26px;
+	position:absolute;
+	margin-left:-404px;
+/*	background:url(../images/img-search.jpg) no-repeat top left;*/	
+	}
+#header #searchbox, #container #searchbox-02{
+	float:left;
+	margin:15px 0 0 20px;
+	}
+#header #searchbox #t_name, #container #searchbox-02 #t_name{
+	padding:0px 0 0 30px;
+	text-indent:10px;
+	height:24px;
+	}
+
+#header #searchbox #clsbpFileDetails_txtSea, #container #searchbox-02 #clsbpFileDetails_txtSea{
+	padding:0px 0 0 30px;
+	text-indent:10px;
+	height:24px;	}
+#header #searchbox #clsbpFileDetails_txtSearch, #container #searchbox-02 #clsbpFileDetails_txtSearch{
+	padding:0px 0 0 2px;
+	text-indent:10px;
+	height:24px;	}
+
+#header #searchbox input{
+	padding:4px 0 0 0 ;
+	
+	}
+#header #searchbox input{
+	border-top:1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+	border-left:none;
+	height:24px;
+	border-collapse:collapse;
+	float:left;
+	width:213px;
+	padding:0;
+	}
+	
+#container{
+	margin-bottom:30px;
+	}	
+	
+#container #bopabox_topnav{
+	width:70%;
+	float:left;
+	height:37px;
+	text-align:right;
+	margin-top:11px;
+/*	bottom:-2px;*/
+	bottom:0px;
+	position:relative;
+	
+	}
+
+#container #bopabox_topnav #form2 input{
+	margin:10px 0 0 30px;
+	float:left;
+	display:block;
+	border:1px solid #fff;
+	}
+	
+#container #pagehead{
+	padding:10px 0 0 30px;
+	}
+
+
+#container #pagehead h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 0px;
+	clear:both;
+	padding-top:13px;
+	}
+
+
+#toplistbox{
+	display:block;
+	width:100%;
+	
+	}
+#toplistbox .leftside{
+	float:left;
+	margin-left:12px;
+}
+#toplistbox .rightside{
+	display:block;
+}
+
+#toplistbox .rightside{
+	margin-right:-5px;
+}
+
+	
+
+#ad{
+	display:block;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+	margin-bottom:10px;
+	}
+#tblhdr{
+	margin:0 0 0 4px;}
+	
+#container{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:left;
+	height:auto;
+	}
+	#forgot_password{
+		text-align:left;
+		float:left;
+		width:80%;
+
+	}
+#forgot_password form{
+	float:left;
+	display:block;
+
+
+	}
+#forgot_password label{
+	display:block;
+	float:left;
+	clear:both;
+	line-height:26px;
+	height:20px;
+	}
+#forgot_password input{
+
+	width:250px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding-top:6px;
+	color:#666;
+	}
+
+	
+#srchresults #searchpage-hdr #jumpMenu{
+	height:20px;
+	width:137px;
+	font-size:11px;
+	}
+#slidingflashwrapper {
+	FLOAT: left;
+	MARGIN: 0px auto;
+	WIDTH: 100%;
+	HEIGHT:150px;
+	margin-top:-25px;
+}
+
+
+
+
+.smallcol-right-box-top-img-body{width:245px; float:left; background:#FFFFFF;
+}
+#signup-box-mid{
+	background-image:url(../images/signup-box-mid-bg1.jpg);
+	background-repeat:repeat-y;
+	display:block;
+	margin:0;
+	width:630px;	}
+	
+#signup-box-top{
+	width:630px;
+	}
+#signup-box-bottom{
+	width:630px;
+	}
+
+
+/*#captcha{border:none; margin-left:-15px;}*/
+
+#errormesg p{ padding-left:155px; line-height:15px; margin-bottom:10px;}
+
+#cls{
+	display:block;
+	text-align:center;
+	clear:both;
+	}
+#footer{
+display:block;
+	}
+#footerlinks #leftlinks{
+	float:left;
+	width:45%;
+	display:block;
+	margin-left:10px;
+	text-align:left;
+	}
+	
+	
+#container #tracklistings-container{	
+	margin-top:-2px;
+	}
+	
+	
+#container{
+	margin:10px 0 0 0;
+	}
+
+/*SIGN UP IE FIXES */
+
+.smallcol-right-box-top-img-body{width:243px;
+}
+
+
+/*BOPABOX IE FIXES*/
+
+
+.ie_border-fix_searchbopabox-input{ border:#FFFFFF}
+
+
+#container #ViewCartpagehead h1{
+
+	padding-bottom:10px;
+	}
+	
+/* SIGN UP PAGE */
+#container #pagepromo ul{
+	margin-top:10px;
+
+}
+#container #pagepromo ul li{
+	padding-left:28px;
+
+	}
+	
+	
+/* VIEW PAGE */
+#container .textareastyle {
+	overflow:hidden;
+}
+
+/*ITEM-PAGE */
+#container .item-page .albumdetails{
+	margin:0 0 0 5px;
+	line-height:18px;
+	}
+	
+/*Bopabank page */
+#container #pagehead-bopabank{
+	margin:60px 0 0 0;
+	}
+#container #pagehead-bopabank h1{
+	padding-bottom:10px;
+	}
+#container #bopabank{
+	display:block;
+	margin-top:-60px;
+	}
+#container #pagehead-bopabank #bopabank-balance{
+	height:156px;
+	}
+	
+	
+/* SIGN IN POP UP */
+
+#signin #loginform #signinbtn{
+	width:115px;
+	height:29px;
+	margin-left:115px;
+	margin-top:10px;
+	border:none;
+	display:block;
+	margin-bottom:10px;
+	}
+	
+/*Bopabank page */
+#container #pagehead-bopabank{
+	margin-left:30px;
+	margin-top:40px;
+	}
+#container #pagehead-bopabank h1{
+	padding-bottom:10px;
+	}
+#container #bopabank{
+	display:block;
+	margin-top:-60px;
+	}
+
+/*VIEW CART PAYMENT */
+#container #viewcartpayment h1{
+	padding-bottom:10px;
+	}
+#container #ViewCartpagehead1 h1{
+	padding-bottom:10px;
+	}
+#container #ViewCartpagehead1{
+	margin:37px 0 0px 30px;
+	}
+
+/* TAKE A TOUR */
+#container #pageheadTour{
+	float:left;
+	clear:both;
+	width:100%;
+	}
+#container #pageheadTour h1{
+	padding-bottom:10px;
+	}
+
+#container #takeaTour{
+	padding:-20px 0 0px 0;
+	margin-top:-30px;
+	float:left;}
+
+	
+/* SELLPAGE */	
+#container #sellpage td .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin-right:95px;
+	}
+#container #sellpage #sellpage_tbl-placeorder{
+	width:650px;
+	margin-left:25px;
+	}
+#container  #sellpage .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin:0 45px 10px 0px;
+	}
+/* BUY PAGE */	
+#buy{
+	
+	margin-bottom:30px;
+	}
+/* SELL PAGE - USER LOGGED IN */
+
+#container #pageheadSell{
+	float:left;
+	clear:both;
+	width:100%;	
+	padding-left:-2px;
+	}
+#container #pageheadSell h1{
+	padding-bottom:10px;
+	}
+#container #pageheadBopabox {
+	float:left;
+	clear:both;
+
+	}
+#container #pageheadBopabox h1{
+	padding-bottom:10px;
+	}
+	
+#container #pageheadBuy{
+	padding-top:17px;
+	padding-left:-2px;
+	}
+/* POST FOR SALE MULTIPLE SONGS */
+#postforsalemultiplesongs .small-hdg a{
+	padding-right:10px;
+	}
+	
+
+/* FEEDBACK PAGE */
+
+#container #feedback .datalist{
+	float:left;
+	margin:18px 0 10px 25px;
+	clear:both;
+	}
+	
+	
+/* MY BOPA  */
+#container #pagehead-mybopa{
+	margin:37px 0 0 20px;
+	}
+	#container #mybopa{
+	display:block;
+	clear:both;
+	margin:-8px 0 0 20px;
+	float:left;
+	}
+	#container #mybopa #raside #box001 .contents{
+	display:block;
+	width:272px;
+	background:#fff;
+	/*padding:14px 0 10px 26px; OLD SETTINGS*/
+	padding:14px 0 0px 26px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	/* min-height:125px; NEWLY COMMENTED */
+	height:102px; /*Newly added*/
+	}
+#container #mybopa #laside #box002 .contents #search #popSearch li.reset
+{
+  margin-top:-204px;
+}
+
+
+
+/*SELL PAGE HACKS*/
+	
+#sellPageRightWrapper .rbox .contentsPopular{
+	display:block;
+	width:570px;
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	background:#fff;
+	padding:20px 15px 21px 15px;
+	height:120px;
+	overflow:hidden;
+	}
+	
+
+#sellPageLeftWrapper .lbox .contentsStartSelling{
+	display:block;
+	width:272px;
+	background:#fff;
+	/* padding:14px 0 15px 26px;  OLD SETTINGS */
+	padding:14px 0 0 26px;
+	
+	border-right:1px solid #A5B2BD;
+	border-left:1px solid #A5B2BD;
+	float:left;
+	/*min-height:125px;*/
+	height:143px;
+	}
+	
+#container #mybopa #laside #box002 .contents #search1 #savedSearch li.reset
+{
+  margin-top:-204px;
+}
+
+/*Buy Page */
+
+#buy .tr {background: url(../images/tr2.gif) 100% 0 no-repeat; padding:10px; float:left; display:block;}
+
+#buy .tr{ width:826px;}
+#buy .tr ul{
+	width:810px;
+	margin-left:15px;
+	display:block;
+	height:auto;
+	}
+#buy .tr ul li{
+	width:270px;
+	display:block;
+	float:left;
+	}
+#buy .tr ul li a{
+	color:#0079C2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+#buy .tr ul li a:hover{
+	color:#333;
+	}
+	
+.tr .f001{
+	font-weight:normal;
+	font-size:44px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+	line-height:40px;	padding:5px;
+	text-transform:lowercase;
+	}
+.tr .f002{
+	font-weight:normal;
+	font-size:36px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+		line-height:40px;	padding:5px;
+		text-transform:lowercase;
+
+	}
+.tr .f003{
+	font-weight:normal;
+	font-size:35px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+	line-height:40px;	padding:5px;	text-transform:lowercase;
+
+	}
+.tr .f004{
+	line-height:40px;
+	font-weight:normal;
+	font-size:24px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.tr .f005{
+	line-height:40px;
+	font-weight:normal;
+	font-size:18px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.tr .f006{
+	line-height:40px;
+	font-weight:normal;
+	font-size:15px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.tr .f007{
+	line-height:40px;
+	font-weight:normal;
+	font-size:12px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.tr .f001:hover, .tr .f002:hover, .tr .f003:hover, .tr .f004:hover, .tr .f005:hover, .tr .f006:hover, .tr .f007:hover{
+	background:#4b72A9;
+	color:#fff;
+	}
+	
+	
+.f001{
+	font-weight:normal;
+	font-size:44px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+	line-height:31px;	padding:5px;
+	text-transform:lowercase;
+	}
+.f002{
+	font-weight:normal;
+	font-size:36px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+		line-height:31px;	padding:5px;
+		text-transform:lowercase;
+
+	}
+.f003{
+	font-weight:normal;
+	font-size:35px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+	line-height:31px;	padding:5px;	text-transform:lowercase;
+
+	}
+.f004{
+	line-height:31px;
+	font-weight:normal;
+	font-size:24px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.f005{
+	line-height:31px;
+	font-weight:normal;
+	font-size:18px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.f006{
+	line-height:31px;
+	font-weight:normal;
+	font-size:15px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+
+	}
+.f007{
+	line-height:31px;
+	font-weight:normal;
+	font-size:12px;
+	color:#0069A8;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;	padding:5px;	text-transform:lowercase;
+	}
+.f001:hover, .f002:hover, .f003:hover, .f004:hover, .f005:hover, .f006:hover, .f007:hover{
+	background:#4b72A9;
+	color:#fff !important;
+	}
+#container #pageheadSearch /* ADVANCED SEARCH HEADING */{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadSearch h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:15px 0 2px 20px;
+	clear:both;
+	float:left;
+	width:400px;
+	height:60px;
+	line-height:50px
+	}
+	/* My Account Settings */
+	#container #pagehead-bopabank{
+	margin:52px 0 0 20px;
+	}
+#container #pagehead-bopabank h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:30 0 0 30px;
+	float:left;
+	}
+#container #bopabank{
+	display:block;
+	clear:both;
+	}
+#container #bopabank .datalist{
+	float:left;
+	margin:30px 0 10px 25px;
+	clear:both;
+	}
+#container #bopabank .datalist #bopabank-menu{
+	float:right;
+	margin:0 auto;
+	margin-right:15px;
+	}
+#container #bopabank .datalist #bopabank-menu li{
+	list-style:none;
+	float:left;
+	display:block;
+	margin-left:4px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity{
+	width:143px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#111217;
+	font-weight:bold;
+	text-decoration:none;
+	height:32px;
+	line-height:32px;
+	padding-top:3px;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity a{
+	display:block;
+	width:143px;
+	text-align:center;
+	background:url(../images/btnbg-acctactivity-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.accountactivity a:hover, #container #bopabank .datalist #bopabank-menu li.accountactivity a.currentsel{
+	background:url(../images/btnbg-acctactivity-hover.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds{
+	width:136px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds a{
+	display:block;
+	width:136px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-wdfunds-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.withdrawfunds a:hover, #container #bopabank .datalist #bopabank-menu li.withdrawfunds a.currentsel{
+	background:url(../images/btnbg-wdfunds-hover.png) no-repeat top left;
+	}
+
+#container #bopabank .datalist #bopabank-menu li.managecredit{
+	width:157px;
+	height:32px;
+	}
+#container #bopabank .datalist #bopabank-menu li.managecredit a{
+	display:block;
+	width:157px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:url(../images/btnbg-mgcc-normal.png) no-repeat top left;
+	}
+#container #bopabank .datalist #bopabank-menu li.managecredit a:hover, #container #bopabank .datalist #bopabank-menu li.managecredit a.currentsel
+	{
+	background:url(../images/btnbg-mgcc-hover.png) no-repeat top left;
+	}
+
+#container #bopabank .datalist .hdr{
+	height:35px;
+	display:block;
+	width:914px;
+	background:url(../images/bg-datalisthdr.jpg) no-repeat top left;
+	}
+#container #bopabank .datalist .bdy{
+	border-left:1px solid #A5B2BD;
+	border-right:1px solid #A5B2BD;
+	background:#fff;
+	}
+#container #bopabank .datalist .ftr{
+	height:18px;
+	display:block;
+	width:914px;
+	background:url(../images/ftr-bopabank-datalist.png) no-repeat top left;
+	}
+	
+
+#container #pageheadSelling{
+	margin:17px 0 0px 30px;
+	}
+#container #pageheadSelling h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:20px 0 0px 20px;
+	clear:both;
+	float:left;
+	width:100%;
+	height:45px;
+	line-height:50px
+	}
+/*     For Member Store        */
+	
+	#container #pageheadStore{
+	margin:50px 0 0 22px;
+	}
+#container #pageheadStore h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	}
+
+	
+	
+	/*    ===================== */
+.iemiddle{	
+	float:left;
+	padding-left:16px;
+	padding-top:3px;
+	
+	}
+	#myBopaContentWrapper #leftWrapper .inbox .contents .tblinbox td.read{
+	font-weight:normal;
+	background:#e5e5e5;
+	padding-top: 8px;
+	}

@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bopaboo</title>
+<style type="text/css">
+@import "../styles/master.css";
+</style>
+<!--[if lt ie 8]>
+	<style type="text/css">
+		@import url("../styles/ie.css");
+    </style> 
+<![endif]-->
+<!--[if lt ie 7]>   
+	<script src="../scripts/IE8.js" type="text/javascript"></script>
+    <script defer type="text/javascript" src="../scripts/pngfix.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <div id="header"> <a href="index.html" id="logo">bopaboo – Your Place to Buy and Sell Digital Music</a>
+    <ul id="accountMenu">
+      <li><a href="register.html"><strong>register</strong></a></li>
+      <li><a href="takeTour.html">take a tour</a></li>
+      <li><a href="shoppingCart.html" class="cart">my cart</a></li>
+      <li><a href="homeLoggedIn.html">login</a></li>
+      <li class="rightEnd"><a href="#">help</a></li>
+    </ul>
+    <div id="menu">      <ul id="topNav">
+        <li class="navHome"><a href="index.html">home</a></li>
+        <li class="navBuy"><a href="shoppingCart.html">buy</a></li>
+        <li class="navSell"><a href="#">sell</a></li>
+        <li class="navBopabox"><a href="bopaBox.html">bopaBox</a></li>
+        <li class="navBopabank"><a href="accountActivity.html">bopaBank</a></li>
+        <li class="navUpload"><a href="#"><span>upload</span></a></li>
+      </ul>
+      <div id="topSearch">
+        <form action="#" name="searchmusic" id="searchmusic">
+          <input type="text" value="search all music" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- header ends-->
+  <div id="container">
+    <div id="signUplaside">
+      <div class="roundedTab" id="signUp">
+        <div class="t">
+          <div class="tab">
+            <h3 class="selecttab wide">sign up</h3>
+          </div>
+          
+          <div class="tabOff">
+            <h3 class="wide"><a href="bopaboxNotLoggedIn.html" >sign in</a></h3></div><div class="loading"> <img src="../images/o2.gif" alt="loading" width="16" height="16" /> </div>
+          <div class="tr"></div>
+        </div>
+        <div class="c">
+          <div class="cl">
+            <!--add content-->
+            <form action="#" name="signupform" id="signupform">
+              <ul id="signUpForm">
+                <li>
+                  <label for="email">email</label>
+                  <span class="rside">
+                  <input type="text"  name="email" value=""  id="email"  class="inputStyle" />
+                  </span> <span class="tick"></span><span class="errorMsg">invalid username</span> </li>
+                <li>
+                  <label for="password">password</label>
+                  <span class="rside">
+                  <input type="password"  name="password" value=""  id="password"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="cpassword">confirm password </label>
+                  <span class="rside">
+                  <input type="password"  name="cpassword" value=""  id="cpassword"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="dispName">display name</label>
+                  <span class="rside">
+                  <input type="text"  name="dispName" value=""  id="dispName"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="fName">first name</label>
+                  <span class="rside">
+                  <input type="text"  name="fName" value=""  id="fName"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="lName">last name</label>
+                  <span class="rside">
+                  <input type="text"  name="lName" value=""  id="lName"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label>country</label>
+                  <span class="rside">
+                  <select name="country" class="selectCountry">
+                    <option>country</option>
+                  </select>
+                  </span> </li>
+                <li>
+                  <label>date of birth</label>
+                  <span class="rside">
+                  <select name="" class="selectMonth">
+                    <option>month</option>
+                  </select>
+                  &nbsp;
+                  <select name="" class="selectDate">
+                    <option>01</option>
+                  </select>
+                  &nbsp;
+                  <select name="" class="selectYear">
+                    <option>year</option>
+                  </select>
+                  </span> </li>
+                <li>
+                  <label>gender</label>
+                  <span class="rside">
+                  <input name="" type="radio" value="" />
+                  male
+                  <input name="" type="radio" value="" />
+                  female</span> </li>
+                <li>
+                  <label for="secquestion">security question</label>
+                  <span class="rside">
+                  <input type="text"  name="secquestion" value=""  id="secquestion"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label>&nbsp;</label>
+                  <span class="rside">
+                  	<span class="captchaText">enter the text you see the image</span>
+                  	<span class="captchaImage"><img src="../images/tempcaptcha.jpg" alt="Captcha Image" width="274" height="74" /></span>
+                  	<span class="captchaText">can't read this? <a href="#">try another</a></span>
+                  </span> </li>
+                <li>
+                  <label>do you agree</label>
+                  <span class="rside">
+                  <input name="" type="checkbox" value="" />
+                  &nbsp;by signing up, you accept the terms of use and confirm you're 13 or older.</span> </li>
+                <li>&nbsp;</li>
+                <li>
+                  <label>&nbsp;</label>
+                  <span class="rside"><a href="homeLoggedIn.html"><img src="../images/btnRegister.jpg" alt="Register" width="129" height="24" border="0" /></a></span></li>
+              </ul>
+            </form>
+            <!--finish content-->
+          </div>
+        </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- signUp ends -->
+    </div>
+    <!-- laside ends here -->
+    <div id="signUpraside">
+    	<div class="rounded" id="whyJoinBox">  
+             <div class="t">
+                 <div class="tr"></div>
+             </div>
+           <div class="c">
+             <div class="cl"> 
+             <!--add content-->
+           	     <div class="pad">
+                   <h1 class="hdrWhyJoin">why join bopaboo?</h1>
+                    <div class="list1 top">
+                        <p> legally sell unwanted music</p>
+                    </div>
+                    <div class="list2">
+                        <p class="oneliner">buy DRM-Free music as low as $.25</p>
+                   </div>
+                <div class="list3">
+                        <p> you're own digital music store  </p>
+                   </div>
+                  <div class="list4">
+                        <p> unlimited digital music locker  </p>
+                   </div>
+                   <div class="list5">
+                        <p> it's free  </p>
+                   </div>
+                 </div>
+              <!--finish content--> 
+           </div>
+           </div>
+             <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- whyJoinBox ends -->
+      <div class="rounded" id="privacyStatement">  
+             <div class="t">
+                 <div class="tr"></div>
+             </div>
+           <div class="c">
+             <div class="cl"> 
+             <!--add content-->
+           	     <div class="pad">
+                   <p>bopaboo understands that user privacy is key to our success.</p>
+					<p>already a member?<br />
+				   please read our <a href="#">privacy policy</a>                   </p>
+           	     </div>
+              <!--finish content--> 
+           </div>
+           </div>
+             <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- whyJoinBox ends -->
+    </div>
+    <!-- raside ends here -->
+  </div>
+  <!-- container ends-->
+</div>
+<!-- wrapper ends -->
+
+<div id="footer">
+  <ul id="box001">
+    <li>
+      <h3>Get your bopaboo on!</h3>
+    </li>
+    <li>got unwanted tunes?</li>
+    <li>get started now and </li>
+    <li>start making some cash!</li>
+    <li><br /><a href="#" class="footerRegisterNow">Register Now!</a></li>
+  </ul>
+  <ul id="box002">
+    <li>
+      <h4>Business &amp; Media </h4>
+    </li>
+    <li><a href="#" rel="facebox">Press Releases</a></li>
+    <li><a href="#">In the News</a></li>
+    <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+    <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+  </ul>
+  <ul id="box003">
+    <li>
+      <h4>Company </h4>
+    </li>
+    <li><a href="#" rel="facebox">About Us</a></li>
+    <li><a href="#">Management</a></li>
+    <li><a href="#" target="_blank">Blog</a></li>
+    <li><a href="#" target="_blank"><strong>We're Hiring!</strong></a></li>
+    <li><a href="#" target="_blank">Contact Us</a></li>
+  </ul>
+  <ul id="box004">
+    <li>
+      <h4>Legal Info </h4>
+    </li>
+    <li><a href="privacyPolicy.html" rel="facebox">Privacy Policy</a></li>
+    <li><a href="termsOfServices.html">Terms of Use</a></li>
+    <li><a href="#" target="_blank">sitemap</a></li>
+  </ul>
+  <ul id="box005">
+    <li>
+      <h4>Account </h4>
+    </li>
+    <li><a href="#" rel="facebox">FAQ</a></li>
+    
+  </ul>
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+</div>
+<!-- footer ends -->
+</body>
+</html>

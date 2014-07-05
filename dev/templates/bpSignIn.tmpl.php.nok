@@ -1,0 +1,171 @@
+<script language="javascript">
+function fnEchecks(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+ 		 return true					
+	}
+	
+
+
+
+function fnValidates()
+{
+  
+  	
+   /* var emailID=document.frmLoginNew.clsbpUserLogin_txtEmail;
+
+	if ((emailID.value==null)||(emailID.value=="")){
+		alert("You have not entered a valid email address. Please try again.")
+		emailID.focus()
+		return false
+	}
+	if (fnEchecks(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+	}
+	
+	if(document.frmLoginNew.clsbpUserLogin_txtPassword.value == "")
+	{
+	alert("Enter Password");
+	document.frmLoginNew.clsbpUserLogin_txtPassword.focus();
+	return false;
+	}
+	 */
+	ajaxFunction(document.frmLoginNew.clsbpUserLogin_txtEmail.value,document.frmLoginNew.clsbpUserLogin_txtPassword.value);
+
+	return false;
+}
+
+function ajaxFunction(username,password)
+{
+var xmlHttp;
+try
+  {
+  // Firefox, Opera 8.0+, Safari
+  xmlHttp=new XMLHttpRequest();
+  }
+catch (e)
+  {
+  // Internet Explorer
+  try
+    {
+    xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+    }
+  catch (e)
+    {
+    try
+      {
+      xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    catch (e)
+      {
+      alert("Your browser does not support AJAX!");
+      return false;
+      }
+    }
+  }
+  xmlHttp.onreadystatechange=function()
+    {
+    if(xmlHttp.readyState==4)
+      {
+      var s = xmlHttp.responseText;
+	  if(s=="false") {
+		  document.getElementById('errordisplay').innerHTML ="Invalid email address or password.";
+	  }
+	  else {
+	  	document.frmLoginNew.clsbpUserLogin_action.value="LOGIN";
+	 
+	  	
+		document.frmLoginNew.submit();
+	  }
+      }
+     
+    }
+  xmlHttp.open("GET","loginvalidate.php"+"?user="+username+"&pass="+password,true);
+  xmlHttp.send(null);
+  }
+</script>
+
+<div id="signin">
+    <form id="frmLoginNew" name="frmLoginNew" method="post" action="" onsubmit="return fnValidates();">
+        <div id="top">
+            <div class="leftaside"><h2>Existing Members</h2></div><div class="rightaside"><h2>New Member</h2></div>
+        </div>
+        <div id="contents">
+            <div class="leftaside">
+                <label><strong><font color="#666666">Email Address</font></strong></label>
+                <input name="clsbpUserLogin_txtEmail" type="text" id="clsbpUserLogin_txtEmail" style="font-size:13.3333px; height:16px"/>
+                <label><strong><font color="#666666">Password</font></strong></label>
+                <input name="clsbpUserLogin_txtPassword" type="password" style="font-size:13.3333px;height:16px"/>
+                <div id="errordisplay"><?php echo displayMessage(); ?></div>
+            </div>
+            <div class="rightaside">
+                <p>Not a Member Yet? In order to buy and sell on bopaboo you need to register for a free account.</p>
+                <?php 
+                    $songIds =  base64_encode(implode(",",$_SESSION['bopaBasket']['song']));
+                    if($songIds!="") {
+                    $link = "bpUserSignup.php?songList=$songIds";
+                    }
+                    else {
+                    $link = "bpUserSignup.php";
+                    }
+                 ?>
+            </div>
+        </div>
+        <div id="bottom">
+            <div class="leftaside">
+                <input type="image" src="images/btn-signin.jpg" id="signinbtn" class="signinbtn" />
+                <div class="forgot"><a href="bpForgotPassword.php">Forgot your Password?</a></div>
+                <input type="hidden" name="clsbpUserLogin_action" value=""/>
+                <input type="hidden"  id="clsbpUserLogin_returnUrl" name="clsbpUserLogin_returnUrl" value="<?php echo  $clsbpUserLogin->returnUrl; ?>">
+            </div>
+            <div class="rightaside">
+                <a href="<?php echo $link;?>" class="register">
+                    <img src="images/btn-register.jpg" alt="Register" width="130" height="29" border="0" />
+                </a> 
+                <a href="bpTakeTour.php" class="learnmore">Learn More</a> 
+                <a href="#" class="closebtn" onclick="tb_remove();"><img src="images/btn-close.jpg" alt="close" width="60" height="20" border="0" /></a> 
+            </div>
+        </div>      
+    </form>
+</div>

@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>bopaboo - Your Place to Buy and Sell Digital Music</title>
+
+<style type="text/css">
+@import "styles/master.css";
+</style>
+<!--[if lt ie 8]>
+	<style type="text/css">
+		@import url("styles/ie.css");
+    </style> 
+<![endif]-->
+<!--[if lt ie 7]>   
+	<script src="scripts/IE8.js" type="text/javascript"></script>
+    <script defer type="text/javascript" src="../scripts/pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+  <div id="wrapper">
+
+		
+<SCRIPT language="JavaScript">
+var isOpera, isIE = false;if(typeof(window.opera) != 'undefined'){isOpera = true;}if(!isOpera && navigator.userAgent.indexOf('Internet Explorer')){isIE = true};//fix both IE and Opera (adjust when they implement this method properly)
+if(isOpera || isIE){  document.nativeGetElementById = document.getElementById;  //redefine it!  
+document.getElementById = function(id){    var elem = document.nativeGetElementById(id);    if(elem){      //verify it is a valid match!      
+if(elem.attributes['id'] && elem.attributes['id'].value == id){        //valid match!       
+ return elem;      } else {        //not a valid match!        //the non-standard, document.all array has keys for all name'd, and id'd elements        //start at one, because we know the first match, is wrong!        
+ for(var i=1;i<document.all[id].length;i++){          if(document.all[id][i].attributes['id'] && document.all[id][i].attributes['id'].value == id){            return document.all[id][i];          }        }      }    }    return null;  };}
+ 
+function fnshows (obje){
+
+	if (obje.value=='search all music') {obje.value = '';}
+	if (obje.value=='search all') {obje.value = '';}
+	if (obje.value=='search artists') {obje.value = '';}
+	if (obje.value=='search albums') {obje.value = '';}
+	if (obje.value=='search songs') {obje.value = '';}
+	if (obje.value=='search sellers') {obje.value = '';}
+	document.getElementById('clsbpFileDetails_seachError').value = "";
+	}
+	function fnhides(obje)
+	{
+		if(document.getElementById('clsbpFileDetails_seach').value != ""){
+			if (obje.value=='') {obje.value = 'search '+document.getElementById('clsbpFileDetails_seach').value;}
+		}
+		else
+		{
+			if (obje.value=='') {obje.value = 'search all music'}
+		
+		}	
+}
+
+function fnDisps(obj){
+
+document.getElementById('clsbpFileDetails_txtSea').value = 'search ' + obj.innerHTML;
+document.getElementById('clsbpFileDetails_seach').value = obj.innerHTML;
+
+}
+
+function fnsearchInformation(obje){
+	var error="";
+	var searcharray = new Array();	
+	searcharray[0] ="search all music"; 
+	searcharray[1] ="search all"; 
+	searcharray[2] ="search artists";
+	searcharray[3] ="search albums";
+	searcharray[4] ="search sellers"; 
+   for(i=0;i<searcharray.length;i++)
+  
+   {
+ 
+   if(document.getElementById('clsbpFileDetails_txtSea').value ==  searcharray[i] && document.getElementById('clsbpFileDetails_seachError').value=="")
+   {
+   error = "search term should have two or more characters";
+   alert(error);
+   //var url ="bpBuy.php";
+   //window.location=url+"?msg="+error;	
+   return false;
+   }
+   }
+if(document.getElementById('clsbpFileDetails_txtSea').value.length <3 && document.getElementById('clsbpFileDetails_txtSea').value != ""){
+
+error = "search term should have two or more characters";
+alert(error);
+//var url ="bpBuy.php";
+//window.location=url+"?msg="+error;	
+
+return false;
+}
+
+return true;
+}
+</SCRIPT>
+
+	
+	<!-- start header -->
+	<div id="header">
+		
+		<a href="http://www.bopaboo.com/dev/index.php" id="logo">bopaboo ? Your Place to Buy and Sell Digital Music</a>
+		
+		<ul id="accountMenu">
+						<li><a href="https://www.bopaboo.com/dev/bpUserSignup.php"><strong>register</strong></a></li>
+			<li><a href="http://www.bopaboo.com/dev/bpViewCart.php" class="cart">my cart</a></li>
+
+			<li><a href="http://www.bopaboo.com/dev/bpTakeTour.php">take a tour</a></li>
+			<li><a href="https://www.bopaboo.com/dev/bpBopaLogin.php?returnUrl=bpBopaLogin.php">login</a></li>
+			<li class="rightEnd"><a href="http://www.bopaboo.com/dev/bpHelp.php">help</a></li>
+					</ul>
+
+		
+		<!-- start main nav menu -->
+		<div id="menu">
+			<ul id="topNav">
+
+				<li class="navHome"><a href="http://www.bopaboo.com/dev/index.php">home</a></li>
+				<li class="navBuy"><a href="bpBuy.php"  >buy</a></li>
+				<li class="navSell"><a href="http://www.bopaboo.com/dev/bpSell.php" >sell</a></li>
+				<li class="navBopabox"><a href="https://www.bopaboo.com/dev/bpBopaLogin.php?returnUrl=bpBopaBox.php" 				                   >bopabox</a></li>
+				<li class="navBopabank"><a href="https://www.bopaboo.com/dev/bpBopaLogin.php?returnUrl=bpMyBopa.php"  >bopaBank</a></li>
+				<li class="navUpload"><a href="http://www.bopaboo.com/dev/bpBopaLogin.php"><span>upload</span></a></li>
+
+			</ul>
+		</div>
+		<!-- end main nav menu -->
+		
+		<!-- start search -->
+		<div id="topSearch">
+			<form name="formheaderSearch" action="http://www.bopaboo.com/dev/bpSearch.php" method="post" title="Search" id="searchbox" onsubmit="return fnsearchInformation();">
+			    <div id="listings">
+			      <ul>
+				<li  class="top"><a href="#" id="1" onclick="fnDisps(this)">all</a></li>
+
+				<li><a href="#" id="2" onclick="fnDisps(this)">artists</a></li>
+				<li><a href="#" id="3" onclick="fnDisps(this)">albums</a></li>
+				<li><a href="#" id="4" onclick="fnDisps(this)">songs</a></li>
+				<li class="bottom"><a id="5" onclick="fnDisps(this)" href="#">sellers</a></li>
+			      </ul>
+			    </div>
+				<input name="clsbpFileDetails_txtSearch" type="text" id="clsbpFileDetails_txtSea" value="search all music" onfocus="fnshows(this);" onblur="fnhides(this);"/>
+
+				<input type="hidden"  name="clsbpFileDetails_seachCat" id="clsbpFileDetails_seach"/>
+				<input type="hidden" name="clsbpFileDetails_seachError" id="clsbpFileDetails_seachError" value="1" />
+			</form>
+		</div>
+		<!-- end search -->
+		
+	</div>
+	<!-- end header -->
+	<script language="javascript">
+function fnEchecks(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+ 		 return true					
+	}
+
+function fnValidateNew()
+{
+  
+    var emailID=document.frmLoginNewAdd.clsbpUserLogin_txtEmail;
+	if ((emailID.value==null)||(emailID.value=="")){
+		alert("You have not entered a valid email address. Please try again.")
+		emailID.focus()
+		return false
+	}
+	else if (fnEchecks(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+	}
+	
+	else if(document.frmLoginNewAdd.clsbpUserLogin_txtPassword.value == "")
+	{
+	alert("Enter Password");
+	document.frmLoginNewAdd.clsbpUserLogin_txtPassword.focus();
+	return false;
+	}
+	else
+	{
+		document.frmLoginNewAdd.clsbpUserLogin_action.value="LOGIN";
+	}
+return true
+}
+</script>
+
+                
+  <div id="container">
+    <div id="signUplaside">
+      <div class="roundedTab" id="signUp">
+        <div class="t">
+          <div class="tabOff">
+            <h3 class="selecttab wide"><a href="bpUserSignup.php" >sign up</a></h3></div><div class="tab">
+            <h3 class="wide">sign in</h3>
+
+          </div>
+          <div class="tr"></div>
+        </div>
+        <div class="c">
+          <div class="cl">
+            <!--add content-->
+            <div id="bopaboxNotLoggedIn">
+                <div class="signInBox">
+                	<h1>existing members</h1>
+
+                    <form id="form1" name="frmLoginNewAdd" onsubmit="return fnValidateNew();" method="post" action="">
+                    	<input type="hidden" name="clsbpUserLogin_action" value=""/>
+                			<input type="hidden"  id="clsbpUserLogin_returnUrl" name="clsbpUserLogin_returnUrl" value="">
+                    	<ul>
+                        <li>
+                        <label for="email">email address</label>
+                        <span class="rside">
+                        <input type="text"  name="clsbpUserLogin_txtEmail" id="email"  class="inputStyle1" />
+                        </span></li>
+                      </ul>
+                      <ul>
+                        <li>
+                        <label for="email">email address</label>
+                        <span class="rside">
+                        <input type="text"  name="clsbpUserLogin_txtEmail" id="email"  class="inputStyle1" />
+                        </span></li>
+                      </ul>
+                      <ul>
+                        <li>
+                        <label for="password">password</label>
+                        <span class="rside">
+                        <input type="password"  name="clsbpUserLogin_txtPassword" id="password"  class="inputStyle1" />
+                        </span></li>
+                        
+                        <li>
+                         <label>&nbsp;</label>
+
+                        <span class="rside"><span class="errorMsg1"></span></span>                      </li>
+                       </ul>
+                       <ul>
+                      <li><br/>
+                        <label>&nbsp;</label>
+                        <span class="rside">
+                        	<span class="registerBtn1">
+                        	<!--<span class="btSignIn"><a href="javascript:fnValidates();" style="float:right;"></a></span>-->
+                        	<input type="image" src="images/btnSignIn.jpg" id="signinbtn" class="signinbtn" border="0" /><br />
+                            	<!-- <a href="#"><img src="images/btnSignIn.jpg" alt="Sign In" width="129" height="24" border="0" /></a><br /> -->
+
+                                <a href="bpForgotPassword.php">forgot your password?</a>
+                                
+                            </span>
+                         </span>
+                         
+                         <div style="clear:both;"></div>
+                      </li>
+                      
+                     </ul>
+                    </form>
+                </div>
+                <div class="bopaboxRegisterBox">
+
+                	
+                	<h1>new member</h1>
+                    <p>
+                        not a member yet? in order to buy and sell on bopaboo you need to register for a free account.<br />
+                        <span class="registerBtn2">
+                        <a href="bpUserSignup.php"><img src="images/btnRegister.jpg" alt="Register Now!" width="129" height="24" border="0" /></a>
+                        </span>
+                    </p>
+                </div>
+
+                <div class="cls"></div>
+            </div>
+            <!--finish content-->
+          </div>
+        </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      <!-- signUp ends -->
+    </div>
+
+    <!-- laside ends here -->
+  </div>
+
+<!-- begin footer -->
+<div id="footer">
+	
+  <ul id="box001">
+    <li><h3>Get your bopaboo on!</h3></li>
+    <li>got unwanted tunes?</li>
+    <li>get started now and </li>
+
+    <li>start making some cash!</li>
+    <li><br /><a href="bpUserSignup.php" class="footerRegisterNow">Register Now!</a></li>
+  </ul>
+  
+  <ul id="box002">
+    <li><h4>Business &amp; Media </h4></li>
+    <li><a href="#" rel="facebox">Press Releases</a></li>
+
+    <li><a href="#">In the News</a></li>
+    <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+    <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+  </ul>
+  
+  <ul id="box003">
+    <li><h4>Company </h4></li>
+    <li><a href="http://blog.bopaboo.com/?page_id=2" rel="facebox" target="_blank">About Us</a></li>
+
+    <li><a href="http://blog.bopaboo.com/?page_id=10" target="_blank">Management</a></li>
+    <li><a href="http://blog.bopaboo.com/?cat=6" target="_blank">Blog</a></li>
+    <li><a href="http://blog.bopaboo.com/?cat=5" target="_blank"><strong>We're Hiring!</strong></a></li>
+    <li><a href="http://blog.bopaboo.com/?page_id=13" target="_blank">Contact Us</a></li>
+  </ul>
+  
+  <ul id="box004">
+    <li><h4>Legal Info </h4></li>
+
+    <li><a href="bpPrivacyPolicy.php" rel="facebox">Privacy Policy</a></li>
+    <li><a href="bpTermsOfService.php">Terms of Use</a></li>
+  </ul>
+  
+  <ul id="box005">
+    <li><h4>Account </h4></li>
+    <li><a href="bpHelp.php" rel="facebox">FAQ</a></li>
+  </ul>
+
+  
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+  
+</div>
+<!-- end footer -->
+    </div>
+</body>
+</html>

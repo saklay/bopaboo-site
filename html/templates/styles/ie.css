@@ -1,0 +1,21 @@
+body {
+    font-size		:	11px;
+}
+
+* html #quickLinks ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	width:536px;
+	margin-left:2px;
+	}
+* html #registerBox{
+	margin-top:23px;
+	}
+*html #container #hpraside .registerBtn{
+margin:0px 24px 0 0px;
+}
+*html #container #hpraside .signinBtn{
+margin:0px 24px 0 0px;
+}

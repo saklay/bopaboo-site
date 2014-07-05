@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bopaboo</title>
+<style type="text/css">
+@import "../styles/master.css";
+</style>
+<!--[if IE]>
+
+	<style type="text/css">
+		@import "../styles/ie.css";
+    </style>
+    
+<![endif]-->
+
+
+
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="../scripts/pngfix.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+    	<a href="index.html" id="logo">bopaboo – Your Place to Buy and Sell Digital Music</a>
+    	<ul id="accountMenu">
+        	<li>welcome Alex!</li> 
+            <li><a href="shoppingCart.html" class="cart">my cart</a></li>
+            <li><a href="messageInbox.html" class="mail">(0)</a></li>
+            <li><a href="feedbackProvided.html" class="favourite">(4)</a></li>
+            <li><a href="myAccount.html">account</a></li>
+            <li><a href="helpFAQ.html">help</a></li>
+            <li class="rightEnd"><a href="index.html">logout</a></li></ul>
+      <div id="menu">
+          <ul id="topNav">
+            <li class="navHome"><a href="homeLoggedIn.html" >home</a></li>
+            <li class="navBuy"><a href="shoppingCart.html" class="currentsel">buy</a></li>
+            <li class="navSell"><a href="sellLoggedIn.html" >sell</a></li>
+            <li class="navBopabox" ><a href="bopaBox.html" >bopaBox</a></li>
+            <li class="navBopabank"><a href="accountActivity.html">bopaBank</a></li>
+            <li class="navUpload"><a href="#"><span>upload</span></a></li>
+          </ul>
+         <div id="topSearch">
+            <form>
+                <input type="text" value="search all music" />
+            </form>
+        </div>
+       </div>
+  </div>
+  <!-- header ends-->
+  <div id="container">
+  
+      <div id="shoppingLs">
+      	
+      	<ul class="cartLinks">
+        	<li><a href="shoppingCart.html">view cart</a></li>
+            <li class="viewCart active"><a href="#">payment</a></li>
+            <li><a href="placeOrder.html">place order</a></li>
+            <li><a href="#">download</a></li>
+        </ul>
+        
+        <div class="cartLinkBorder"></div>
+        <div class="clsTop"></div>
+      
+      	<div class="rounded" id="shoppingCart">
+        <div class="t">
+          <div class="tr"></div>
+        </div>
+        <div class="c"> <div class="cl">
+          <!--add content-->
+          <div class="holder">
+          	
+            <div class="cls"></div>          
+          	<div class="shoppingHead">
+            	<h1><span class="greyText">billing information</span></h1>
+            </div>
+            
+            <div class="content">
+            	<br>
+            	<h3>pay by bopaBank</h3>
+            	<br>Your current bopaBank balance is <b>$259.10</b>.
+            	<br>Would you like to use this balance for this purchase?
+            	<br>
+            	<select name="">
+              	<option>No</option>
+              	<option>Yes</option>
+              </select>
+              <br><br>
+              <hr class="hr">
+              
+              <br>
+            	<h3>credit card information</h3>
+            	<br>bopaboo uses a secure connection to protect the privacy and security of personal information.
+            	<br>
+            	<select name="">
+              	<option>use new card</option>
+              </select>
+              <br><br>
+              <hr class="hr">
+              
+            	<br>Debit Cards (also called check cards, ATM cards, or banking cards) are accepted if they have a Visa or MasterCard logo.
+            	<ul id="shoppingCartPaymentForm">
+                <li>
+                  <label for="fName">first name</label>
+                  <span class="rside">
+                  <input type="text"  name="fName" value=""  id="fName"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="lName">last name</label>
+                  <span class="rside">
+                  <input type="text"  name="lName" value=""  id="lName"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="cardNumber">card number</label>
+                  <span class="rside">
+                  <input type="text"  name="cardNumber" value=""  id="cardNumber"  class="inputStyle" />
+                  </span><span class="visa"></span><span class="mastercard"></span></li>
+                <li>
+                  <label>expiration date</label>
+                  <span class="rside">
+                  <select name="" class="selectDate">
+                    <option>01</option>
+                  </select>
+                  &nbsp;
+                  <select name="" class="selectYear">
+                    <option>2008</option>
+                  </select>
+                  </span> </li>
+                <li>
+                  <label for="email">card verification number</label>
+                  <span class="rside">
+                  	<input type="text"  name="cardvn" value=""  id="cardvn"  class="inputStyleSmall" />
+                  	<span class="cardVerify">
+                  		<img src="../images/cardVerificationNumber.png" alt="card verification number" border="0" />
+                  		<span class="cardVerifyText">
+                  			<br>
+                  			<br><a href="#">Where is my Credit Card ID?</a>
+                  		</span>
+                  	</span>
+                  </span>                  
+                  </li>
+                <li>
+                  <label>&nbsp;</label>
+                  <span class="rside">
+                  <input name="" type="checkbox" value="" />
+                  &nbsp;Save Credit Card in Profile</span> </li>
+              </ul>
+              <div style="clear:both;"></div>
+              <hr class="hr">
+              
+              <br>
+            	<h3>billing address</h3>
+            	<br>Enter the billing address where you receive billing statements for this card.  In order to verify your bank card number, the billing address must be the one displayed on your bank receipt.
+            			<div style="padding-left:20px;">
+                		<br><input name="" type="radio" value="" /> use existing address as billing address :
+                		<br>
+                		<select name="">
+                    	<option>19722 One Normal Blvd., Suite 220, Cornelius, NC 28031, United States(Home)</option>
+                  	</select>
+                  	<br><br><input name="" type="radio" value="" /> enter a new billing address :
+                  	<br><input type="text"  name="address" value=""  id="address"  class="inputStyle" style="width:450px;"/>
+                	</div>
+            	<ul id="shoppingCartPaymentForm">
+                <li>
+                  <label for="address1">address line 1</label>
+                  <span class="rside">
+                  <input type="text"  name="address1" value=""  id="address1"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="address2">address line 2</label>
+                  <span class="rside">
+                  <input type="text"  name="address2" value=""  id="address2"  class="inputStyle" />
+                  </span> </li>
+                <li>
+                  <label for="city">city</label>
+                  <span class="rside">
+                  <input type="text"  name="city" value=""  id="city"  class="inputStyle" />
+                  </span></li>
+                <li>
+                  <label>state</label>
+                  <span class="rside">
+                  <select name="">
+                    <option></option>
+                    <option>California</option>
+                  </select>
+                  </span> </li>
+                <li>
+                  <label for="zip">zip code</label>
+                  <span class="rside">
+                  <input type="text"  name="zip" value=""  id="zip"  class="inputStyle" />
+                  </span></li>
+                <li>
+                  <label for="zip">country</label>
+                  <span class="rside">
+                  United States
+                  </span></li>
+              </ul>
+              <div style="clear:both;"></div>
+              <br><b>for your protection, we verify credit card information</b>
+              <br><br>The process normally takes about 30 seconds, but it may take longer during certain times of the day.
+              <br>
+          	</div>
+          	
+          </div>
+          <!--finish content-->
+          </div> </div>
+        <div class="b"><span class="br"></span></div>
+      </div>
+      
+      </div>     
+      
+      <div id="shoppingRs">
+      	
+			<div class="roundedTab" id="orderSummary">
+        <div class="t">
+          <div class="tab"><h3>order summary</h3></div>
+          <div class="tr"></div>
+        </div>
+            <div class="c"> <div class="cl">
+              <!--add content-->
+              		<div class="content">
+              			<span class="total"><h3>Total:</h3></span><span class="totalPrice"><h3>$2.32</h3></span>
+                  </div>
+              <!--finish content-->
+              </div> </div>
+            <div class="b"><span class="br"></span></div>
+      </div>
+      
+      <div class="cls"></div>
+      
+          <div class="rounded" id="placeOrderButtons">
+            <div class="t">
+              <div class="tr"></div>
+            </div>
+            <div class="c"> <div class="cl">
+              <!--add content-->
+              <div class="content">
+              	<div class="btNextStep"><a href="#" class="buttonPosition"></a></div>
+              	<div class="btReviseCart"><a href="#" class="buttonPosition"></a></div>
+              	<div class="btContinueShopping"><a href="#" class="buttonPosition"></a></div>
+              	<!--
+              	<div class="position"><a href="#"><img src="../images/btnNextStep.jpg" alt="next step" /></a></div>
+              	<div class="position"><a href="#"><img src="../images/btnReviseCart.jpg" alt="revise cart" /></a></div>
+              	<div class="position"><a href="#"><img src="../images/btnContinueShopping.jpg" alt="continue shopping" /></a></div>
+              	-->
+              </div>
+              <!--finish content-->
+              </div> </div>
+            <div class="b"><span class="br"></span></div>
+          </div>
+          
+      <div class="cls"></div>
+      
+      <div class="roundedTab" id="aboutYourCart">
+            <div class="t">
+          <div class="tab"><h3>about your cart</h3></div>
+          <div class="tr"></div>
+        </div>
+            <div class="c"> <div class="cl">
+              <!--add content-->
+              		<div class="pad">
+              
+              		<p>On bopaboo you buy items directly from the seller. The process is simple and easy – and, you can buy items from multiple sellers and checkout just ONCE! We handle the entire payment processing and then immediately transfer and digitally deliver your purchases - so you can start enjoying them.</p>
+                    
+                    <h5>four easy checkout steps</h5>
+                    
+                    <ul style="width:200px;">
+                        <li>view cart</li>
+                        <li>select payment method</li>
+                        <li>confirm purchase</li>
+                        <li>instant delivery directly to your bopaBox</li>
+                    </ul>
+                    
+                    </div>
+              	
+              <!--finish content-->
+              </div> </div>
+            <div class="b"><span class="br"></span></div>
+      </div>
+          
+          <div class="cls"></div>
+        
+        <div class="rounded" id="shoppingGoDaddy">
+            <div class="t">
+              <div class="tr"></div>
+            </div>
+            <div class="c"> <div class="cl">
+              <!--add content-->
+              <div class="holder">
+					<img src="../images/godaddy.png" alt="go daddy" />             
+              <!--finish content-->
+              </div> </div>
+            <div class="b"><span class="br"></span></div>
+          </div>
+          </div>
+      	
+        <div class="cls"></div>
+      	
+      </div>
+            
+      </div>
+  <!-- container ends -->
+</div>
+<!-- wrapper ends -->
+<div id="footer">
+	
+    <ul id="box001">
+        <li><h3>Get your bopaboo on!</h3></li>
+        <li>let's start buying!</li>
+        <li> let's start selling!</li>
+        <li>let's invite your friends!</li>
+  </ul>
+        
+<ul id="box002">
+        <li><h4>Business &amp; Media </h4></li>
+        <li><a href="#" rel="facebox">Press Releases</a></li>
+        <li><a href="#">In the News</a></li>
+        <li><a href="#" target="_blank">Advertising Opportunities</a></li>
+        <li><a href="#" target="_blank">Partnership Opportunities</a></li>
+  </ul>
+        
+<ul id="box003">
+        <li><h4>Company </h4></li>
+        <li><a href="#" rel="facebox">About Us</a></li>
+        <li><a href="#">Management</a></li>
+        <li><a href="#" target="_blank">Blog</a></li>
+        <li><a href="#" target="_blank"><strong>We're Hiring!</strong></a></li>
+        <li><a href="#" target="_blank">Contact Us</a></li>
+    </ul>
+        
+    <ul id="box004">
+        <li><h4>Legal Info </h4></li>
+        <li><a href="privacyPolicy.html" rel="facebox">Privacy Policy</a></li>
+        <li><a href="termsOfServices.html">Terms of Use</a></li>
+        <li><a href="#" target="_blank">site map</a></li>
+  </ul>
+	
+<ul id="box005">
+        <li><h4>Account </h4></li>
+        <li><a href="#" rel="facebox">FAQ</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#" target="_blank">bopaBank</a></li>
+        <li><a href="#" target="_blank">Messages</a></li>
+        <li><a href="#" target="_blank">Feedback</a></li>
+    </ul>
+    
+  <div id="footerBottom"><span>bopaboo, LLC.</span> &copy; Copyright  2008 All rights reserved.</div>
+</div>
+
+</body>
+</html>

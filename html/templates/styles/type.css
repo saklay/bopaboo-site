@@ -1,0 +1,182 @@
+
+/* Color guide -----------------------
+
+Green		: 	#8cc63f
+Orange		: 	#f26632
+Blue		: 	#0079c2
+Mid grey	: 	#d7d7d7
+Light Grey	: 	#ebebeb
+Dark Grey	: 	#a8a9ab
+Grey Text	: 	#767879
+
+-------------------------------------*/
+
+/*  All graphical fonts are TUNGA.  All fonts on the site including links and all text is Verdana, Arial, Sans-Serif.  Standard Font size is 11pt. */
+
+body{
+	font:normal 69%/150% Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+h1, h2, h3, h4, h5, h6{
+	color:#0079c2;
+	}
+h1{
+	font:normal 1.64em/150% Arial, Helvetica, sans-serif; /*18px*/
+	}
+#header ul#accountMenu li {
+	color:#0079c2;}
+
+h2 {
+	font:bold 1.45em/150% Arial, Helvetica, sans-serif;/*16px*/
+	}
+h3{
+	font:bold 1.27em/150%  Arial, Helvetica, sans-serif;/*14px*/
+	}
+h4{
+	font:bold 1.19em/150% Arial, Helvetica, sans-serif;/*13px*/
+	}
+h5{
+	font:bold 1em/150% Verdana, Arial, Helvetica, sans-serif;/*11px*/
+	color:#666;
+	}
+
+h6{
+	font:bold 1em/150% Verdana, Arial, Helvetica, sans-serif;/*11px*/
+	color:#767879;
+	}
+p{
+	font:normal 1em/150% Verdana, Arial, Helvetica, sans-serif;/*11px*/
+	color:#767879;
+	}
+	
+a{
+	color:#0079c2;
+	text-decoration:none;
+	}
+a:hover{
+	color:#0079c2;
+	text-decoration:underline;
+	}
+#header ul#topNav li.nav a{
+	font:bold 1.19em/40px Arial, Helvetica, sans-serif;/*13px*/
+	}
+
+#header #topSearch form input{
+	color:#f26632;
+	}
+
+.tab h3{
+	font:bold 1.19em/150% Arial, Helvetica, sans-serif;/*13px*/
+	color:#0079c2;
+	}
+
+.tabOff h3{
+	font:bold 1.19em/150% Arial, Helvetica, sans-serif;/*13px*/
+	color:#767879;
+	}
+
+#quickLinks ul li a{
+	line-height:60px;
+	text-align:center;
+	color:#666;
+	font-weight:bold;}
+
+h4.slogan{
+	color:#F26632;
+	font-weight:normal;
+	margin-top:-7px;
+	}
+h1.hdrWhyJoin{
+	color:#F26632;
+	font-weight:normal;
+	}
+h4.signuplink{
+	float:left;
+	padding-right:5px;
+	}
+
+#myDashboard .ltitle {
+	text-align:right;
+	font-weight:bold;
+	color:#666;
+	line-height:20px;}
+
+#myDashboard .rdetails{
+	line-height:20px;
+	float:left;}
+
+#quickLinks ul li a:link, #quickLinks ul li a:visited, #quickLinks ul li a:active, #quickLinks ul li a:hover{
+	line-height:60px;
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+	}
+
+#personalizedSuggestions .f001, #personalizedSuggestions .f002, #personalizedSuggestions .f003, #personalizedSuggestions .f004, #personalizedSuggestions .f005, #personalizedSuggestions .f006, #personalizedSuggestions .f007{
+	color:#0079c2;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	padding:0 7px;
+	}
+
+#personalizedSuggestions a.f001:hover, #personalizedSuggestions a.f002:hover, #personalizedSuggestions a.f003:hover, #personalizedSuggestions a.f004:hover, #personalizedSuggestions a.f005:hover, #personalizedSuggestions a.f006:hover, #personalizedSuggestions a.f007:hover{
+	color:#fff;
+	background-color:#0079c2;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	text-decoration:none;
+	}
+	
+#personalizedSuggestions .f002{
+	font-size:1.5em;}
+
+#personalizedSuggestions .f003{
+	font-size:2em;}
+
+#personalizedSuggestions .f004{
+	font-size:2.5em;}
+
+#personalizedSuggestions .f005{
+	font-size:3em;}
+
+#personalizedSuggestions .f006{
+	font-size:3.5em;}
+
+
+#personalizedSuggestions .f006{
+	font-size:3.5em;
+	font-weight:bold;}
+
+.newMessage{
+	color:#f26632;
+	font-size:1.2em;}
+
+
+#footer {
+	color:#767879;
+	text-transform:lowercase;
+	}
+#footer h3{
+	color:#767879;
+	}
+#footer h4{
+	color:#767879;
+	}
+#footer h6{
+	color:#767879;
+	}
+#footer a{
+	color:#757879;
+	text-decoration:none;
+	}
+#footer a:hover{
+	color:#0079c2;
+	text-decoration:underline;
+	}
+#footerBottom{
+	color:#fff;
+	}
+#footerBottom span{
+	font:bold 12px/150% Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+	}

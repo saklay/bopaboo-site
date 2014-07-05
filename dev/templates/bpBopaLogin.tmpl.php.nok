@@ -1,0 +1,126 @@
+<script language="javascript">
+function fnEchecks(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("You have not entered a valid email address. Please try again.")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("You have not entered a valid email address. Please try again.")
+		    return false
+		 }
+
+ 		 return true					
+	}
+
+function fnValidateNew()
+{
+  
+    /*var emailID=document.frmLoginNewAdd.clsbpUserLogin_txtEmail;
+	if ((emailID.value==null)||(emailID.value=="")){
+		alert("You have not entered a valid email address. Please try again.")
+		emailID.focus()
+		return false
+	}
+	if (fnEchecks(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+	}
+	
+	if(document.frmLoginNewAdd.clsbpUserLogin_txtPassword.value == "")
+	{
+	alert("Enter Password");
+	document.frmLoginNewAdd.clsbpUserLogin_txtPassword.focus();
+	return false;
+	}*/
+	
+document.frmLoginNewAdd.clsbpUserLogin_action.value="LOGIN";
+
+return true
+}
+</script>
+<div id="container">
+  <div id="pageheadSignIn">
+    <h1>Login or Sign-Up for bopaboo</h1>
+  </div>
+  <div id="containerWrapper">
+  
+       
+  <div id="signin-mybopa">
+  <div class="MustLoggedInText">You must be logged in to do that!</div>
+  	<form id="form1" name="frmLoginNewAdd" onsubmit="return fnValidateNew();" method="post" action="">
+        <div id="top">
+            <div class="leftaside"><h2>Existing Members</h2></div><div class="rightaside"><h2>New Member</h2></div>
+        </div>
+        <div id="contents">
+            <div class="leftaside">
+                <label><strong>Email Address</strong></label>
+                <input name="clsbpUserLogin_txtEmail" type="text" class="inputsignup" />
+                <label><strong>Password</strong></label>
+                <input name="clsbpUserLogin_txtPassword" type="password" />
+                <input type="hidden" name="clsbpUserLogin_action" value=""/>
+                <input type="hidden"  id="clsbpUserLogin_returnUrl" name="clsbpUserLogin_returnUrl" value="">
+                <div align="center" style="padding-left:55px;"><?php echo displayWelcome();;?></div>
+            </div>
+            <div class="rightaside">
+                <p>Not a Member Yet? In order to buy and sell on bopaboo you need to register for a free account.</p>
+                <?php 
+                    $songIds =  base64_encode(implode(",",$_SESSION['bopaBasket']['song']));
+                    if($songIds!="") {
+                    $link = "https://staging.bopaboo.com/dev/bpUserSignup.php?songList=$songIds";
+                    }
+                    else {
+                    $link = "https://staging.bopaboo.com/dev/bpUserSignup.php";
+                    }
+                 ?>
+            </div>
+        </div>
+        <div id="bottom">
+            <div class="leftaside">
+                <input type="image" src="images/btn-signin.jpg" id="signinbtn" class="signinbtn" />
+                <div class="forgot"><a href="bpForgotPassword.php">Forgot your Password?</a></div>
+            </div>
+            <div class="rightaside">
+                <a href="<?php echo $link;?>" class="register">
+                    <img src="images/btn-register.jpg" alt="Register" width="130" height="29" border="0" />
+                </a> 
+                <a href="bpTakeTour.php" class="learnmore">Learn More</a> 
+
+            </div>
+        </div>      
+    </form>
+  </div>
+  </div>
+</div>

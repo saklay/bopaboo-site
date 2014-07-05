@@ -1,0 +1,1576 @@
+
+.clsTable{
+	clear:both;
+	width:100%;
+	height:5px;
+	padding:0;
+	overflow:hidden;}
+	
+#bopaBigBox{
+	width:1000px;
+	}
+
+#bopaBigBox .songNo{
+	width:100px;
+	float:left;
+	margin-left:7px;
+	}
+
+#bopaBigBox .bopaBoxSearch{
+	width:215px;
+	margin:0 5px 0 0;
+	padding:0;
+	height:21px;
+	float:right;
+	background:url(../images/bopaBooSearch.jpg) no-repeat;
+	background-color:#CCCCCC;
+	}
+
+* html #bopaBigBox .bopaBoxSearch{
+	margin:0 2px 0 0;
+	}
+
+#bopaBigBox .bopaBoxSearch .bopaBoxSearchInput{
+	background:none;
+	border:none;
+	margin-left:10px;	
+	padding-top:3px;
+	width:200px;
+	font:10px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	}
+
+table.tableGeneral{
+	/*width:980px;*/
+	margin:0 auto;
+	border-collapse:collapse;
+	border:none;
+	}
+
+table.tableGeneral thead tr{
+	border:none;
+	overflow:hidden;
+	}	
+
+table.tableGeneral tr:hover>td{
+	background-color:#F5F5F5;}
+
+table.tableGeneral tbody td{
+	border-bottom:1px solid #ccc;
+	line-height:30px;
+	}
+
+table.tableGeneral tr.fin td {
+	border:none;
+	}
+
+table.tableGeneral tr img{
+	margin-bottom:-5px;
+	}
+
+table.tableGeneral tbody .indent{
+	text-indent:20px;}
+table.tableGeneral tbody .indentright{
+	padding-right:15px;
+	text-align:right;
+	}
+table.tableGeneral tbody .indent a{
+	color:#767879;
+	}
+table.tableGeneral tbody .indent a:hover{
+	color:#0079c2;
+	}
+table.tableGeneral th{
+	border-right:1px solid #fff;
+	}
+table.tableGeneral tr  {
+	height:auto;
+	border-collapse:collapse;
+	}
+table.tableGeneral thead th{
+	background:url(../images/tH.jpg) top repeat-x;
+	}
+
+table.tableGeneral th#first {
+	background:url(../images/tHLeft.jpg) left top no-repeat;
+	}
+
+table.tableGeneral .cehckboxCell input{
+	padding:0;
+	margin:0 0 0 2px;
+	}
+
+table.tableGeneral th.fin{
+	background:url(../images/thRight.jpg) right top no-repeat;
+	}
+table.tableGeneral .highlightCol{
+	background:url(../images/thCurrent.jpg) repeat-x;
+	}
+
+table.tableGeneral .highlightCol_first{
+	background:url(../images/tHighlightLeft.jpg) left top no-repeat;}	
+
+table.tableGeneral thead tr {
+	height:30px;
+	overflow:hidden;
+	border:none;
+	padding:0;
+	margin:0;	
+}
+
+table.tableGeneral thead tr a{
+	display:block;
+	line-height:30px;
+	font-weight:normal;
+	color:#666;}
+
+table.tableGeneral thead tr .highlightCol a, table.tableGeneral thead tr .highlightCol_first a{
+	background:url(../images/up.png) bottom center no-repeat;
+	}
+
+table.tableGeneral thead tr a:hover{
+	line-height:30px;
+	color:#0079c2;
+	font-weight:normal;
+	text-decoration:none;
+	}
+
+table.tableGeneral .highlightCol a, table.tableGeneral .highlightCol_first a{
+	color:#fff;}
+
+
+
+/********************************************************************************************/
+
+
+
+table.tablePlaceOrder{
+	/*width:980px;*/
+	margin:0 auto;
+	border-collapse:collapse;
+	border:none;
+	}
+
+table.tablePlaceOrder tbody .indent{
+	text-indent:20px;}
+
+
+
+
+#pages {
+	margin:2px auto;
+	}
+#pages a{
+	border:1px solid #DDDDDD;
+	padding:2px 5px;}
+#pages a:hover, a.currentselno{
+	color:#fff;
+	background-color:#0079c2;
+	border:1px solid #0079c2;}
+#pages a.currentsel{
+	color:#0079c2;
+	background-color:#ebebeb;
+	border:1px solid #a8a9ab;}
+
+
+/* ********************************************************************************************** /
+/*                                          Sell Page Styles                                       */
+/* **********************************************************************************************/
+
+
+#sellLaSide{	
+	width:820px;}
+
+#SellBox{
+	width:820px;
+	}
+
+#SellBox #myStorePic{
+	width:200px;
+	height:120px;
+	background-color:#EBEBEB;
+	margin-left:17px;
+	margin-top:10px;
+	float:left;
+	}
+
+#SellBox #myStoreMid{
+	width:340px;
+	height:120px;
+	float:left;
+	margin:0 auto;
+	text-align:center;
+	margin-top:10px;
+	}
+	
+#SellBox #myStoreMid .ltitle{
+	height:20px;
+	display:block;
+	float:left;
+	width:130px;
+	line-height:20px;
+	text-align:right;}
+
+#SellBox #myStoreMid .ltitle h5{
+	color:#666;}
+
+#SellBox #myStoreMid .star{
+	height:20px;
+	display:block;
+	float:left;
+	width:200px;
+	line-height:20px;
+	width:180px;
+	text-align:left;
+	margin-left:5px;	
+}
+#SellBox #myStoreMid .no{
+	float:left;
+	height:25px;
+	width:20px;
+	position:relative;
+	left:-85px;
+	top:3px;}
+	
+#SellBox #myStoreMid .star img{
+	padding:0 5px 0 0;
+	}
+
+#SellBox div.cls{
+	margin:0;
+	height:10px;;
+	padding:0;
+}
+
+#SellBox #myStoreMid  .hr{
+	border-bottom:1px solid #ccc;
+	clear:both;
+	width:80%;
+	margin:0 auto;
+	height:5px;
+	margin-bottom:5px;}
+
+.hr{
+	border-bottom:1px solid #ccc;
+	clear:both;
+	width:80%;
+	margin:0 auto;
+	height:10px;
+	margin-bottom:10px;
+	}
+
+.hr hr{
+	display:none;}
+
+#myStorePM{
+	width:240px;
+	height:130px;
+	float:right;
+	border-left:1px solid #ccc;
+	margin-left:-240px;
+	}
+
+#myStorePM .pad{
+	margin-left:20px;}
+
+#myStorePM textarea{
+	width:180px;
+	height:70px;
+	margin:10px 0;
+	border:1px solid #DFDFDF;}
+
+#myStorePM  p.small{
+	float:left;
+	font-size:.8em;}
+
+#myStorePM .saveButton{
+	float:right;
+	margin-right:15px;}
+
+#SellTableBox{
+	width:820px;}
+
+#SellBoxInvite{
+	width:820px;}
+
+#SellBoxInvite .holder, #SellBoxBroadcast .holder{
+	width:700px;
+	margin-top:20px;}
+
+#SellBoxInvite hr{
+	float:left;
+	width:450px;
+	position:relative;
+	}
+
+#SellBoxInvite h5, #SellBoxBroadcast h5{
+	padding-bottom:10px;}
+
+#SellBoxPromote{
+	width:820px;}
+
+#SellBoxPromote .holder{
+	margin-top:20px;}
+#SellBoxPromote h5{
+	padding-bottom:10px;}
+
+#SellBoxPromote .subjectL{
+	width:140px;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+}
+#SellBoxPromote .subjectR{
+	width:200px;
+	float:left;
+	margin-left:10px;
+	}
+#SellBoxPromote form{
+	clear:both;
+	margin-top:30px;}
+	
+#SellBoxPromote label{
+	width:140px;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+	}
+#SellBoxPromote textarea{
+	float:left;
+	margin-left:10px;
+	width:220px;
+	height:60px;
+	border:1px solid #DFDFDF;}
+
+#SellBoxPromote .buttonsendInvitation{
+	float:left;
+	margin-left:10px;
+	margin-top:35px;}
+
+#SellBoxPromote .small{
+	font-size:.8em;}
+
+#SellBoxBroadcast{
+	width:820px;}
+
+#SellBoxBroadcast .addTo, #SellBoxBroadcast .myStoreText{
+	float:left;
+	width:160px;
+	text-align:right;
+	font-weight:bold;
+	margin-top:15px;}
+
+#SellBoxBroadcast .addIcons, #SellBoxBroadcast .myStoreSite{
+	float:left;
+	width:500px;
+	margin-left:10px;
+	margin-top:15px;
+	}
+
+#SellBoxBroadcast .cl, #SellBoxPromote .cl, #SellBoxInvite .cl, #SellBox .cl{
+	min-height:150px;
+	}
+	
+/*-------------------------------------------------------------------------------*/
+
+#quickLinks ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:536px;
+	margin-left:4px;
+	}
+
+
+#quickLinks .qlMessages a:link, #quickLinks .qlMessages a:visited, #quickLinks .qlMessages a:active, #quickLinks .qlMessages a:hover{
+	display:block;
+	width:250px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	border:1px solid #DFE4E7;
+	position:relative;
+	}
+
+#quickLinks .qlSellers a:link, #quickLinks .qlSellers a:visited, #quickLinks .qlSellers a:active, #quickLinks .qlSellers a:hover{
+	display:block;
+	width:250px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	position:relative;
+	left:260px;
+	margin-top:-62px;
+	border:1px solid #DFE4E7;
+	}
+
+#quickLinks .qlPopular a:link, #quickLinks .qlPopular a:visited, #quickLinks .qlPopular a:active, #quickLinks .qlPopular a:hover{
+	display:block;
+	width:250px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	border:1px solid #DFE4E7;
+	position:relative;
+	}
+
+#quickLinks .qlSaved a:link, #quickLinks .qlSaved a:visited, #quickLinks .qlSaved a:active, #quickLinks .qlSaved a:hover{
+	display:block;
+	width:250px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	position:relative;
+	left:260px;
+	margin-top:-62px;
+	border:1px solid #DFE4E7;
+	}
+
+#quickLinks .qlMessages a{
+	background:url(../images/qlMessages.jpg) no-repeat;
+	}
+
+#quickLinks .qlSellers a{
+	background:url(../images/qlSellers.jpg) no-repeat;
+	margin-right:0;
+	}
+
+#quickLinks .qlSaved a{
+	background:url(../images/qlSaved.jpg) no-repeat;
+	margin-right:0;
+	}
+
+#quickLinks .qlPopular a{
+	background:url(../images/qlPopular.jpg) no-repeat;	
+	}
+
+#quickLinks .qlMessages a:hover{
+	background:url(../images/qlMessagesH.jpg) no-repeat;} 
+	
+#quickLinks .qlSellers a:hover{
+	background:url(../images/qlSellersH.jpg) no-repeat;} 
+	
+#quickLinks .qlSaved a:hover{
+	background:url(../images/qlSavedH.jpg) no-repeat;} 
+	
+#quickLinks .qlPopular a:hover{
+	background:url(../images/qlPopularH.jpg) no-repeat;}
+
+#quickLinks .cls{
+	padding:0;
+	height:10px;
+	}
+
+#qlMessagesDiv, #qlSellersDiv, #qlPopularDiv, #qlSavedDiv {
+	border:1px solid #DFE4E7;
+	border-top:none;
+	width:500px;
+	padding:5px;
+	color:#666;
+	z-index:auto;
+	min-height:120px;
+	}
+
+#quickLinks .holder{
+	margin:10px 0 5px 15px;}
+
+.qlMessages a, .qlSellers a, .qlPopular a, .qlSaved a{
+	line-height:60px;
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+	text-indent:10px;}
+
+#qlMessagesDiv .viewMessages{
+	height:25px;
+	width:200px;
+	margin-left:400px;	
+	}
+tr.unread{
+	color:#0079c2;	
+	font-weight:bold;}
+
+
+
+#qlSellersDiv dl.left, #qlSavedDiv dl.left, #qlPopularDiv dl.left {
+	display:block;
+	width:250px;
+	float:left;
+	background:url(../images/rulerBg.gif) top left ;
+	}
+	
+#qlSellersDiv dl.right, #qlSavedDiv dl.right, #qlPopularDiv dl.right {
+	display:block;
+	width:250px;
+	float:right;
+	background:url(../images/rulerBg.gif) top left ;
+	}
+
+#qlSellersDiv dl dt, #qlSavedDiv dl dt, #qlPopularDiv dl dt {
+	width:125px;
+	height:30px;
+	float:left;
+	text-indent:10px;
+	font-weight:bold;
+	line-height:25px;}
+
+#qlSavedDiv dl dt, #qlPopularDiv dl dt {
+	width:190px;}
+
+#qlSellersDiv dl dd.fivestar{
+	display:block;
+	float:left;
+	width:92px;
+	height:19px;
+	height:30px;
+	background:url(../images/feedbackStar.gif) no-repeat top left ;
+	text-indent:-9999px;}
+
+#qlSellersDiv dl dd.iconDelete, #qlSavedDiv dl dd.iconDelete{
+	display:block;
+	float:left;}
+
+#qlSellersDiv dl dd.iconDelete a, #qlSavedDiv dl dd.iconDelete a{
+	display:block;
+	height:20px;
+	width:20px;
+	height:30px;
+	background:url(../images/iconDelete.png) no-repeat 0 2px;
+	text-indent:-9999px;
+	margin-left:5px;
+	float:left;}
+
+#qlSavedDiv dl dd.iconEdit{
+	display:block;
+	float:left;}
+
+#qlSavedDiv dl dd.iconEdit a{
+	display:block;
+	height:20px;
+	width:20px;
+	height:25px;
+	background:url(../images/iconEdit.png) no-repeat 0 2px;
+	text-indent:-9999px;
+	margin-left:5px;
+	float:left;}
+
+#qlPopularDiv ul.left, #qlPopularDiv ul.right{
+	display:block;
+	width:100%;
+	height:30px;
+	float:left;	
+	}
+	
+#qlPopularDiv ul.right{
+	float:right;}
+
+#qlPopularDiv ul li{
+	width:240px;
+	display:block;
+	line-height:30px;
+	font-weight:bold;}
+
+#qlPopularDiv .holder{		
+	float:left;
+	margin:0 5px;	
+	padding:0;
+	background:url(../images/rulerBg.gif) top left ;
+	min-height:110px;
+	}
+
+/* ********************************************************************************************** /
+/*                                          Feedback                                       */
+/* **********************************************************************************************/
+#feedbackBox{
+	width:1000px;
+	}
+
+#feedbackBox .cl{
+	padding-top:0;
+	}
+
+#feedbackBox .songNo{
+	width:100px;
+	float:left;
+	margin-left:7px;
+	}
+
+#feedbackBox form{
+	padding:0;
+	margin:0;}
+
+#feedbackBox .feedbackShow{
+	width:245px;
+	margin:0px 15px 0 0;
+	padding:0;
+	height:21px;
+	float:right;
+	text-align:right;
+	}
+#feedbackBox .hdrSearchResults h1{
+	float:left;
+	padding:5px 0 5px 15px;
+	}
+#feedbackBox .selectText{
+	float:left;
+	padding-left:30px;
+	line-height:21px;
+	width:55px;
+	}
+#feedbackTable .hdrSearchResults .selectSortBox{
+	margin-right:10px;
+	display:block;
+	}
+
+/* ********************************************************************************************** /
+/*                                         FORM CSS         		                           */
+/* **********************************************************************************************/
+
+
+#feedbackTable .hdrSearchResults select.selectSort{
+	border:1px solid #ebebeb;
+	padding:5px 2px 5px 2px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	width:150px;
+	}
+	
+
+* html #feedbackTable .bopaBoxSearch{
+	margin:0 2px 0 0;}
+
+#feedbackTable .bopaBoxSearch input{
+	background:none;
+	border:none;
+	margin-left:10px;	
+	padding-top:3px;
+	width:200px;}
+a.playSong{
+	display:block;
+	width:21px;
+	height:25px;
+	text-indent:-9999px;
+	background: url(../images/icons.png) no-repeat 0px -180px;
+	text-decoration:none;
+	}
+
+/* ********************************************************************************************** /
+/*                         bopabox view details   && Search view details                         */
+/* **********************************************************************************************/
+
+
+#viewDetailsPage, 
+#searhViewDetailsPage{
+	width:720px;}
+	
+#viewDetailsPage #viewDetailsLS
+{
+	width:280px;
+	float:left;
+	margin-left:20px;}
+	
+#searhViewDetailsPage #viewDetailsLS{
+	width:340px;
+	float:left;
+	margin-left:20px;
+	}
+
+#viewDetailsPage #viewDetailsLS p,
+#searhViewDetailsPage #viewDetailsLS p{
+	line-height:2em;
+}
+
+#viewDetailsPage #viewDetailsLS .albumArt,
+#searhViewDetailsPage #viewDetailsLS .albumArt{
+	padding:10px 0;
+	width:160px;
+	float:left;
+	}
+
+#searhViewDetailsPage #viewDetailsLS p{
+	clear:left;}
+
+#searhViewDetailsPage .songDetails{
+	float:right;
+	width:160px;
+	margin-top:10px;}
+
+#searhViewDetailsPage .songDetails a.preview{
+	display:block;
+	height:25px;
+	float:left;
+	background:url(../images/icons.png) left -180px no-repeat;
+	padding-left:25px;
+	line-height:25px;
+	margin-bottom:10px;
+	}
+
+#searhViewDetailsPage .songDetails .button{
+	height:30px;
+	width:130px;
+	float:left;
+	}
+
+
+#searhViewDetailsPage #viewDetailsLS .songDetails p{
+	clear:none;}
+
+#viewDetailsPage #viewDetailsLS .actions,
+#searhViewDetailsPage #viewDetailsLS .actions{
+	display:block;
+	width:100px;
+	height:25px;
+	margin:5px 0 0 0;}
+
+#viewDetailsPage #viewDetailsRS
+{
+	width:380px;	
+	float:left;}
+
+
+
+#searhViewDetailsPage #viewDetailsRS{
+	width:300px;
+	/* margin-left:-300px;*/
+	float:right;}
+
+#viewDetailsPage #viewDetailsRS .viewDetails,
+#searhViewDetailsPage #viewDetailsRS .viewDetails{
+	width:380px;
+	margin-top:40px;
+	}
+
+#viewDetailsPage #viewDetailsRS label,
+#searhViewDetailsPage #viewDetailsRS label{
+	width:90px;
+	display:block;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+	}
+
+#viewDetailsPage .inputStyle, 
+#viewDetailsPage textarea,
+#viewDetailsPage select,
+#searhViewDetailsPage .inputStyle, 
+#searhViewDetailsPage textarea,
+#searhViewDetailsPage select{
+	width:270px;
+	height:20px;
+	border:1px solid #ebebeb;
+	width:265px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	margin-left:10px;}
+
+#viewDetailsPage textarea,
+#searhViewDetailsPage textarea{
+	height:110px;
+	}
+
+.formRow{
+	clear:both;
+	margin:10px 0;}
+
+#viewDetailsPage .buttonRow,
+#searhViewDetailsPage .buttonRow{
+	width:270px;
+	float:right;
+	margin-right:8px;}
+	
+#viewDetailsPage .buttonRow .cancel,
+#searhViewDetailsPage .buttonRow .cancel{
+	margin-right:5px;}
+
+
+
+#searhViewDetailsPage dl{
+	width:200px;
+	margin-top:40px;
+	margin-left:20px;
+	}
+
+#searhViewDetailsPage dt{
+	display:block;
+	width:70px;
+	text-align:right;
+	float:left;
+	clear:left;
+	height:25px;
+	line-height:25px;
+	}
+
+#searhViewDetailsPage dd{
+	display:block;
+	float:left;
+	margin-left:10px;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;	
+}
+
+#searhViewDetailsPage ul{
+	width:200px;
+	clear:both;
+	margin-top:10px;	
+	margin-left:70px;
+}
+
+#searhViewDetailsPage ul li{
+	width:180px;
+	height:25px;
+	line-height:25px;
+	}
+
+#searhViewDetailsPage ul li a.viewMemberStore{
+	display:block;
+	height:25px;
+	background:url(../images/viewMemberStore.png) no-repeat left;
+	padding-left:30px;
+}
+
+#searhViewDetailsPage ul li a.contact{
+	display:block;
+	height:25px;
+	background:url(../images/iconMail.jpg) no-repeat left;
+	padding-left:30px;
+}
+
+#searhViewDetailsPage ul li a.assSellerToFav{
+	display:block;
+	height:25px;
+	background:url(../images/iconFav.png) no-repeat left;
+	padding-left:30px;
+}
+
+#searhViewDetailsPage #viewDetailsRS p.backToResults{
+	float:right;
+	width:130px;
+	margin-right:15px;
+}
+
+/* ********************************************************************************************** /
+/*                                          memeber storea                                       */
+/* **********************************************************************************************/
+
+
+#memberStoreBox{
+	width:720px;}
+
+#memberStoreBox .holder{
+	padding:0 15px;}
+
+#memberStoreBox h1{
+	float:left;}
+
+#memberStoreBox .ratingRow{
+	width:130px;
+	float:right}
+
+#memberStoreBox .rating{	
+	float:left;
+}
+
+#memberStoreBox span.rated{
+	display:block;
+	width:30px;
+	height:25px;
+	line-height:22px;
+	float:left;
+	margin-left:5px;
+	}
+
+#memberStoreBox p.strapLine{
+	text-align:center;
+	font-style:italic;
+	color:#0079c2;}
+
+#memberStoreBox .hr{
+	width:100%;}
+
+#memberStoreBox dl.sellerInfo{
+	width:450px;
+	float:left;
+	margin-top:20px;
+	}
+
+#memberStoreBox dl.sellerInfo dt{
+	width:100px;
+	display:block;
+	float:left;
+	font-weight:bold;
+	height:25px;
+	}
+
+#memberStoreBox dl.sellerInfo dd{
+	width:340px;
+	float:left;
+	height:25px;	
+	}
+
+#memberStoreBox .memberStoreBoxRS{
+	width:220px;
+	float:right;
+	margin-top:20px;}
+
+#memberStoreBox .memberStoreBoxRS ul{
+	width:220px;}
+
+#memberStoreBox .memberStoreBoxRS ul li{
+	display:block;
+	height:30px;
+	color:#0079c2;
+	font-weight:bold;	
+	}
+#memberStoreBox .memberStoreBoxRS ul li a.contact,
+#memberStoreBox .memberStoreBoxRS ul li a.sellerFav,
+#memberStoreBox .memberStoreBoxRS ul li a.shareThis{
+	display:block;
+	height:30px;
+	background:url(../images/iconMail.jpg) no-repeat left;
+	line-height:30px;
+	padding:0 0 0 30px;}
+
+#memberStoreBox .memberStoreBoxRS ul li a.sellerFav{
+	background:url(../images/iconFav.png) no-repeat left;
+	}
+#memberStoreBox .memberStoreBoxRS ul li a.shareThis{
+	background:url(../images/iconShare.png) no-repeat 3px;
+	}
+
+#selNotLoggedIn{
+	width:750px;}
+
+#selNotLoggedIn h1{
+	margin:5px 0;}
+
+#selNotLoggedIn .hr{
+	width:100%;
+	height:15px;
+	margin-bottom:15px;}
+
+#selNotLoggedIn a.startSelling{
+	display:block;
+	height:25px;
+	margin:10px 0;
+	}
+#terms{
+	width:1000px;
+	line-height:2em;}
+	
+#terms ul{
+	margin-left:30px;}
+
+#terms ul li{
+	list-style:square;
+}
+
+#terms ul{
+	float:none;
+	clear:both;}
+
+#terms .pad h2, #terms .pad h3{
+	margin:10px 0;}
+
+pre{
+	font-size:1.2em;}
+
+/* ********************************************************************************************** /
+/*                                          songStatus popup                                       */
+/* **********************************************************************************************/
+
+#popContainer{
+	height:auto;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+		}
+
+#songStatus{
+	width:464px;
+	float:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#songStatus h1,
+#postForSale h1{
+	float:left;}
+
+#popContainer .closenow
+{
+	width:16px;
+	height:16px;
+	/*float:right;
+	margin-right:-12px;
+	margin-top:-7px;*/
+	position:absolute;
+	top:10px;
+	right:10px;
+	}
+
+#songStatus label{
+	float:left;
+	text-align:right;
+	height:20px;
+	width:160px;
+	font-weight:bold;
+	line-height:20px;}
+
+#songStatus .inputBox,
+#songStatus select
+{
+	height:20px;
+	border:1px solid #ebebeb;
+	width:100px;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	margin-left:10px;}
+
+#songStatus .bottom{
+	float:right;}
+
+/* ********************************************************************************************** /
+/*                                          PostForSale popup                                       */
+/* **********************************************************************************************/
+
+#postForSale{
+	width:500px;
+	margin:0 auto;
+}
+
+#postForSale h1{
+	margin-bottom:10px;}
+
+#postForSale h6{
+	display:block;
+	clear:both;
+	}
+
+#postForSale dl.songInfo{
+	width:190px;
+	float:left;
+	}
+
+#postForSale dl.songInfo dt{
+	width:60px;
+	float:left;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+	font-weight:bold;
+	}
+#postForSale dl.songInfo dd{
+	width:120px;
+	float:left;
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+	}
+#postForSale .cls{
+	height:10px;
+	margin:0;
+	padding:0;}
+	
+#postForSale form{
+	width:280px;
+	float:right;}
+
+#postForSale form label{
+	width:80px;
+	float:left;
+	text-align:right;
+	height:25px;
+	line-height:25px;
+	font-weight:bold;}
+
+#postForSale form .inputBox,
+#postForSale form textarea{
+	width:70px;
+	height:20px;
+	border:1px solid #ebebeb;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	margin-left:10px;}
+
+#postForSale form textarea{
+	width:180px;
+	height:50px;}
+
+#postForSale form .button{
+	float:right;
+	margin-right:5px;}
+
+/* ********************************************************************************************** /
+/*                                          Import contacts popup                                       */
+/* **********************************************************************************************/
+
+#importContact{
+	width:500px;
+	margin:0 auto;}
+
+#importContact form{
+	width:300px;
+	margin:0 auto;
+	}
+
+#importContact form label{
+	width:90px;
+	height:25px;
+	line-height:25px;
+	float:left;
+	text-align:right;
+	font-weight:bold;	
+	}
+
+#importContact form .inputBox,
+#importContact form select{
+	width:180px;
+	height:20px;
+	border:1px solid #ebebeb;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	margin-left:10px;
+	}
+
+#importContact form .buttonRow{
+	width:200px;
+	float:right;
+	text-align:center;}
+
+#importContact form .buttonRow .forgotPass{
+	margin:10px 0;
+	display:block;
+	height:25px;
+	line-height:25px
+	}
+
+#importContact p{
+	clear:both;
+	width:420px;
+	margin:0 auto;}
+
+#importContact .submit{
+	margin-top:10px;}
+
+#importContact .popUpFooter{
+	width:100%;
+	text-align:center;
+	margin:15px auto;}
+
+#importContact .popUpFooter ul {
+	width:100%;
+	text-align:center;
+	margin:10px 0 0 0;}
+
+#importContact .popUpFooter ul li{
+	display:inline;
+	}
+#importContact .popUpFooter ul li a{
+	padding:0 5px}
+
+#importContact .outlook form{
+	width:390px;}
+
+#importContact .outlook .browse{
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+	position:relative;
+	top:4px;
+	}
+
+#importContact .outlook form .buttonRow{
+	width:380px;}
+
+#importContact .outlook ol{
+	margin-left:30px;}
+
+#importContact .outlook ol li{
+	margin:10px 0;
+	}
+
+#importContact .outlook p{
+	width:100%;
+	text-align:center;}
+
+/* ********************************************************************************************** /
+/*                                          messages Group                                       */
+/* **********************************************************************************************/
+
+#messagesLs{
+	width:750px;}
+
+#messagesBox{
+	width:750px;
+	}
+
+#messagesBox .messageOptions{
+	display:block;
+	float:right;
+	width:170px;
+	height:20px;
+	}
+
+#messagesBox h5{
+	float:left;
+	width:130px;}
+
+#messagesBox #confirmMessage{
+	height:20px;
+	float:left;
+	background-color:#F26632;
+	line-height:20px;
+	color:#fff;
+	padding:0 10px;
+	}
+
+#messagesBox #confirmMessage img{
+	position:relative;
+	top:2px;}
+
+#messagesBox .cls{
+	padding:0;
+	margin:0;
+	height:5px;}
+
+#messagesBox .messageOptions a{
+	height:20px;
+	line-height:20px;}
+
+#messagesBox .messageOptions a.reply{
+	display:block;
+	height:20px;
+	width:40px;
+	background:url(../images/reply.png) 0 3px no-repeat;
+	float:left;
+	text-align:20px;
+	padding: 0 0 0 30px;
+	}
+
+#messagesBox .messageOptions a.sent{
+	display:block;
+	height:20px;
+	width:40px;
+	background:url(../images/sent.png) 0 0px no-repeat;
+	float:left;
+	text-align:20px;
+	padding: 0 0 0 30px;
+	}
+
+#messagesBox .messageOptions a.delete{
+	display:block;
+	height:20px;
+	background:url(../images/delete.png) no-repeat;
+	float:left;
+	text-align:20px;
+	width:60px;
+	padding: 0 0 0 30px;
+	}
+
+#messagesBox .new{
+	font-weight:bold;}
+#messagesBox .content{
+	font-weight:normal;
+	}
+
+#messagesBox td a{
+	color:#0079c2;}
+
+#messagesBox form.compose{
+	width:700px;}
+
+#messagesBox form.compose label{
+	width:30px;
+	float:left;
+	text-align:right;
+	height:25px;
+	line-height:25px;
+	font-weight:bold;}
+	
+#messagesBox form.compose .inputBox, #messagesBox form.compose textarea, #messagesBox form.compose select{
+	width:650px;
+	height:20px;
+	border:1px solid #ebebeb;
+	font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#767879;
+	margin-left:10px;
+	float:left;
+	}
+#messagesBox form.compose textarea{
+	height:300px;}
+
+#mailHeader{
+	width:100%;
+	background-color:#eee;
+	padding:5px 0;}
+
+#mailHeader dl{
+	width:400px;
+	}
+
+#mailHeader dt{
+	width:100px;
+	font-weight:bold;
+	display:block;
+	height:25px;
+	float:left;
+	text-align:right;
+	line-height:25px;
+	margin-right:10px;}
+
+#mailHeader dd{
+	display:block;
+	width:260px;
+	height:25px;
+	line-height:25px;
+	}
+
+#mailBody{
+	padding:10px;}
+	
+/* ********************************************************************************************** /
+/*                                         Order Details                                       */
+/* **********************************************************************************************/
+
+#orderDetailsBox{
+	width:580px;
+	}
+	
+#orderDetailsBox .holder{
+	padding:10px 20px;
+	}
+
+#orderDetailsBox h1, #orderDetailsBox p{
+	line-height:2em;
+	}
+
+#orderDetailsBox .buttonRow{
+	marker-top:20px;
+	padding-top:15px;
+	}
+
+/* ********************************************************************************************** /
+/*                                       Shopping Cart                                     */
+/* **********************************************************************************************/
+
+#shoppingLs{
+	width:720px;
+	float:left
+	}
+
+#shoppingLs #shoppingCart .holder{
+	margin-left:5px;}
+
+#shoppingLs .cartLinkBorder{
+	float:left;
+	display:block;
+	margin-top:-32px;
+	margin-left:80px;
+	/*height:0px;*/
+	width:60%;
+	border-top:2px solid #F26632;}
+	
+#shoppingLs ul.cartLinks{
+	width:420px;
+	display:block;
+	height:50px;
+	line-height:50px;
+	margin-left:100px;}
+	
+#shoppingLs ul.cartLinks li{
+	display:block;
+	width:80px;
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+	margin:0 10px;}
+
+#shoppingLs ul.cartLinks li.active{
+	color:#0079c2;}
+
+#shoppingLs ul.cartLinks li.viewCart{
+	background:url(../images/iconCart.jpg) 15px top no-repeat;}
+
+#shoppingLs .clsTop{
+	clear:both;
+	height:2px;
+	margin:0;
+	padding:0;
+	}
+#shoppingLs .shoppingHead{
+	width:700px;
+	height:27px;
+	background:url(../images/divHead.png) no-repeat;}
+
+#shoppingLs .greyText{
+	color:#767879;
+	}
+#shoppingLs .content{
+	padding:5px;
+	}
+	
+#shoppingLs .shoppingHead h1{
+	float:left;
+	margin-left:10px;
+	height:27px;
+	line-height:27px;}
+
+#shoppingLs .shoppingHead h5{
+	height:27px;
+	line-height:27px;
+	float:right;
+	margin-right:10px;}
+
+#shoppingLs .cartItem{
+	height:65px;
+	width:600px;
+	margin:0 auto;
+	padding-top:15px;
+	border-bottom:1px solid #DFDFDF;
+}
+
+#shoppingLs .cartItemRight{
+	float:right;
+	margin-top:-70px;
+	width:350px;
+}
+
+#shoppingLs .cartItem .delete{
+	float:right;
+	margin-right:150px;
+	margin-top:15px;}
+
+#shoppingLs .cartItem img{
+	float:left;}
+
+#shoppingLs .cartItem ul{
+	margin-left:15px;
+	width:100px;
+	float:left;}
+	
+#shoppingLs .cartItemRight ul{
+	margin-left:70px;
+	margin-top:-50px;
+	width:100px;
+	float:left;}
+
+#shoppingLs .cartTotal{
+	width:700px;
+	height:45px;
+	line-height:45px;
+	background:url(../images/totalBg.jpg) top left #DCDCDC repeat-x;
+	border:1px solid #A6A7A7;
+	}
+
+#shoppingLs .cartTotal dl{
+	margin-right:10px;
+	float:right;}
+
+#shoppingLs .cartTotal dt, #shoppingLs .cartTotal dd{
+	font-weight:bold;
+	font-size:16px;
+	padding:0 5px;
+	float:left;
+	color:#0079c2;}
+
+#shoppingLs #disclaimer {
+	width:600px;
+	float:left
+	}
+	
+#shoppingLs #disclaimer .disclaimerContent {
+	padding:15px;
+	}
+	
+#shoppingLs #placeOrder {
+	margin-top:30px;
+	float:right;
+	text-align:right;
+	width:600px;
+	}
+
+#shoppingRs{
+	width:250px;
+	float:right;
+	margin-left:-250px;
+	}
+	
+#shoppingRs #shoppingButtonCol,
+#shoppingRs #shoppingGoDaddy{
+	width:250px;}
+
+
+#shoppingRs #shoppingButtonCol{
+	margin-top:50px;}
+
+#shoppingRs #shoppingButtonCol .holder,
+#shoppingRs #shoppingGoDaddy .holder{
+	width:130px;
+	margin:0 auto;
+	text-align:center;
+	margin-left:50px;}
+
+#shoppingRs #shoppingButtonCol .holder .button{
+	clear:left;
+	padding:10px 0;}
+
+#shoppingRs #aboutYourCart{
+	width:250px;}
+
+#shoppingRs #aboutYourCart h5{
+	margin:5px 0;
+	}
+#shoppingRs #aboutYourCart ul{
+	margin:5px;
+	}
+
+#shoppingRs #aboutYourCart ul li{
+	display:block;
+	background:url(../images/check.png) no-repeat left;
+	padding-left:20px;}
+
+#shoppingRs #aboutYourCart .pad{
+	padding:10px;}
+	
+#shoppingRs #orderSummary {
+	margin-top:50px;
+	width:250px;
+}
+
+#shoppingRs #orderSummary .content {
+	padding:10px;
+}
+
+#shoppingRs #orderSummary .total {
+	float:left;
+}
+
+#shoppingRs #orderSummary .totalPrice {
+	float:right;
+}
+
+#shoppingRs #paymentType {
+	width:250px;
+}
+
+#shoppingRs #paymentType .content {
+	padding:10px;
+}
+
+#shoppingRs #placeOrderButtons {
+	width:250px;
+}
+
+#shoppingRs #placeOrderButtons .content {
+	padding:10px;
+	padding-left:30px;
+}
+
+#shoppingRs #placeOrderButtons .position {
+	text-align:right;
+	padding:5px;
+}

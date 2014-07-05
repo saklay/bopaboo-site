@@ -1,0 +1,332 @@
+*{
+	margin:0 auto;
+	padding:0;
+	}
+body{
+	text-align:center;
+	}
+
+#header #searchbox input, #container #searchbox input{
+	line-height:24px;	width:964px;
+	}
+#header #searchbox #listings, #container #searchbox #listings{
+	display:block;
+	width:35px;
+	height:26px;
+	position:absolute;
+	margin-left:-310px;
+/*	background:url(../images/img-search.jpg) no-repeat top left;*/	
+	}
+#header #searchbox, #container #searchbox{
+	float:left;
+	margin:15px 0 0 20px;
+	}
+#header #searchbox #t_name, #container #searchbox #t_name{
+	padding:0px 0 0 30px;
+	text-indent:10px;
+	height:24px;
+	}
+#header #searchbox #clsbpFileDetails_txtSearch, #container #searchbox #clsbpFileDetails_txtSearch{
+	padding:0px 0 0 30px;
+	text-indent:10px;
+	height:24px;	}
+#header #searchbox #clsbpFileDetails_txtSea, #container #searchbox #clsbpFileDetails_txtSea{
+	padding:0px 0 0 30px;
+	text-indent:10px;
+	height:24px;	}
+
+#header #searchbox input{
+	padding:4px 0 0 0 ;
+	
+	}
+#header #searchbox input{
+	border-top:1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+	border-left:none;
+	height:24px;
+	border-collapse:collapse;
+	float:left;
+	width:213px;
+	padding:0;
+	}
+	
+#container{
+	margin-bottom:30px;
+	}	
+	
+#container #bopabox_topnav{
+	width:70%;
+	float:left;
+	height:37px;
+	text-align:right;
+	margin-top:11px;
+/*	bottom:-2px;*/
+	bottom:0px;
+	position:relative;
+	
+	}
+
+#container #bopabox_topnav #form2 input{
+	margin:10px 0 0 30px;
+	float:left;
+	display:block;
+	border:1px solid #fff;
+	}
+	
+#container #pagehead{
+	padding:10px 0 0 30px;
+	}
+#container #pagehead h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	padding-top:20px;
+	text-align:left;
+	}
+
+#container #pageheadSell{
+	float:left;
+	clear:both;
+	width:100%;
+	}
+#container #pageheadSell h1{
+	padding-bottom:10px;
+	}
+
+#toplistbox{
+	display:block;
+	width:100%;
+	
+	}
+#toplistbox .leftside{
+	float:left;
+	margin-left:12px;
+}
+#toplistbox .rightside{
+	display:block;
+}
+
+#toplistbox .rightside{
+	margin-right:-5px;
+}
+
+	
+
+#ad{
+	display:block;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+	margin-bottom:10px;
+	}
+#tblhdr{
+	margin:0 0 0 4px;}
+	
+#container{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:left;
+	height:auto;
+	}
+	#forgot_password{
+		text-align:left;
+		float:left;
+		width:80%;
+
+	}
+#forgot_password form{
+	float:left;
+	display:block;
+
+
+	}
+#forgot_password label{
+	display:block;
+	float:left;
+	clear:both;
+	line-height:26px;
+	height:20px;
+	}
+#forgot_password input{
+
+	width:250px;
+	height:20px;
+	border:1px solid #DFDFDF;
+	padding-top:6px;
+	color:#666;
+	}
+
+#container #pagehead h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#007AC3;
+	padding:0 0 0 20px;
+	clear:both;
+	padding-top:13px;
+	}
+	
+#srchresults #searchpage-hdr #jumpMenu{
+	height:20px;
+	width:137px;
+	font-size:11px;
+	}
+#slidingflashwrapper {
+	FLOAT: left;
+	MARGIN: 0px auto;
+	WIDTH: 100%;
+	HEIGHT:150px;
+	margin-top:-25px;
+}
+
+
+
+
+.smallcol-right-box-top-img-body{width:245px; float:left; background:#FFFFFF;
+}
+#signup-box-mid{
+	background-image:url(../images/signup-box-mid-bg1.jpg);
+	background-repeat:repeat-y;
+	display:block;
+	margin:0;
+	width:630px;	}
+	
+#signup-box-top{
+	width:630px;
+	}
+#signup-box-bottom{
+	width:630px;
+	}
+
+
+/*#captcha{border:none; margin-left:-15px;}*/
+
+#errormesg p{ padding-left:155px; line-height:15px; margin-bottom:10px;}
+
+#cls{
+	display:block;
+	text-align:center;
+	clear:both;
+	}
+#footer{
+display:block;
+	}
+#footerlinks #leftlinks{
+	float:left;
+	width:45%;
+	display:block;
+	margin-left:10px;
+	text-align:left;
+	}
+	
+	
+#container #tracklistings-container{	
+	margin-top:-2px;
+	}
+	
+	
+#container{
+	margin:10px 0 0 0;
+	}
+
+/*SIGN UP IE FIXES */
+
+.smallcol-right-box-top-img-body{width:243px;
+}
+
+
+/*BOPABOX IE FIXES*/
+
+
+.ie_border-fix_searchbopabox-input{ border:#FFFFFF}
+
+
+
+
+
+#container #ViewCartpagehead h1{
+
+	padding-bottom:10px;
+	}
+	
+/* SIGN UP PAGE */
+#container #pagepromo ul{
+margin-left:-0px;
+margin-top:-10px;
+
+}
+#container #pagepromo ul li{
+	padding-left:10px;
+	}
+	
+	
+/* VIEW PAGE */
+#container .textareastyle {
+	overflow:hidden;
+}
+
+/*ITEM-PAGE */
+#container .item-page .albumdetails{
+	margin:0 0 0 5px;
+	line-height:18px;
+	}
+	
+/*Bopabank page */
+#container #pagehead-bopabank{
+	margin:60px 0 0 0;
+	}
+#container #pagehead-bopabank h1{
+	padding-bottom:10px;
+	}
+#container #bopabank{
+	display:block;
+	margin-top:-60px;
+	}
+/* SIGN IN POP UP */
+
+#signin #loginform #signinbtn{
+	width:115px;
+	height:29px;
+	margin-left:115px;
+	margin-top:10px;
+	border:none;
+	display:block;
+	margin-bottom:10px;
+	}
+	
+/*Bopabank page */
+#container #pagehead-bopabank{
+	margin:60px 0 0 0;
+	}
+#container #pagehead-bopabank h1{
+	padding-bottom:10px;
+	}
+#container #bopabank{
+	display:block;
+	margin-top:-60px;
+	}
+#container #viewcartpayment h1{
+	padding-bottom:10px;
+	}
+#container #ViewCartpagehead1 h1{
+	padding-bottom:10px;
+	}
+	
+#container #sellpage td .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin-right:95px;
+	}
+	
+/* SELLPAGE */
+
+#container #sellpage #sellpage_tbl-placeorder{
+	width:650px;
+	margin-left:25px;
+	}
+#container  #sellpage .viewcartrightsidebox-placeorder{
+	width:210px;
+	margin:0 45px 10px 0px;
+	}

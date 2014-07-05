@@ -1,0 +1,347 @@
+<script>
+		var RecaptchaOptions = {
+		theme: 'custom',
+		lang: 'en',
+		custom_theme_widget: 'recaptcha_widget'
+		};
+</script>
+<script>
+function fnEcheck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		 var email="";
+		if (str.indexOf(at)==-1){
+		    email = " Please enter a valid Email address as this will be used as your login id.";
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		 email = " Please enter a valid Email address as this will be used as your login id.";
+		  
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		  email = " Please enter a valid Email address as this will be used as your login id.";
+		   
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		     email = " Please enter a valid Email address as this will be used as your login id.";
+		    
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		      email = " Please enter a valid Email address as this will be used as your login id.";
+		    
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		     email = " Please enter a valid Email address as this will be used as your login id.";
+		   
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		     email = " Please enter a valid Email address as this will be used as your login id.";
+		   
+		 }
+
+ 		 return email;					
+	}
+
+function fnValidate()
+{
+
+var email ="";
+var errorlist = "";
+var emailID=document.frmRegistration.clsbpUserLogin_txtEmail
+	if ((emailID.value==null)||(emailID.value=="")){
+		errorlist =  " Please enter a valid Email address as this will be used as your login id.";
+		}
+	
+	errorlist = fnEcheck(emailID.value);
+	
+
+
+
+if(document.frmRegistration.clsbpUserLogin_txtPassword.value == "")
+{
+errorlist += "\n Please enter a Password";
+
+}
+
+if(document.frmRegistration.clsbpUserLogin_txtPassword.value != document.frmRegistration.clsbpUserLogin_txtConfirmation.value) {
+    errorlist +="\n Your password confirmation did not match";
+
+  }
+
+if(document.frmRegistration.clsbpUserLogin_txtDisname.value == "")
+{
+    errorlist +="\n Please enter a Display Name";
+
+}
+
+if(document.frmRegistration.clsbpUserLogin_txtFname.value == "")
+{
+ errorlist +="\n Please enter a First Name";
+
+
+}
+
+if(document.frmRegistration.clsbpUserLogin_txtLname.value == "")
+{
+ errorlist +="\n Please enter a  Last Name";
+
+
+}
+
+if(document.frmRegistration.clsbpUserLogin_optMonth.value == 0)
+{
+ errorlist +="\n Please select a Month";
+
+}
+
+if(document.frmRegistration.clsbpUserLogin_optDay.value == 0)
+{
+ errorlist +="\n Please select a  Date";
+
+
+}
+if(document.frmRegistration.clsbpUserLogin_optYear.value == 0)
+{
+ errorlist +="\n Please select a Year";
+
+
+}
+
+var months = document.frmRegistration.clsbpUserLogin_optMonth.value;
+var days = document.frmRegistration.clsbpUserLogin_optDay.value;
+var years = document.frmRegistration.clsbpUserLogin_optYear.value;
+if ((months==04 || months==06 || months==09 || months==11) && days==31) {
+ errorlist +="\n Please enter a valid date!";
+
+}
+if (months == 02) { // check for february 29th
+var isleap = (years % 4 == 0 && (years % 100 != 0 || years % 400 == 0));
+if (days>29 || (days==29 && !isleap)) {
+errorlist +="\n Please enter a valid date!";
+
+}}
+if(document.frmRegistration.recaptcha_response_field.value == "")
+{
+errorlist +="\n Please enter the text from the image in the Are You a Human? field";
+
+}
+if(!document.frmRegistration.clsbpUserLogin_chkTerms.checked)
+{
+errorlist +="\n Please read the guidelines and check the box below";
+
+}
+
+if(errorlist =="")
+{
+emailId = document.frmRegistration.clsbpUserLogin_txtEmail.value;
+document.frmRegistration.clsbpUserLogin_returnUrl.value = "bpConfirmSignup.php?emailId="+emailId;
+ document.frmRegistration.clsbpUserLogin_action.value="SAVE";
+return true;
+} 
+else
+{
+alert(errorlist);
+return false;
+}
+
+
+
+}
+var xmlHttp
+
+function validate(str,value)
+{
+if (str.length==0)
+  { 
+  document.getElementById("txtDisnameResponse").innerHTML=""
+  return
+  }
+xmlHttp=GetXmlHttpObject()
+if (xmlHttp==null)
+  {
+  alert ("Browser does not support HTTP Request")
+  return
+  } 
+var url="./ajax/validate.php"
+url=url+"?q="+str
+url=url+"&v="+value
+url=url+"&sid="+Math.random()
+xmlHttp.onreadystatechange=stateChangedDname;
+xmlHttp.open("GET",url,true)
+xmlHttp.send(null)
+} 
+
+function stateChangedDname() 
+{ 
+if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
+ { 
+ document.getElementById("txtDisnameResponse").innerHTML=xmlHttp.responseText 
+ } 
+}
+
+function GetXmlHttpObject()
+{
+var xmlHttp=null;
+try
+ {
+ // Firefox, Opera 8.0+, Safari
+ xmlHttp=new XMLHttpRequest();
+ }
+catch (e)
+ {
+ // Internet Explorer
+ try
+  {
+  xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+  }
+ catch (e)
+  {
+  xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+ }
+return xmlHttp;
+}
+</script>
+<?php
+ $msg = $_SESSION["BPMESSAGE"];
+
+
+?>
+
+<div id="container">
+  <div id="pagepromo">
+    <h1>Want to sell your old and unwanted digital music?</h1>
+    <ul>
+      <li>Upload and start selling unwanted music today!</li>
+      <li>Buy high-quality DRM-Free music from other members for a fraction of the cost from iTunes! </li>
+      <li>Just Sign Up! It's Free and Easy</li>
+    </ul>
+  </div>
+  <div id="largecol-left">
+    <div id="signup-box-top-menu">
+      <dl>
+        <dt>Already a member? <a href="index.php">Click Here to Log In </a></dt>
+      </dl>
+    </div>
+    <div id="signup-box">
+      <div id="signup-box-top"></div>
+      <div id="signup-box-mid">
+        <h1>Sign Up</h1>
+        <div id="errormesg"><?php echo displayMessage(); ?></div>
+        <form  method="post" name="frmRegistration" onsubmit="return fnValidate();">
+          <label for="textfield"><strong>Email</strong></label>
+          <input type="text"  name="clsbpUserLogin_txtEmail" value="<?php echo $clsbpUserLogin->vc_EmailId; ?>"  id="textfield"  class="inputstyle" />
+
+          <br />
+          <label for="textfield2"><strong>Password</strong></label>
+          <input type="password" name="clsbpUserLogin_txtPassword" id="textfield2"  class="inputstyle" />
+          <br />
+          <label for="textfield3"><strong>Confirm Password</strong></label>
+          <input type="password" name="clsbpUserLogin_txtConfirmation" id="textfield3"  class="inputstyle" />
+          <br />
+          <hr />
+          <label for="textfield4"><strong>Display Name</strong></label>
+          <input type="text"  name="clsbpUserLogin_txtDisname" value="<?php echo $clsbpUserLogin->vc_DisplayName; ?>"  id="textfield4"  class="inputstyle" maxlength="20" />
+          <br />
+          <label for="textfield5"><strong>First Name</strong></label>
+          <input type="text" name="clsbpUserLogin_txtFname" value="<?php echo $clsbpUserLogin->vc_FirstName; ?>"  id="textfield5"  class="inputstyle" />
+          <br />
+          <label for="textfield6"><strong>Last Name</strong></label>
+          <input name="clsbpUserLogin_txtLname" value="<?php  echo $clsbpUserLogin->vc_LastName; ?>"  type="text"  class="inputstyle" id="textfield6" />
+          <br />
+          <label for="select">Country</label>
+          <select name="clsbpUserLogin_optCountry" id="select"  class="inputstyle" >
+            <?php echo $coutryList; ?>
+          </select>
+          <br />
+          <label for="month"><strong>Date of Birth</strong></label>
+          <select name="clsbpUserLogin_optMonth" size="1" class="inputstyle_month_only" id="month">
+            <option value="0">Month</option>
+            <?php echo $monthList; ?>
+          </select>
+          <select name="clsbpUserLogin_optDay" size="1" class="inputstyle_month" id="month2">
+            <option value="0" >Date</option>
+            <?php echo $dayList; ?>
+          </select>
+          <select name="clsbpUserLogin_optYear" size="1" class="inputstyle_month" id="month3">
+            <option value="0">Year</option>
+            <?php echo $yearList; ?>
+          </select>
+          <br />
+          <label for="Gender">Gender</label>
+          <input type="radio" name="clsbpUserLogin_optGender" value="1" class="nostyle"/>
+          Male
+          <input type="radio" name="clsbpUserLogin_optGender"  value="0" class="nostyle" />
+          Female <br />
+          <label for="areyouahuman"><strong>Are You a Human? </strong></label>
+          <!--<input id="LastName" name="LastName" class="inputstyle" />-->
+          <div id="captcha">
+            <?php
+				// Get a key from http://recaptcha.net/api/getkey
+				$publickey = "6Ld4qwEAAAAAAJCgNtxJSYehzqOKsxEHHeT-N0u-";
+				$privatekey = "6Ld4qwEAAAAAAKFmfhpIbNzncqrfXb_TVBYF6P7P";
+
+	            if(isset($errorList['Captcha'])) $err=$errorList['Captcha']; else $err=''; $error='';
+                echo recaptcha_get_html($publickey, $error,  $err);
+          ?>
+          </div><br />
+          <label for="confirmpassowrd"><strong>Do You Agree</strong></label>
+          <input name="clsbpUserLogin_chkTerms" type="checkbox" class="checkboxYes"/>
+          <div class="doyouagreetext">By signing up, you accept the <a href="bpTermsOfService.php" style="text-decoration:none">terms of use </a> and confirm you're 13 or older.</div>
+          <br />
+          <br />
+          <div id="submitbutton">
+            <input type="hidden" name="privateKey" value="<?php echo $privatekey; ?>" />
+            <input type="hidden"  id="clsbpUserLogin_action" name="clsbpUserLogin_action" value="">
+            <input type="hidden"  id="clsbpUserLogin_returnUrl" name="clsbpUserLogin_returnUrl" value="bpConfirmSignup.php">
+            
+            <input type="hidden" id=""  />
+            <input type="image" align="top" name="form_submitted" src="images/register1.jpg" value="Send Email"  width="131px" height="26px"/>
+          </div>
+        </form>
+      </div>
+      <div id="signup-box-bottom"></div>
+      <div>
+        <form>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="smallcol-right">
+    <div class="smallcol-right-box-top-img"></div>
+    <div class="smallcol-right-box-top-img-body">TBT </div>
+    <div class="smallcol-right-box-bottom-img"></div>
+    <div class="smallcol-right-box-top-img"></div>
+    <div class="smallcol-right-box-top-img-body">
+      <p><span class="bluecolored">Your privacy is important to us </span>bopaboo does not rent or sell your personal information to third parties without your consent. To learn more, read our <a href="bpPrivacyPolicy.php">privacy policy</a>.</p>
+      <p>&nbsp;</p>
+      <p><img src="images/trustee-logo-big.jpg" width="79" height="109" /></p>
+    </div>
+    <div class="smallcol-right-box-bottom-img"></div>
+  </div>
+</div>
+<?php
+if(trim($msg) <> ""){
+
+	if(strstr($msg,'Display Name') <> ""){
+?>
+<script language="JavaScript">
+
+	document.frmRegistration.clsbpUserLogin_txtDisname.value ="";
+	document.frmRegistration.clsbpUserLogin_txtDisname.focus();
+
+</script>
+<?php
+
+	}
+}
+?>

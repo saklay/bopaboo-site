@@ -1,0 +1,83 @@
+<div id="container">	
+      
+        <ul id="breadcrumb-links">
+          <li><a href="#">Home</a></li>
+          <li><img src="../images/arrow-breadcrumb.gif" alt="breadcrumb" />&nbsp;&nbsp;bopaBox</li>
+        </ul>
+        
+        <div id="uploadmusic">
+            <a href="#"><img src="../images/icon-uploadmusic.png" alt="Upload Music" width="165" height="52" border="0" /></a>
+        </div>
+        
+        <div id="pagehead">
+        	<h1>bopaBox</h1>
+        </div>
+                
+		<div id="bopabox_topnav">
+
+            <ul class="bopabox_menu">
+              <li><a href="#"  class="currentsel">All</a></li>
+              <li><a href="#" class="myuploads">My Uploads</a></li>
+              <li><a href="#" class="items_on_sale">Items on Sale</a></li>
+              <li><a href="#" class="my_purchase">My Purchase</a></li>
+            </ul>
+            <form id="form2" name="form2" method="post" action="">
+              <input name="textfield" type="text" id="textfield" value="Search your bopaBox" onclick="clstext();" />
+            </form>
+        </div>
+        <div id="tracklistings-header"></div>
+        <div id="tracklistings-container">
+       	  <form id="form3" name="form3" method="post" action="">
+              <table width="986" cellpadding="00" cellspacing="0" id="Playlist">
+                <thead>
+                <div id="toplistbox" > <span class="leftside">
+                  <input name="selectall" type="checkbox" value="" id="selectall" />
+                  &nbsp;&nbsp;&nbsp;
+                  <label for="selectall">Select All</label>
+                </span> <span class="rightside"><a href="#"><img src="../images/icon-sell.png" alt="buy" width="21" height="21" border="0" /></a>&nbsp;<a href="#"><img src="../images/icon-delete.png" alt="delete" width="21" height="21" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </div>
+                <tr id="PlaylisHeading">
+                  <th width="35" align="left" background="../images/bg-Albums.jpg" class="selectBox"><img src="../images/bg-selctbox.jpg" alt="selectbox" width="35" height="30" align="left" /></th>
+                  <th width="148"><a href="#" class="currentsel">Artists</a></th>
+                  <th width="166"><a href="#" class="albums">Albums</a></th>
+                  <th width="205"><a href="#" class="songs">Songs</a></th>
+                  <th width="102"><a href="#" class="format">Format</a></th>
+                  <th width="95"><a href="#" class="status">Status</a></th>
+                  <th width="145"><a href="#" class="actions">Actions</a></th>
+                </tr></thead>
+                <tbody>
+                  <tr>
+                    <td width="35" align="left" class="songListings"><input name="selectAll" type="checkbox" value="selectAll" id="selectAll2"/></td>
+                    <td width="148" align="left" class="songListings">Kenny Chesney </td>
+                    <td width="166" align="center" class="songListings">Just Who I Am:  Poets &amp; Pirates </td>
+                    <td width="205" align="center" class="songListings">Don’t Blin </td>
+                    <td width="102" align="center" class="songListings"><a href="#"><img src="../images/icon-mp3.png" alt="mp3 file" width="52" height="28" border="0" /></a></td>
+                    <td width="95" align="center" class="songListings"><a href="#"></a></td>
+                    <td width="145" align="center" class="songListings"><a href="#"><img src="../images/icon-sell.png" alt="buy" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-download.png" alt="download" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-delete.png" alt="delete" width="21" height="21" border="0" /></a></td>
+                  </tr>
+                  <tr>
+                    <td width="35" align="left" class="songListings"><input name="selectAll2" type="checkbox" value="selectAll" id="selectAll3"/></td>
+                    <td width="148" align="left" class="songListings">Kenny Chesney </td>
+                    <td width="166" align="center" class="songListings">Just Who I Am:  Poets &amp; Pirates </td>
+                    <td width="205" align="center" class="songListings">Don’t Blin </td>
+                    <td width="102" align="center" class="songListings"><a href="#"><img src="../images/icon-wav.png" alt="wav file" width="53" height="28" border="0" /></a></td>
+                    <td width="95" align="center" class="songListings"><a href="#"><img src="../images/icon-sale.png" alt="for sale" width="27" height="27" border="0" /></a></td>
+                    <td width="145" align="center" class="songListings"><a href="#"><img src="../images/icon-dis-sale.png" alt="buy" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-dis-download.png" alt="download" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-dis-delete.png" alt="delete" width="21" height="21" border="0" /></a></td>
+                  </tr>
+                  <tr>
+                    <td width="35" align="left" class="songListings"><input name="selectAll3" type="checkbox" value="selectAll" id="selectAll4"/></td>
+                    <td width="148" align="left" class="songListings">Kenny Chesney </td>
+                    <td width="166" align="center" class="songListings">Just Who I Am:  Poets &amp; Pirates </td>
+                    <td width="205" align="center" class="songListings">Don’t Blin </td>
+                    <td width="102" align="center" class="songListings"><a href="#"><img src="../images/icon-mp3.png" alt="mp3 file" width="52" height="28" border="0" /></a></td>
+                    <td width="95" align="center" class="songListings">&nbsp;</td>
+                    <td width="145" align="center" class="songListings"><a href="#"><img src="../images/icon-sell.png" alt="buy" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-download.png" alt="download" width="21" height="21" border="0" /></a><a href="#"><img src="../images/icon-delete.png" alt="delete" width="21" height="21" border="0" /></a></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <div id="pages">Results per page: <a href="#">Previous</a> &nbsp;&nbsp;<a href="#"><strong>1</strong></a>|<a href="#">2</a>|<a href="#">3</a>|<a href="#">4</a>|<a href="#">5</a>|<a href="#">6</a>|<a href="#">7</a>|<a href="#">8</a>|<a href="#">9</a>| &nbsp;&nbsp;<a href="#">Next</a></div>
+              <div id="tracklistings-footer"></div>
+      	  </form>
+        </div>
+      </div>
+      <div id="cls"></div>

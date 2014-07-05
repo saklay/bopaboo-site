@@ -1,0 +1,57 @@
+#wrapper{
+	width			:	1000px;
+	min-height:350px;
+	margin			:	0 auto;
+	background		:	url(../images/bodyBg.jpg) no-repeat center top;
+	}
+	
+#wrapperEmail{
+	width			:	620px;
+	min-height:350px;
+	margin			:	0 auto;
+	}
+	
+#emailBG{
+	background		:	url(../images/emailBG.png) no-repeat right top;
+	}
+#emailHeader{
+	height:96px;
+	background		:	url(../images/bopaBooLogo.png) no-repeat left top;
+}
+#header{
+	width:1000px;
+	height:182px;
+}
+#container{
+	width:1000px;
+	}
+#emailContainer{
+	width:620px;
+	}
+#laside{
+	width:300px;
+	float:left;}
+
+#raside{
+	width:550px;
+	float:left;
+	margin-left:20px;}
+
+#footer{
+	position:relative;
+	width:970px;
+	height:154px;
+	padding:40px 0 0 30px;
+	background:url(../images/footer.jpg) no-repeat top left;
+	margin:0 auto;
+	clear:both;
+	}
+#footerEmail{
+	position:relative;
+	width:600px;
+	height:154px;
+	padding:40px 0 0 30px;
+	background:url(../images/footer.jpg) no-repeat top left;
+	clear:both;
+	}
+	

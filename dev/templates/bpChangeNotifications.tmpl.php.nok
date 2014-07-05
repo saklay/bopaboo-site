@@ -1,0 +1,65 @@
+ <div id="container">
+      <div id="pagehead-bopabank">
+          <h1>My Account Settings</h1>
+        
+      </div>
+    <div id="bopabank">
+    	<form action="" method="post" name="frmNotifications" onsubmit="javascript: return valSubmit();">	
+    		<input type="hidden" name="clsbpUserLogin_returnUrl" value=""/>
+    		<input type="hidden" name="clsbpUserLogin_action" value=""/>
+          <table width="914" border="0" cellspacing="0" cellpadding="0" class="datalist">
+                <tr>
+                  <td><ul id="bopabank-menu">
+                    <li class="accountactivity"><a href="bpChangeAccount.php">Info</a></li>
+                    <li class="withdrawfunds"><a href="bpChangePassword.php">Password</a></li>
+                    <li class="managecredit"><a href="#"   class="currentsel">Notification</a></li>
+                    <li class="managecredit"><a href="bpChangePreferences.php">Preferences</a></li>
+                  </ul></td>
+                </tr>
+                <tr>
+                    <td class="hdr">&nbsp;</td>
+            </tr>
+                <tr>
+                  <td valign="top" class="bdy"><div id="my-account-setting-01">
+                    <div id="formrbox-my-account">
+                    <?php
+                    	if(isset($_SESSION['BPMESSAGE'])){
+                    		
+                    ?>
+                      <p align="center">
+				<font color="#f36734"><strong><?php echo displayMessage();?></strong></font>
+		      </p>
+		      <?php
+		      	}
+		      ?>
+                      <h2>Personal Notifications</h2>
+                      <input name="clsbpUserLogin_chkNotify" type="checkbox"  id="chckbox" value="1" <?php echo $checkStatus1; ?>/>
+                      Enable notifications when a item that you posted for sale has been sold.<br />
+  <br />
+  <h2>System Notifications</h2>
+  <input name="clsbpUserLogin_chkNotifyFeatures" type="checkbox" id="chckbox" value="1" <?php echo $checkStatus2; ?>/>
+                      I want occassional emails announcing new site features. <br />
+  <input name="clsbpUserLogin_chkNotifyPromos" type="checkbox" id="chckbox" value="1" <?php echo $checkStatus3; ?>/>
+                      I want occassional emails announcing promotions, coupons and other discount offers.
+  <input type="image" align="top" name="form_submitted" src="images/update-setting.jpg" value="Send Email" id="btnupdatesetng"/>
+  <br />
+  <br />
+  <br />
+                    </div>
+                  </div>
+                  <br /></td>
+            </tr>
+                <tr>
+                  <td class="ftr">&nbsp;</td>
+                </tr>
+          </table>
+         </form>
+      <div style="clear:both;"></div>
+
+        
+        <div>
+        </div>
+        </div>
+    </div>
+    
+    </div>

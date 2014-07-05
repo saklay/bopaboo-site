@@ -1,0 +1,93 @@
+#content-part{ 
+	margin:0 auto;
+	padding:0; 
+	background:url(../images/body-bg-top.jpg);
+	background-repeat:no-repeat;
+	width:964px;
+}
+
+.fleft{
+	float:left;
+}
+
+.splash{
+	width:575px;
+	height:332px;
+	/*	background:url(../images/swf.jpg) no-repeat;*/
+	margin-left:18px;
+	margin-right:5px;
+	padding:0;
+}
+
+*html .splash{ margin-left:10px;} /*	ie Bug*/
+
+.featured{
+	width:344px;
+	/*height:203px;*/
+	background:url(../images/sign-in-box-bg.png) no-repeat;
+	margin:0;
+	padding:0px;
+	height:203px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+
+
+.featured h2,.featured h3{
+	font-weight:normal;
+	color:#3f5764;
+	font-size:18px;
+	padding:0;
+	margin:0;
+}
+
+.featured h5{
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:0;
+	margin:0;
+	font-weight:normal;
+}
+
+.featured input{
+	border:#DFDFDF 1px solid;
+	width:160px;
+	height:21px;
+}
+
+.featured a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#007AC2;
+	text-decoration:none;
+}
+
+.featured a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#007AC2;
+	text-decoration:underline;
+}
+
+
+.facebook{
+	width:344px;
+	/*height:203px;*/
+	background:url(../images/add-to-face-book-img.jpg) no-repeat;
+	margin:0;
+	padding:0px;
+	margin-top:6px;
+	height:124px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#flashslide {
+	display:block;
+	width:962px;
+	height:120px;
+	margin-top:7px;
+	text-align:center;
+	padding:15px 0 15px 0;
+	clear:both;
+	border:1px solid #E0E0E0;
+}
